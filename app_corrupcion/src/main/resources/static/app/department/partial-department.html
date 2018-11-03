@@ -1,0 +1,31 @@
+<div ng-controller="breadcrumpCtrl as bCtrl">
+	<breadcrump label1 = "inicio" link1="" label2="Selección Depto" link2="" explanation="Selecciona el departamento de tu interés" ng-click="bCtrl.previousView(1)"></breadcrump>
+</div>
+
+<div class="content-view">
+	<div class="depto-container tour-c">
+		<div class="col-md-4 depto-gen">
+
+			<div class="dept-view">
+				<div class="depto-info">
+					<h3 class="depto-label">Nombre del Departamento</h3>
+					<h3 class="depto-name">{{ depto }}</h3>
+				</div>
+
+				<p class="prot-note">*Este prototipo sólo contiene información
+					de Caldas</p>
+
+			</div>
+
+		</div>
+
+		<div class="col-md-8">
+			<svg id="map"></svg>
+		</div>
+
+	</div>
+
+
+
+
+</div>

@@ -1,0 +1,37 @@
+<div ng-controller="breadcrumpCtrl as bCtrl">
+	<breadcrump label1 = "atrás" label2="Programas" explanation="Escoge un programa" ng-click="bCtrl.previousView(1)"></breadcrump>
+</div>
+<div class="content-view cview-program">
+	<div class="program-vis-container">
+		<div id="chart"></div>
+	</div>
+	<div class="program-info-container">
+		<div class="sector-info">
+			<h4>Sector <strong>Educación</strong></h4>
+			<h5>Presupuesto ejecutado</h5>
+			<p><strong>$23,456,789</strong></p>
+			<h5>Presupuesto total</h5>
+			<p><strong>$87,654,321,000</strong></p>
+			<br>
+			<div id="program-details" sytle="visibility: hidden">
+				<h4>Programa</h4>
+				<p><strong id="program-name"></strong></p>
+				<h5>Presupuesto ejecutado</h5>
+				<p><strong id="program-ex"></strong></p>
+				<h5>Presupuesto total</h5>
+				<p><strong id="program-value"></strong></p>
+				<h5>Porcentaje ejecutado: <strong id="program-perc"></strong></h5>
+			</div>
+			<br>
+			<div id="subprogram-details" sytle="visibility: hidden">
+				<h4>Subprograma</h4>
+				<p><strong id="subprogram-name"></strong></p>
+				<h5>Presupuesto ejecutado</h5>
+				<p><strong id="subprogram-ex"></strong></p>
+				<h5>Presupuesto total</h5>
+				<p><strong id="subprogram-value"></strong></p>
+				<h5>Porcentaje ejecutado: <strong id="subprogram-perc"></strong></h5>
+			</div>
+		</div>
+	</div>
+</div>

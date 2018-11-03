@@ -1,0 +1,43 @@
+<div ng-controller="breadcrumpCtrl as bCtrl">
+	<breadcrump label1 = "atrás" label2="Explicación" explanation="Entérate de nuestro trabajo" ng-click="bCtrl.previousView(1)"></breadcrump>
+</div>
+
+
+<div class="content-view home-page">
+	<div class="instructions-container tour-c">
+			
+			<h4 class="ins1">¿Control Ciudadano?</h4>
+			
+			<p class="exp-text ins2">Esta herramienta le permite comprender a un nivel básico el 
+			proceso de ejecución de presupuesto de entes territoriales desde 
+			la etapa de planeación, pasando por la estructura jerárquica de sectores, 
+			programas,  subprogramas y proyectos hasta llegar a contratos con detalles de los mismos.</p> </br>
+	
+			<h4 class="exp-text ins3">La herramienta pretende...</h4><br>
+			
+			<p class="objetives ins4">Servir de medio para veeduría y control ciudadano a través de la revisión objetiva 
+			de los proyectos planteados en el plan de desarrollo de una administración.</p>
+	
+			<p class="objetives principal ins5">Facilitar la comprensión del procedimiento de ejecución de presupuesto público</p>
+			
+			<p class="objetives ins6">Fortalecer la transparencia en las administraciones de los entes territoriales</p><br>
+			
+			<h4 class="ins7">De los datos abiertos a los datos abiertos enlazados...</h4>
+			
+			<p class="exp-text ins8">El seguimiento es posible gracias a la utilización de los datos de la plataforma <a href="https://datos.gov.co/" target="_blank" class="principal"><b>DATOS ABIERTOS</b></a>, cruzando información
+			del POAI (Plan anual de inversiones), decretos de liquidación de presupuesto general de rentas y gastos y 
+			el SECOP (Contratación Pública).</p>
+			
+			<p class="exp-text ins9">La herramienta fue construida bajo los 
+				<a class="principal-2" href="#">
+					lineamientos de LOD <i>(Linked Open Data)</i>
+				</a>
+			</p>
+			
+			<p class="start-btn-container ins10">
+				<button type="button" class="btn btn-primary btn-start-tour" ng-click="explCtrl.nextView()">Iniciar</button>
+			</p>
+			
+	
+	</div>
+</div>

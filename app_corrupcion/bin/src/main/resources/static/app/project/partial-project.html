@@ -1,0 +1,34 @@
+<div ng-controller="breadcrumpCtrl as bCtrl">
+    <breadcrump label1 = "atrás" label2="Contratos" explanation="Nombre del Proyecto" ng-click="bCtrl.previousView(1)"></breadcrump>
+</div>
+<div class="content-view">
+    <div id="button-container">
+        <div class="button-block">
+            <h4>Sort by</h4>
+            <ul id="sorter">
+                <li><a href="#" data-sorter="name">Name</a></li>
+                <li><a href="#" data-sorter="start_date">Start date</a></li>
+                <li><a href="#" data-sorter="end_date">End date</a></li>
+                <li><a href="#" data-sorter="amount">Amount</a></li>
+            </ul>
+        </div>
+    <div class="button-block">
+        <h4>Filter by</h4>
+        <ul id="filter">
+            <li><a href="#" data-filter="">All</a></li>
+            <li><a href="#" data-filter=".male">Male</a></li>
+            <li><a href="#" data-filter=".female">Female</a></li>
+        </ul>
+    </div>
+    <div class="button-block">
+        <h4>Color by</h4>
+        <ul id="color">
+            <li><a href="#" data-color="">None</a></li>
+            <li><a href="#" data-color="amount">Amount</a></li>
+        </ul>
+    </div>
+    <div id="chart-canvas" style="width:100%;position:relative;float:left;">
+        <div id="svg-canvas" style="position:absolute;top:0;bottom:0;left:0;right:0;"></div>
+        <div id="gantt-bar-container" style="position:absolute;top:0;bottom:0;left:0;right:0;padding-top:30px;"></div>
+    </div>
+</div>

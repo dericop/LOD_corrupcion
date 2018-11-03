@@ -1,0 +1,89 @@
+{
+  "name": "Sector Educación",
+  "rate": 0.03,
+  "children": [
+    {
+      "name": "Cobertura y permanencia con enfoque en cierre de brechas",
+      "rate": -0.01,
+      "children": [
+        {
+          "name": "Acceso y permanencia",
+          "rate": 0,
+          "value": 22413427186
+        },
+        {
+          "name": "Fortalecimiento de la educación inicial",
+          "rate": -0.1,
+          "value": 15000000
+        },
+        {
+          "name": "Atención a la población vulnerable",
+          "rate": -0.02,
+          "value": 226323815662
+        }
+      ]
+    },
+    {
+      "name": "Educación de calidad pertinente e incluyente en educación inicial, básica y media",
+      "rate": -0.05,
+      "children": [
+        {
+          "name": "Excelencia docente",
+          "rate": -0.07,
+          "value": 35000000
+        },
+        {
+          "name": "Implementación de la jornada única",
+          "rate": -0.03,
+          "value": 35000000
+        },
+        {
+          "name": "Subprograma apoyo a la gestión escolar",
+          "rate": -0.03,
+          "value": 560100000
+        },
+        {
+          "name": "Hacia un Caldas bilingüe",
+          "rate": -0.03,
+          "value": 35000000
+        },
+        {
+          "name": "Subprograma etnoeducación",
+          "rate": -0.03,
+          "value": 85000000
+        },
+        {
+          "name": "Subprograma mejoramiento de ambientes escolares",
+          "rate": -0.03,
+          "value": 10302361600
+        }
+      ]
+    },
+    {
+      "name": "Innovación educativa apoyada en investigación y uso de las tecnologías de la información y comunicación - TIC",
+      "rate": 0.02,
+      "children": [
+        {
+          "name": "Incorporación de las TIC y la investigación en las prácticas pedagógicas",
+          "rate": 0.02,
+          "value": 62200000
+        },
+        {
+          "name":"Conectividad de establecimientos educativos",
+          "value": 1702000000
+        }
+      ]
+    },
+    {
+      "name": "Articulación de la educación media con la educación terciaria en condiciones de acceso, calidad y pertinencia",
+      "rate": 0.05,
+      "children": [
+        {
+          "name": "Articulación de la educación media con la educación terciaria",
+          "rate": 0.07,
+          "value": 3355984657
+        }
+      ]
+    }
+  ]
+}

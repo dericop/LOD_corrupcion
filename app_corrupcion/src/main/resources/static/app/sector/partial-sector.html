@@ -1,0 +1,28 @@
+<div ng-controller="breadcrumpCtrl as bCtrl">
+	<breadcrump label1 = "atrás" label2="Sectores" explanation="Escoge un sector del plan de inversión." ng-click="bCtrl.previousView(1)"></breadcrump>
+</div>
+
+<div class="content-view">
+	<div class="sector-vis-container">
+		<svg id="vis_sector_svg"></svg>
+	</div>
+	<div class="sector-info-container">
+		<div class="ent-info">
+			<h3>Gobernación de <strong>Caldas</strong></h3>
+			<h5>Presupuesto ejecutado</h5>
+			<p><strong>$123,456,789</strong></p>
+			<h5>Presupuesto total</h5>
+			<p><strong>$987,654,321,000</strong></p>
+			<br><br><br>
+			<div id="sect-details" style="visibility: hidden">
+				<h3><strong id="sector-name"></strong></h3>
+				<h5>Presupuesto total</h5>
+				<p><strong id="sector-pres"></strong></p>
+				<h5>Presupuesto ejecutado</h5>
+				<p><strong id="sector-ex"></strong></p>
+				<h5>Porcentaje ejecutado</h5>
+				<p><strong id="sector-perc"></strong></p>
+			</div>
+		</div>
+	</div>
+</div>

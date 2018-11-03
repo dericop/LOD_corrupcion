@@ -1,0 +1,130 @@
+<div ng-controller="breadcrumpCtrl as bCtrl">
+	<breadcrump label1="inicio" link1="" label2="Contarto" link2=""
+		explanation="Detalle del contrato"
+		ng-click="bCtrl.previousView(1)"></breadcrump>
+</div>
+
+<div class="con-det">
+	<div class="tour-c">
+		
+		<h4>Objeto del contrato</h4>
+		<p class="bg-info">{{contractCtrl.contrato.objetoDelContrato}}</p>
+		<h6>{{contractCtrl.contrato.clase}}</h6>
+		
+		<div class="qua-c">
+			<h5>Cuantía a contratar: {{contractCtrl.contrato.cuantiaAContratar}}</h5>
+			<h5>Cuantía definitiva: {{contractCtrl.contrato.cuantiaDefinitiva}}</h5>
+			<h5>Origen: {{contractCtrl.contrato.origenRecursos}}</h5>
+			<h5>Número de proceso: {{contractCtrl.contrato.numeroProceso}}</h5>
+		</div>
+		
+		
+		
+		<br>
+	
+		<table class="table table-condensed">
+			<thead>
+				<tr>
+					<th>BPID</th>
+					<th>Estado Contrato</th>
+					<th>Fecha Firma</th>
+					<th>Fecha Inicio</th>
+					<th>Plazo</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th scope="row">{{contractCtrl.contrato.bpid}}</th>
+					<td>{{contractCtrl.contrato.estadoContrato}}</td>
+					<td>{{contractCtrl.contrato.fechaFirmaContrato}}</td>
+					<td>{{contractCtrl.contrato.fechaInicioEjecucionContrato}}</td>
+					<td>{{contractCtrl.contrato.plazoEjecucionContrato}}</td>
+				</tr>
+			</tbody>
+		</table>
+		
+		<table class="table table-condensed">
+			<thead>
+				<tr>
+					<th>Tipo</th>
+					<th>Segmento</th>
+					<th>T. Proceso</th>
+					<th>Municipio</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th scope="row">{{contractCtrl.contrato.tipoContrato}}</th>
+					<td>{{contractCtrl.contrato.segmento}}</td>
+					<td>{{contractCtrl.contrato.tipoProceso}}</td>
+					<td>{{contractCtrl.contrato.municipioEjecucion}}</td>
+				</tr>
+			</tbody>
+		</table>
+		
+		<div class="qua-c">
+			<h5>Causal: {{contractCtrl.contrato.causal}}</h5>
+			<h5>Correo: {{contractCtrl.contrato.correoElectronicoContacto}}</h5>
+			<h5>Ejecución: {{contractCtrl.contrato.departamentoEjecucion}}</h5>
+			<h5>Destinación: {{contractCtrl.contrato.destinacionGasto}}</h5>
+		</div>
+		
+		<br>
+		<h5 class="bg-success">Contratista: {{contractCtrl.contrato.nombreORazonSocial}}</h5>
+		<h6>{{contractCtrl.contrato.identificacionRepresentanteLegalContratista}}</h6>
+		
+		<table class="table table-condensed">
+			<thead>
+				<tr>
+					<th>NIT</th>
+					<th>Depto</th>
+					<th>Fecha Firma</th>
+					<th>Fecha Inicio</th>
+					<th>Plazo</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th scope="row">{{contractCtrl.contrato.nitContratista}}</th>
+					<td>{{contractCtrl.contrato.departamentoContratista}}</td>
+					<td>{{contractCtrl.contrato.fechaFirmaContrato}}</td>
+					<td>{{contractCtrl.contrato.fechaInicioEjecucionContrato}}</td>
+					<td>{{contractCtrl.contrato.plazoEjecucionContrato}}</td>
+				</tr>
+			</tbody>
+		</table>
+		
+		<table class="table table-condensed">
+			<thead>
+				<tr>
+					<th>País</th>
+					<th>Régimen</th>
+					<th>Fecha Firma</th>
+					<th>Fecha Inicio</th>
+					<th>Plazo</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th scope="row">{{contractCtrl.contrato.paisContratista}}</th>
+					<td>{{contractCtrl.contrato.representanteContratista}}</td>
+					<td>{{contractCtrl.contrato.fechaFirmaContrato}}</td>
+					<td>{{contractCtrl.contrato.fechaInicioEjecucionContrato}}</td>
+					<td>{{contractCtrl.contrato.plazoEjecucionContrato}}</td>
+				</tr>
+			</tbody>
+		</table>
+		
+		<div class="qua-c">
+			<h5>Estado: {{contractCtrl.contrato.estadoProceso}}</h5>
+			<h5>Familia: {{contractCtrl.contrato.familia}}</h5>
+			<h5>Grupo: {{contractCtrl.contrato.grupo}}</h5>
+			<h5>Régimen: {{contractCtrl.contrato.regimenDeContratacion}}</h5>
+		</div>
+	
+
+	</div>
+</div>
+
+
+

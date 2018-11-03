@@ -1,0 +1,18 @@
+<div ng-controller="breadcrumpCtrl as bCtrl">
+	<breadcrump label1 = "atrás" label2="Proyectos" explanation="Selecciona un proyecto para ver sus contratos" ng-click="bCtrl.previousView(1)"></breadcrump>
+</div>
+
+<div class="content-view">
+	<div class="subprogram-vis-container">
+		<svg id="vis_program_svg"></svg>
+	</div>
+	<div class="subprogram-info-container">
+		<div class="proj-name">
+			<h5 id="proj-name"></h5>
+		</div>
+		<br>
+		<div class="vis_pie_cont">
+			<svg id="vis_pie_svg"></svg>
+		</div>
+	</div>
+</div>

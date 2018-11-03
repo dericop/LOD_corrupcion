@@ -1,0 +1,110 @@
+.program-vis-container  
+  width 68%
+  height 500px
+  position absolute
+  left 0px
+  top 10px
+  
+.program-info-container
+  top 10px
+  position relative
+  float right
+  width 30%
+  padding-left 20px
+  .ent-info
+    text-align right
+    
+    h3
+		font-weight 400
+	h5
+		font-weight 500
+	
+	strong
+		font-weight 300
+
+#chart 
+  width: 100%
+  height: 100%
+  
+.cview-program
+  top 65px
+
+h5
+  margin-bottom 0
+
+text 
+  pointer-events: none
+
+.grandparent text 
+  font-weight: bold
+  font-size 12px
+
+rect 
+  stroke: #fff
+  stroke-width: 1px
+    
+rect.parent,
+.grandparent rect 
+  stroke-width: 3px
+
+.grandparent:hover rect 
+  fill: grey
+
+.children rect.parent,
+.grandparent rect 
+  cursor: pointer
+
+.children rect.child 
+  opacity: 1
+
+.children rect.parent 
+  fill-opacity: 0
+  stroke-opacity: 1
+
+.children:hover rect.child 
+  opacity: 1
+  stroke-width: 1px
+
+.children:hover rect.parent 
+  opacity: 0
+
+.legend 
+  margin-bottom:8px !important
+
+.legend rect 
+  stroke-width: 0px
+
+.legend text 
+  text-anchor: middle
+  pointer-events: auto
+  font-size: 13px
+  font-family: sans-serif
+  fill: black
+
+.form-group 
+    text-align:left
+
+.textdiv 
+    font-family: "Open Sans",Helvetica,Arial,sans-serif
+    font-size: 14px
+    padding: 7px
+    padding-right 12px
+    cursor: pointer
+    white-space: nowrap
+    overflow: hidden
+    color: black
+    
+.textdiv .title 
+	color: #fff
+	font-size: 102%
+	font-weight: bold
+	margin-top: 8px
+	font-size: 14px !important
+
+.textdiv p
+	color: rgba(255,255,255,0.7)
+	line-height: 13px
+	margin: 0 0 15px !important
+	padding-right: 3px
+	font-size: 16px !important
+	text-overflow ellipsis

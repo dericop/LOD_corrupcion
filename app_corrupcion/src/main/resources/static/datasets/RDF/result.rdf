@@ -1,0 +1,1972 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:veeduria="http://corrupcion.com/presupuesto#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdfs:Class rdf:about="http://corrupcion.com/presupuesto#departamento">
+    <rdfs:label>Departamento</rdfs:label>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://corrupcion.com/presupuesto#resguardoIndigena">
+    <rdfs:label>Resguardo indigena</rdfs:label>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://corrupcion.com/presupuesto#contrato">
+    <rdfs:label>Contrato</rdfs:label>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://corrupcion.com/presupuesto#proyecto">
+    <rdfs:label>Proyecto</rdfs:label>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://corrupcion.com/presupuesto#entidadTerritorial">
+    <rdfs:label>Entidad territorial</rdfs:label>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://corrupcion.com/presupuesto#subprograma">
+    <rdfs:label>Subprgrama</rdfs:label>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://corrupcion.com/presupuesto#gobernacion">
+    <rdfs:label>Gobernacion</rdfs:label>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://corrupcion.com/presupuesto#alcaldia">
+    <rdfs:label>Alcaldia</rdfs:label>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://corrupcion.com/presupuesto#sector">
+    <rdfs:label>Sector</rdfs:label>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://corrupcion.com/presupuesto#programa">
+    <rdfs:label>Programa</rdfs:label>
+  </rdfs:Class>
+  <veeduria:departamento rdf:about="http://corrupcion.com/presupuesto#caldas">
+    <veeduria:tieneEntidadTerritorial>
+      <veeduria:entidadTerritorial rdf:about="http://corrupcion.com/presupuesto#gobernacionDeCaldas">
+        <veeduria:tieneSector>
+          <veeduria:sector rdf:about="http://corrupcion.com/presupuesto#sectorMinero">
+            <rdfs:label>Sector minero</rdfs:label>
+          </veeduria:sector>
+        </veeduria:tieneSector>
+        <veeduria:tieneSector>
+          <veeduria:sector rdf:about="http://corrupcion.com/presupuesto#sectorSostenibilidadAmbiental">
+            <rdfs:label>Sector sostenibilidad ambiental</rdfs:label>
+          </veeduria:sector>
+        </veeduria:tieneSector>
+        <veeduria:tieneSector>
+          <veeduria:sector rdf:about="http://corrupcion.com/presupuesto#sectorSalud">
+            <rdfs:label>Sector salud</rdfs:label>
+          </veeduria:sector>
+        </veeduria:tieneSector>
+        <veeduria:tieneSector>
+          <veeduria:sector rdf:about="http://corrupcion.com/presupuesto#sectorGestionDelRiesgo">
+            <rdfs:label>Sector gestión del riesgo</rdfs:label>
+          </veeduria:sector>
+        </veeduria:tieneSector>
+        <veeduria:tieneSector>
+          <veeduria:sector rdf:about="http://corrupcion.com/presupuesto#sectorPromocionDelDesarrollo">
+            <rdfs:label>Sector promoción del desarrollo</rdfs:label>
+          </veeduria:sector>
+        </veeduria:tieneSector>
+        <rdfs:subClassOf rdf:resource="http://corrupcion.com/presupuesto#gobernacion"/>
+        <veeduria:tieneSector>
+          <veeduria:sector rdf:about="http://corrupcion.com/presupuesto#sectorEducacion">
+            <veeduria:define>
+              <veeduria:programa rdf:about="http://corrupcion.com/presupuesto#ProgramaCoberturaYPermanenciaConEnfoqueEnCierreDeBrechas">
+                <veeduria:divideEn>
+                  <veeduria:subprograma rdf:about="http://corrupcion.com/presupuesto#SubprogramaAtenciónALaPoblaciónVulnerable">
+                    <veeduria:seEjecutaAtravesDe>
+                      <veeduria:proyecto rdf:about="http://corrupcion.com/presupuesto#AdministraciónDeLosRecursosHumanosParaLaPrestaciónDelServicioEducativoEnElDepartamentoDeCaldas">
+                        <veeduria:tieneContrato>
+                          <veeduria:contrato rdf:about="http://corrupcion.com/presupuesto#contratoExistente_23022017-0056_2016-17000-0054_30">
+                            <veeduria:NitDelcontratista>Nit de Persona Jurídica No. 810006620</veeduria:NitDelcontratista>
+                            <veeduria:firmadoEl>23 de febrero de 2017</veeduria:firmadoEl>
+                            <veeduria:departamentoDelContratista
+                            >Caldas</veeduria:departamentoDelContratista>
+                            <veeduria:correoContacto>yonnyqui@hotmail.com</veeduria:correoContacto>
+                            <veeduria:tieneRegimenContratacion
+                            >Estatuto General de Contratación</veeduria:tieneRegimenContratacion>
+                            <veeduria:tieneTipoContrato>Arrendamiento</veeduria:tieneTipoContrato>
+                            <veeduria:ejecutadoEnDepartamento
+                            >Caldas</veeduria:ejecutadoEnDepartamento>
+                            <veeduria:tieneDestinacionGasto>Inversión</veeduria:tieneDestinacionGasto>
+                            <veeduria:tieneTipoProceso>Contratación Directa (Ley 1150 de 2007)</veeduria:tieneTipoProceso>
+                            <veeduria:tieneOrigenRecursos>SGP</veeduria:tieneOrigenRecursos>
+                            <veeduria:identificacionRepresentanteLegalContratista
+                            >Cédula de Ciudadanía No. 7251719</veeduria:identificacionRepresentanteLegalContratista>
+                            <veeduria:estadoDelContrato>Celebrado</veeduria:estadoDelContrato>
+                            <veeduria:plazoDeEjecucion>11 Meses</veeduria:plazoDeEjecucion>
+                            <veeduria:conValorDeContratosDeInterventoriaExterna
+                            >$0.00</veeduria:conValorDeContratosDeInterventoriaExterna>
+                            <veeduria:tieneClase>[801315] Alquiler y arrendamiento de propiedades o edificaciones</veeduria:tieneClase>
+                            <veeduria:tieneCausal>Arrendamiento o Adquisición de Inmuebles (Literal I)</veeduria:tieneCausal>
+                            <veeduria:representanteDelContratista
+                            >YONI QUINTANA NIÑO</veeduria:representanteDelContratista>
+                            <veeduria:tieneGrupo>[F] Servicios</veeduria:tieneGrupo>
+                            <veeduria:tieneFamilia>[8013] Servicios inmobiliarios</veeduria:tieneFamilia>
+                            <veeduria:valorCuantiaDefinitiva>85189100</veeduria:valorCuantiaDefinitiva>
+                            <veeduria:tieneSegmento>[80] Servicios de Gestion; Servicios Profesionales de Empresa y Servicios Administrativos</veeduria:tieneSegmento>
+                            <veeduria:tieneBPID>2016-17000-0054</veeduria:tieneBPID>
+                            <veeduria:tieneNumeroProceso>23022017-0056</veeduria:tieneNumeroProceso>
+                            <veeduria:ejecutadoEnMunicipio>Manzanares</veeduria:ejecutadoEnMunicipio>
+                            <veeduria:tieneEstadoProceso>Celebrado</veeduria:tieneEstadoProceso>
+                            <veeduria:iniciaEjecucion>01 de marzo de 2017</veeduria:iniciaEjecucion>
+                            <veeduria:conObjeto>ARRENDAMIENTO DE UN BIEN INMUEBLE UBICADO EN; CARRERA 5 NO 4 08-10-22-30; CALLES 4 4-50; EL SECTOR CENTRO DEL MUNICIPIO DE MANZANARES PARA EL FUNCIONAMIENTO DE LA INSTITUCION EDUCATiVA NUESTRA SEÑORA DEL ROSARIO</veeduria:conObjeto>
+                            <veeduria:nombreContratista>PARROQUIA DE SAN ANTONIO</veeduria:nombreContratista>
+                            <veeduria:tieneCuantiaAContratar>85189100</veeduria:tieneCuantiaAContratar>
+                            <veeduria:paisDelContratista>Colombia</veeduria:paisDelContratista>
+                          </veeduria:contrato>
+                        </veeduria:tieneContrato>
+                        <veeduria:tieneContrato>
+                          <veeduria:contrato rdf:about="http://corrupcion.com/presupuesto#contratoExistente_IP-SED-001-2017_2016-17000-0054_34">
+                            <veeduria:correoContacto>smrendon@sedcaldas.gov.co</veeduria:correoContacto>
+                            <veeduria:ejecutadoEnMunicipio>Manizales</veeduria:ejecutadoEnMunicipio>
+                            <veeduria:tieneOrigenRecursos>SGP</veeduria:tieneOrigenRecursos>
+                            <veeduria:tieneSegmento>[82] Servicios Editoriales; de Diseño; de Artes Graficas y Bellas Artes</veeduria:tieneSegmento>
+                            <veeduria:tieneNumeroProceso>IP-SED-001-2017</veeduria:tieneNumeroProceso>
+                            <veeduria:tieneClase>[821215] Impresión</veeduria:tieneClase>
+                            <veeduria:firmadoEl>25 de abril de 2017</veeduria:firmadoEl>
+                            <veeduria:paisDelContratista>Colombia</veeduria:paisDelContratista>
+                            <veeduria:estadoDelContrato>Celebrado</veeduria:estadoDelContrato>
+                            <veeduria:tieneRegimenContratacion
+                            >Estatuto General de Contratación</veeduria:tieneRegimenContratacion>
+                            <veeduria:tieneBPID>2016-17000-0054</veeduria:tieneBPID>
+                            <veeduria:plazoDeEjecucion>6 Meses</veeduria:plazoDeEjecucion>
+                            <veeduria:NitDelcontratista>Nit de Persona Jurídica No. 24869297</veeduria:NitDelcontratista>
+                            <veeduria:valorCuantiaDefinitiva>22925000</veeduria:valorCuantiaDefinitiva>
+                            <veeduria:tieneTipoProceso>Contratación Mínima Cuantía</veeduria:tieneTipoProceso>
+                            <veeduria:tieneCuantiaAContratar>44000000</veeduria:tieneCuantiaAContratar>
+                            <veeduria:identificacionRepresentanteLegalContratista
+                            >Cédula de Ciudadanía No. 24869297</veeduria:identificacionRepresentanteLegalContratista>
+                            <veeduria:representanteDelContratista
+                            >GLORIA STELLA ZULUAGA RAMIREZ</veeduria:representanteDelContratista>
+                            <veeduria:tieneGrupo>[F] Servicios</veeduria:tieneGrupo>
+                            <veeduria:departamentoDelContratista
+                            >Caldas</veeduria:departamentoDelContratista>
+                            <veeduria:iniciaEjecucion>11 de mayo de 2017</veeduria:iniciaEjecucion>
+                            <veeduria:tieneCausal>N/A</veeduria:tieneCausal>
+                            <veeduria:conValorDeContratosDeInterventoriaExterna
+                            >$0.00</veeduria:conValorDeContratosDeInterventoriaExterna>
+                            <veeduria:tieneDestinacionGasto>Inversión</veeduria:tieneDestinacionGasto>
+                            <veeduria:tieneEstadoProceso>Celebrado</veeduria:tieneEstadoProceso>
+                            <veeduria:conObjeto>\IMPRESION DE 5000 EJEMPLARES DE LA PRIMERA PUBLICACION DE OBRAS DE EXPERIENCIAS DOCENTES \GABRIEL GARCIA MARQUEZ\ COMO INCENTIVO A SU LABOR Y BUENAS PRACTICAS EN EL AULA\\</veeduria:conObjeto>
+                            <veeduria:tieneTipoContrato>Prestación de Servicios</veeduria:tieneTipoContrato>
+                            <veeduria:tieneFamilia>[8212] Servicios de reproducción</veeduria:tieneFamilia>
+                            <veeduria:nombreContratista>GLORIA STELLA ZULUAGA RAMIREZ-MEGACOLOR</veeduria:nombreContratista>
+                            <veeduria:ejecutadoEnDepartamento
+                            >Caldas</veeduria:ejecutadoEnDepartamento>
+                          </veeduria:contrato>
+                        </veeduria:tieneContrato>
+                        <veeduria:tieneContrato>
+                          <veeduria:contrato rdf:about="http://corrupcion.com/presupuesto#contratoExistente_01032017-0072_2016-17000-0054_26">
+                            <veeduria:estadoDelContrato>Celebrado</veeduria:estadoDelContrato>
+                            <veeduria:identificacionRepresentanteLegalContratista
+                            >Cédula de Ciudadanía No. 29046402</veeduria:identificacionRepresentanteLegalContratista>
+                            <veeduria:correoContacto>contabilidad@sagradafamilia.edu.co</veeduria:correoContacto>
+                            <veeduria:departamentoDelContratista
+                            >Caldas</veeduria:departamentoDelContratista>
+                            <veeduria:plazoDeEjecucion>10 Meses</veeduria:plazoDeEjecucion>
+                            <veeduria:nombreContratista>ASOCIACION HERMANAS DE LA PROVIDENCIA E INMACULADA CONCEPCION</veeduria:nombreContratista>
+                            <veeduria:iniciaEjecucion>02 de marzo de 2017</veeduria:iniciaEjecucion>
+                            <veeduria:tieneOrigenRecursos>SGP</veeduria:tieneOrigenRecursos>
+                            <veeduria:conValorDeContratosDeInterventoriaExterna
+                            >$0.00</veeduria:conValorDeContratosDeInterventoriaExterna>
+                            <veeduria:tieneNumeroProceso>01032017-0072</veeduria:tieneNumeroProceso>
+                            <veeduria:tieneCausal>Arrendamiento o Adquisición de Inmuebles (Literal I)</veeduria:tieneCausal>
+                            <veeduria:ejecutadoEnDepartamento
+                            >Caldas</veeduria:ejecutadoEnDepartamento>
+                            <veeduria:tieneDestinacionGasto>Inversión</veeduria:tieneDestinacionGasto>
+                            <veeduria:tieneEstadoProceso>Celebrado</veeduria:tieneEstadoProceso>
+                            <veeduria:tieneCuantiaAContratar>119312500</veeduria:tieneCuantiaAContratar>
+                            <veeduria:tieneGrupo>[F] Servicios</veeduria:tieneGrupo>
+                            <veeduria:tieneRegimenContratacion
+                            >Estatuto General de Contratación</veeduria:tieneRegimenContratacion>
+                            <veeduria:valorCuantiaDefinitiva>119312500</veeduria:valorCuantiaDefinitiva>
+                            <veeduria:NitDelcontratista>Nit de Persona Jurídica No. 890300568</veeduria:NitDelcontratista>
+                            <veeduria:tieneClase>[801315] Alquiler y arrendamiento de propiedades o edificaciones</veeduria:tieneClase>
+                            <veeduria:tieneSegmento>[80] Servicios de Gestion; Servicios Profesionales de Empresa y Servicios Administrativos</veeduria:tieneSegmento>
+                            <veeduria:representanteDelContratista
+                            >MARIA LILIAN SERNA VALENCIA Superiora Provincial</veeduria:representanteDelContratista>
+                            <veeduria:tieneTipoContrato>Arrendamiento</veeduria:tieneTipoContrato>
+                            <veeduria:conObjeto>ARRENDAMIENTO DE UN BIEN INMUEBLE UBICADO EN LA CARRERA 5 ENTRE CALLES 9 Y 10 DE LA ZONA URBANA DEL MUNICIPIO DE CHINCHINA; PARA EL FUNCIONAMIENTO DE LA INSTITUCION EDUCATIVA SANTA TERESITA.</veeduria:conObjeto>
+                            <veeduria:tieneBPID>2016-17000-0054</veeduria:tieneBPID>
+                            <veeduria:tieneFamilia>[8013] Servicios inmobiliarios</veeduria:tieneFamilia>
+                            <veeduria:paisDelContratista>Colombia</veeduria:paisDelContratista>
+                            <veeduria:ejecutadoEnMunicipio>Chinchiná</veeduria:ejecutadoEnMunicipio>
+                            <veeduria:firmadoEl>01 de marzo de 2017</veeduria:firmadoEl>
+                            <veeduria:tieneTipoProceso>Contratación Directa (Ley 1150 de 2007)</veeduria:tieneTipoProceso>
+                          </veeduria:contrato>
+                        </veeduria:tieneContrato>
+                        <veeduria:tieneContrato>
+                          <veeduria:contrato rdf:about="http://corrupcion.com/presupuesto#contratoExistente_10032017-0103_2016-17000-0054_31">
+                            <veeduria:tieneDestinacionGasto>Inversión</veeduria:tieneDestinacionGasto>
+                            <veeduria:tieneCuantiaAContratar>1389848600</veeduria:tieneCuantiaAContratar>
+                            <veeduria:tieneClase>[861017] Servicios de capacitación vocacional no - científica</veeduria:tieneClase>
+                            <veeduria:conValorDeContratosDeInterventoriaExterna
+                            >$0.00</veeduria:conValorDeContratosDeInterventoriaExterna>
+                            <veeduria:tieneTipoProceso>Contratación Directa (Ley 1150 de 2007)</veeduria:tieneTipoProceso>
+                            <veeduria:tieneNumeroProceso>10032017-0103</veeduria:tieneNumeroProceso>
+                            <veeduria:tieneFamilia>[8610] Formación profesional</veeduria:tieneFamilia>
+                            <veeduria:tieneRegimenContratacion
+                            >Estatuto General de Contratación</veeduria:tieneRegimenContratacion>
+                            <veeduria:conObjeto>AUNAR ESFUERZOS TECNICOS; ADMINISTRATIVOS Y FINANCIEROS PARA FORMAR EN EL PROGRAMA DE LICENCIATURA EN EDUCACION BASICA CON ENFASIS EN INGLES A DOCENTES NORMALISTAS SUPERIORES DEL DEPARTAMENTO CON FINES DE MEJORAMIENTO DE LA CALIDAD EDUCATIVA.</veeduria:conObjeto>
+                            <veeduria:tieneSegmento>[86] Servicios Educativos y de Formación</veeduria:tieneSegmento>
+                            <veeduria:tieneOrigenRecursos>SGP</veeduria:tieneOrigenRecursos>
+                            <veeduria:estadoDelContrato>Celebrado</veeduria:estadoDelContrato>
+                            <veeduria:firmadoEl>10 de marzo de 2017</veeduria:firmadoEl>
+                            <veeduria:correoContacto>rectoria@umanizales.edu.co</veeduria:correoContacto>
+                            <veeduria:tieneEstadoProceso>Celebrado</veeduria:tieneEstadoProceso>
+                            <veeduria:iniciaEjecucion>23 de marzo de 2017</veeduria:iniciaEjecucion>
+                            <veeduria:tieneTipoContrato>Otro Tipo de Contrato</veeduria:tieneTipoContrato>
+                            <veeduria:valorCuantiaDefinitiva>1389848600</veeduria:valorCuantiaDefinitiva>
+                            <veeduria:tieneBPID>2016-17000-0054</veeduria:tieneBPID>
+                            <veeduria:representanteDelContratista
+                            >GUILLERMO ORLANDO SIERRA SIERRA</veeduria:representanteDelContratista>
+                            <veeduria:departamentoDelContratista
+                            >Caldas</veeduria:departamentoDelContratista>
+                            <veeduria:NitDelcontratista>Nit de Persona Jurídica No. 890806001</veeduria:NitDelcontratista>
+                            <veeduria:plazoDeEjecucion>9 Meses</veeduria:plazoDeEjecucion>
+                            <veeduria:ejecutadoEnDepartamento
+                            >Caldas</veeduria:ejecutadoEnDepartamento>
+                            <veeduria:paisDelContratista>Colombia</veeduria:paisDelContratista>
+                            <veeduria:tieneGrupo>[F] Servicios</veeduria:tieneGrupo>
+                            <veeduria:identificacionRepresentanteLegalContratista
+                            >Cédula de Ciudadanía No. 10266962</veeduria:identificacionRepresentanteLegalContratista>
+                            <veeduria:nombreContratista>UNIVERSIDAD DE MANIZALES</veeduria:nombreContratista>
+                            <veeduria:tieneCausal>Contratos Interadministrativos (Literal C)</veeduria:tieneCausal>
+                            <veeduria:ejecutadoEnMunicipio>Manizales</veeduria:ejecutadoEnMunicipio>
+                          </veeduria:contrato>
+                        </veeduria:tieneContrato>
+                        <veeduria:tieneContrato>
+                          <veeduria:contrato rdf:about="http://corrupcion.com/presupuesto#contratoExistente_03032017-0077_2016-17000-0054_29">
+                            <veeduria:conObjeto>ARRENDAMIENTO DE UN BIEN INMUEBLE UBICADO EN LA VEREDA LA QUIEBRA; PARA EL FUNCIONAMIENTO DE LA INSTITUCION EDUCATIVA EL ROBLE DEL MUNICIPIO DE NEIRA.</veeduria:conObjeto>
+                            <veeduria:tieneCuantiaAContratar>19035000</veeduria:tieneCuantiaAContratar>
+                            <veeduria:tieneOrigenRecursos>SGP</veeduria:tieneOrigenRecursos>
+                            <veeduria:ejecutadoEnDepartamento
+                            >Caldas</veeduria:ejecutadoEnDepartamento>
+                            <veeduria:ejecutadoEnMunicipio>Neira</veeduria:ejecutadoEnMunicipio>
+                            <veeduria:tieneBPID>2016-17000-0054</veeduria:tieneBPID>
+                            <veeduria:plazoDeEjecucion>10 Meses</veeduria:plazoDeEjecucion>
+                            <veeduria:tieneSegmento>[80] Servicios de Gestion; Servicios Profesionales de Empresa y Servicios Administrativos</veeduria:tieneSegmento>
+                            <veeduria:tieneTipoProceso>Contratación Directa (Ley 1150 de 2007)</veeduria:tieneTipoProceso>
+                            <veeduria:tieneClase>[801315] Alquiler y arrendamiento de propiedades o edificaciones</veeduria:tieneClase>
+                            <veeduria:tieneEstadoProceso>Celebrado</veeduria:tieneEstadoProceso>
+                            <veeduria:tieneCausal>Arrendamiento o Adquisición de Inmuebles (Literal I)</veeduria:tieneCausal>
+                            <veeduria:NitDelcontratista>Nit de Persona Jurídica No. 890804844</veeduria:NitDelcontratista>
+                            <veeduria:identificacionRepresentanteLegalContratista
+                            >Cédula de Ciudadanía No. 15486127</veeduria:identificacionRepresentanteLegalContratista>
+                            <veeduria:tieneGrupo>[F] Servicios</veeduria:tieneGrupo>
+                            <veeduria:correoContacto>jaquigu@hotmail.com</veeduria:correoContacto>
+                            <veeduria:nombreContratista>HOGAR JUVENIL CAMPESINO DE NEIRA</veeduria:nombreContratista>
+                            <veeduria:departamentoDelContratista
+                            >Caldas</veeduria:departamentoDelContratista>
+                            <veeduria:tieneRegimenContratacion
+                            >Estatuto General de Contratación</veeduria:tieneRegimenContratacion>
+                            <veeduria:tieneFamilia>[8013] Servicios inmobiliarios</veeduria:tieneFamilia>
+                            <veeduria:tieneDestinacionGasto>Inversión</veeduria:tieneDestinacionGasto>
+                            <veeduria:firmadoEl>03 de marzo de 2017</veeduria:firmadoEl>
+                            <veeduria:conValorDeContratosDeInterventoriaExterna
+                            >$0.00</veeduria:conValorDeContratosDeInterventoriaExterna>
+                            <veeduria:paisDelContratista>Colombia</veeduria:paisDelContratista>
+                            <veeduria:estadoDelContrato>Celebrado</veeduria:estadoDelContrato>
+                            <veeduria:iniciaEjecucion>07 de marzo de 2017</veeduria:iniciaEjecucion>
+                            <veeduria:tieneNumeroProceso>03032017-0077</veeduria:tieneNumeroProceso>
+                            <veeduria:representanteDelContratista
+                            >JAIME ALONSO QUICENO GUZMAN</veeduria:representanteDelContratista>
+                            <veeduria:tieneTipoContrato>Arrendamiento</veeduria:tieneTipoContrato>
+                            <veeduria:valorCuantiaDefinitiva>19035000</veeduria:valorCuantiaDefinitiva>
+                          </veeduria:contrato>
+                        </veeduria:tieneContrato>
+                        <veeduria:tieneContrato>
+                          <veeduria:contrato rdf:about="http://corrupcion.com/presupuesto#contratoExistente_23032017-0133_2016-17000-0054_39">
+                            <veeduria:tieneEstadoProceso>Celebrado</veeduria:tieneEstadoProceso>
+                            <veeduria:tieneGrupo>[F] Servicios</veeduria:tieneGrupo>
+                            <veeduria:valorCuantiaDefinitiva>991938000</veeduria:valorCuantiaDefinitiva>
+                            <veeduria:tieneOrigenRecursos>SGP</veeduria:tieneOrigenRecursos>
+                            <veeduria:tieneFamilia>[8613] Servicios educativos especializados</veeduria:tieneFamilia>
+                            <veeduria:estadoDelContrato>Celebrado</veeduria:estadoDelContrato>
+                            <veeduria:iniciaEjecucion>05 de abril de 2017</veeduria:iniciaEjecucion>
+                            <veeduria:NitDelcontratista>Nit de Persona Jurídica No. 890806001</veeduria:NitDelcontratista>
+                            <veeduria:tieneCuantiaAContratar>991938000</veeduria:tieneCuantiaAContratar>
+                            <veeduria:tieneRegimenContratacion
+                            >Estatuto General de Contratación</veeduria:tieneRegimenContratacion>
+                            <veeduria:nombreContratista>UNIVERSIDAD DE MANIZALES</veeduria:nombreContratista>
+                            <veeduria:representanteDelContratista
+                            >JORGE IVAN JURADO</veeduria:representanteDelContratista>
+                            <veeduria:tieneTipoContrato>Otro Tipo de Contrato</veeduria:tieneTipoContrato>
+                            <veeduria:correoContacto>um@umanizales.edu.co</veeduria:correoContacto>
+                            <veeduria:tieneCausal>Contratos Interadministrativos (Literal C)</veeduria:tieneCausal>
+                            <veeduria:conObjeto>AUNAR ESFUERZOS TECNICOS; ADMINISTRATIVOS; PRESUPUESTALES Y FINANCIEROS PARA REALIZAR EL APOYO PEDAGOGICO EN EL MARCO DE UNA EDUCACION INCLUSIVA CON CALIDAD; EN EL AULA A LA POBLACION CON NECESIDADES EDUCATIVAS ESPECIALES Y/O CAPACIDADES Y TALENTOS EXCEPCIONALES; EN ESTABLECIMIENTOS EDUCATIVOS OFICIALES DE LOS 26 MUNICIPIOS NO CERTIFICADOS DEL DEPARTAMENTO; ASI COMO LA ATENCION PREVENTIVA EN ESTUDIANTES DE GRADO PREESCOLAR Y PRIMERO.</veeduria:conObjeto>
+                            <veeduria:conValorDeContratosDeInterventoriaExterna
+                            >$0.00</veeduria:conValorDeContratosDeInterventoriaExterna>
+                            <veeduria:tieneDestinacionGasto>Inversión</veeduria:tieneDestinacionGasto>
+                            <veeduria:tieneTipoProceso>Contratación Directa (Ley 1150 de 2007)</veeduria:tieneTipoProceso>
+                            <veeduria:tieneSegmento>[86] Servicios Educativos y de Formación</veeduria:tieneSegmento>
+                            <veeduria:identificacionRepresentanteLegalContratista
+                            >Cédula de Ciudadanía No. 10259723</veeduria:identificacionRepresentanteLegalContratista>
+                            <veeduria:firmadoEl>23 de marzo de 2017</veeduria:firmadoEl>
+                            <veeduria:ejecutadoEnDepartamento
+                            >Caldas</veeduria:ejecutadoEnDepartamento>
+                            <veeduria:ejecutadoEnMunicipio>Aguadas - Chinchiná - Marulanda - Belalcázar - Manzanares - Salamina - Victoria - Riosucio - Villamaría - Aranzazu - Pácora - Marmato - Marquetalia - Risaralda - San José - Anserma - La Dorada - Neira - Palestina - Pensilvania - Norcasia - Viterbo - Filadelfia - La Merced - Samaná - Supía</veeduria:ejecutadoEnMunicipio>
+                            <veeduria:tieneClase>[861319] Escuelas para gente con discapacidades</veeduria:tieneClase>
+                            <veeduria:tieneBPID>2016-17000-0054</veeduria:tieneBPID>
+                            <veeduria:plazoDeEjecucion>7 Meses</veeduria:plazoDeEjecucion>
+                            <veeduria:paisDelContratista>Colombia</veeduria:paisDelContratista>
+                            <veeduria:tieneNumeroProceso>23032017-0133</veeduria:tieneNumeroProceso>
+                            <veeduria:departamentoDelContratista
+                            >Caldas</veeduria:departamentoDelContratista>
+                          </veeduria:contrato>
+                        </veeduria:tieneContrato>
+                        <veeduria:tieneContrato>
+                          <veeduria:contrato rdf:about="http://corrupcion.com/presupuesto#contratoExistente_SA-SED-001-2017_2016-17000-0054_33">
+                            <veeduria:valorCuantiaDefinitiva>105463512</veeduria:valorCuantiaDefinitiva>
+                            <veeduria:estadoDelContrato>Celebrado</veeduria:estadoDelContrato>
+                            <veeduria:iniciaEjecucion>11 de mayo de 2017</veeduria:iniciaEjecucion>
+                            <veeduria:ejecutadoEnDepartamento
+                            >Caldas</veeduria:ejecutadoEnDepartamento>
+                            <veeduria:correoContacto>dmosorno@sedcaldas.gov.co</veeduria:correoContacto>
+                            <veeduria:tieneBPID>2016-17000-0054</veeduria:tieneBPID>
+                            <veeduria:identificacionRepresentanteLegalContratista
+                            >Cédula de Ciudadanía No. 24623264</veeduria:identificacionRepresentanteLegalContratista>
+                            <veeduria:tieneOrigenRecursos>SGP</veeduria:tieneOrigenRecursos>
+                            <veeduria:representanteDelContratista
+                            >MARTHA ISABEL ROBLEDO CARDONA</veeduria:representanteDelContratista>
+                            <veeduria:tieneDestinacionGasto>Inversión</veeduria:tieneDestinacionGasto>
+                            <veeduria:tieneEstadoProceso>Celebrado</veeduria:tieneEstadoProceso>
+                            <veeduria:conObjeto>ADQUISICION DE PAQUETES DE VIAJE QUE INCLUYAN TIQUETES AEREOS; ALOJAMIENTO; ALIMENTACION Y TRANSPORTE INTERNO EN LA CIUDAD DE LA HABANA; CUBA.</veeduria:conObjeto>
+                            <veeduria:plazoDeEjecucion>7 Días</veeduria:plazoDeEjecucion>
+                            <veeduria:tieneClase>[901215] Agentes de viajes</veeduria:tieneClase>
+                            <veeduria:tieneFamilia>[9012] Facilitación de viajes</veeduria:tieneFamilia>
+                            <veeduria:firmadoEl>02 de mayo de 2017</veeduria:firmadoEl>
+                            <veeduria:tieneTipoProceso>Selección Abreviada de Menor Cuantía (Ley 1150 de 2007)</veeduria:tieneTipoProceso>
+                            <veeduria:tieneCausal>N/A</veeduria:tieneCausal>
+                            <veeduria:ejecutadoEnMunicipio>Manizales</veeduria:ejecutadoEnMunicipio>
+                            <veeduria:tieneRegimenContratacion
+                            >Estatuto General de Contratación</veeduria:tieneRegimenContratacion>
+                            <veeduria:departamentoDelContratista
+                            >Caldas</veeduria:departamentoDelContratista>
+                            <veeduria:tieneGrupo>[F] Servicios</veeduria:tieneGrupo>
+                            <veeduria:paisDelContratista>Colombia</veeduria:paisDelContratista>
+                            <veeduria:tieneCuantiaAContratar>125000000</veeduria:tieneCuantiaAContratar>
+                            <veeduria:tieneNumeroProceso>SA-SED-001-2017</veeduria:tieneNumeroProceso>
+                            <veeduria:conValorDeContratosDeInterventoriaExterna
+                            >$0.00</veeduria:conValorDeContratosDeInterventoriaExterna>
+                            <veeduria:tieneSegmento>[90] Servicios de Viajes; Alimentación; Alojamiento y Entretenimiento</veeduria:tieneSegmento>
+                            <veeduria:nombreContratista>AGENCIA DE VIAJES NORTE Y SUR S.A.S.</veeduria:nombreContratista>
+                            <veeduria:NitDelcontratista>Nit de Persona Jurídica No. 900297528</veeduria:NitDelcontratista>
+                            <veeduria:tieneTipoContrato>Compraventa</veeduria:tieneTipoContrato>
+                          </veeduria:contrato>
+                        </veeduria:tieneContrato>
+                        <veeduria:tieneContrato>
+                          <veeduria:contrato rdf:about="http://corrupcion.com/presupuesto#contratoExistente_02032017-0075_2016-17000-0054_28">
+                            <veeduria:nombreContratista>PARROQUIA DE SAN FELIX CALDAS</veeduria:nombreContratista>
+                            <veeduria:conObjeto>ARRENDAMIENTO DE UN BIEN INMUEBLE UBICADO EN LA CARRERA 5 CON CALLE 12 DEL CORREGIMIENTO DE SAN FELIX MUNICIPIO DE SALAMINA PARA EL FUNCIONAMIENTO DEL ESTABLECIMIENTO EDUCATIVO DENOMINADO INSTITUTO SAN FELIX; SEDE PRINCIPAL.</veeduria:conObjeto>
+                            <veeduria:identificacionRepresentanteLegalContratista
+                            >Cédula de Ciudadanía No. 16055584</veeduria:identificacionRepresentanteLegalContratista>
+                            <veeduria:paisDelContratista>Colombia</veeduria:paisDelContratista>
+                            <veeduria:ejecutadoEnMunicipio>Salamina</veeduria:ejecutadoEnMunicipio>
+                            <veeduria:tieneSegmento>[80] Servicios de Gestion; Servicios Profesionales de Empresa y Servicios Administrativos</veeduria:tieneSegmento>
+                            <veeduria:tieneOrigenRecursos>SGP</veeduria:tieneOrigenRecursos>
+                            <veeduria:firmadoEl>02 de marzo de 2017</veeduria:firmadoEl>
+                            <veeduria:valorCuantiaDefinitiva>24500000</veeduria:valorCuantiaDefinitiva>
+                            <veeduria:departamentoDelContratista
+                            >Caldas</veeduria:departamentoDelContratista>
+                            <veeduria:tieneTipoContrato>Arrendamiento</veeduria:tieneTipoContrato>
+                            <veeduria:plazoDeEjecucion>10 Meses</veeduria:plazoDeEjecucion>
+                            <veeduria:tieneNumeroProceso>02032017-0075</veeduria:tieneNumeroProceso>
+                            <veeduria:conValorDeContratosDeInterventoriaExterna
+                            >$0.00</veeduria:conValorDeContratosDeInterventoriaExterna>
+                            <veeduria:tieneEstadoProceso>Celebrado</veeduria:tieneEstadoProceso>
+                            <veeduria:tieneBPID>2016-17000-0054</veeduria:tieneBPID>
+                            <veeduria:ejecutadoEnDepartamento
+                            >Caldas</veeduria:ejecutadoEnDepartamento>
+                            <veeduria:tieneClase>[801315] Alquiler y arrendamiento de propiedades o edificaciones</veeduria:tieneClase>
+                            <veeduria:tieneRegimenContratacion
+                            >Estatuto General de Contratación</veeduria:tieneRegimenContratacion>
+                            <veeduria:iniciaEjecucion>02 de marzo de 2017</veeduria:iniciaEjecucion>
+                            <veeduria:representanteDelContratista
+                            >CARLOS AUGUSTO LOPEZ FRANCO</veeduria:representanteDelContratista>
+                            <veeduria:correoContacto>hagalo210784@hotmail.com</veeduria:correoContacto>
+                            <veeduria:tieneCausal>Arrendamiento o Adquisición de Inmuebles (Literal I)</veeduria:tieneCausal>
+                            <veeduria:NitDelcontratista>Nit de Persona Jurídica No. 810002976</veeduria:NitDelcontratista>
+                            <veeduria:tieneGrupo>[F] Servicios</veeduria:tieneGrupo>
+                            <veeduria:tieneTipoProceso>Contratación Directa (Ley 1150 de 2007)</veeduria:tieneTipoProceso>
+                            <veeduria:tieneDestinacionGasto>Inversión</veeduria:tieneDestinacionGasto>
+                            <veeduria:tieneFamilia>[8013] Servicios inmobiliarios</veeduria:tieneFamilia>
+                            <veeduria:estadoDelContrato>Celebrado</veeduria:estadoDelContrato>
+                            <veeduria:tieneCuantiaAContratar>24500000</veeduria:tieneCuantiaAContratar>
+                          </veeduria:contrato>
+                        </veeduria:tieneContrato>
+                        <veeduria:tieneContrato>
+                          <veeduria:contrato rdf:about="http://corrupcion.com/presupuesto#contratoExistente_02032017-0074_2016-17000-0054_27">
+                            <veeduria:tieneEstadoProceso>Celebrado</veeduria:tieneEstadoProceso>
+                            <veeduria:tieneTipoProceso>Contratación Directa (Ley 1150 de 2007)</veeduria:tieneTipoProceso>
+                            <veeduria:tieneOrigenRecursos>SGP</veeduria:tieneOrigenRecursos>
+                            <veeduria:firmadoEl>02 de marzo de 2017</veeduria:firmadoEl>
+                            <veeduria:estadoDelContrato>Celebrado</veeduria:estadoDelContrato>
+                            <veeduria:tieneCausal>Arrendamiento o Adquisición de Inmuebles (Literal I)</veeduria:tieneCausal>
+                            <veeduria:correoContacto>julysoja187@hotmail.com</veeduria:correoContacto>
+                            <veeduria:tieneFamilia>[8013] Servicios inmobiliarios</veeduria:tieneFamilia>
+                            <veeduria:NitDelcontratista>Nit de Persona Jurídica No. 800158066</veeduria:NitDelcontratista>
+                            <veeduria:departamentoDelContratista
+                            >Caldas</veeduria:departamentoDelContratista>
+                            <veeduria:representanteDelContratista
+                            >JULIAN ALBERTO JARAMILLO SERNA</veeduria:representanteDelContratista>
+                            <veeduria:conValorDeContratosDeInterventoriaExterna
+                            >$0.00</veeduria:conValorDeContratosDeInterventoriaExterna>
+                            <veeduria:tieneCuantiaAContratar>126815400</veeduria:tieneCuantiaAContratar>
+                            <veeduria:iniciaEjecucion>16 de marzo de 2017</veeduria:iniciaEjecucion>
+                            <veeduria:tieneDestinacionGasto>Inversión</veeduria:tieneDestinacionGasto>
+                            <veeduria:identificacionRepresentanteLegalContratista
+                            >Cédula de Ciudadanía No. 80428366</veeduria:identificacionRepresentanteLegalContratista>
+                            <veeduria:tieneGrupo>[F] Servicios</veeduria:tieneGrupo>
+                            <veeduria:ejecutadoEnMunicipio>Neira</veeduria:ejecutadoEnMunicipio>
+                            <veeduria:plazoDeEjecucion>10 Meses</veeduria:plazoDeEjecucion>
+                            <veeduria:tieneSegmento>[80] Servicios de Gestion; Servicios Profesionales de Empresa y Servicios Administrativos</veeduria:tieneSegmento>
+                            <veeduria:tieneNumeroProceso>02032017-0074</veeduria:tieneNumeroProceso>
+                            <veeduria:valorCuantiaDefinitiva>126815400</veeduria:valorCuantiaDefinitiva>
+                            <veeduria:ejecutadoEnDepartamento
+                            >Caldas</veeduria:ejecutadoEnDepartamento>
+                            <veeduria:tieneTipoContrato>Arrendamiento</veeduria:tieneTipoContrato>
+                            <veeduria:nombreContratista>PARROQUIA SAN JUAN BAUTISTA</veeduria:nombreContratista>
+                            <veeduria:tieneClase>[801315] Alquiler y arrendamiento de propiedades o edificaciones</veeduria:tieneClase>
+                            <veeduria:paisDelContratista>Colombia</veeduria:paisDelContratista>
+                            <veeduria:conObjeto>Arrendamiento de un bien inmueble ubicado en la calle 8 N0 7 21 del Municipio de Neira para el funcionamiento de la Institución Educativa Nuetra Señora del Rosario</veeduria:conObjeto>
+                            <veeduria:tieneRegimenContratacion
+                            >Estatuto General de Contratación</veeduria:tieneRegimenContratacion>
+                            <veeduria:tieneBPID>2016-17000-0054</veeduria:tieneBPID>
+                          </veeduria:contrato>
+                        </veeduria:tieneContrato>
+                        <veeduria:tieneContrato>
+                          <veeduria:contrato rdf:about="http://corrupcion.com/presupuesto#contratoExistente_08022017-0025_2016-17000-0054_24">
+                            <veeduria:tieneNumeroProceso>08022017-0025</veeduria:tieneNumeroProceso>
+                            <veeduria:nombreContratista>PARROQUIA DE LA INMACULADA CONCEPCION</veeduria:nombreContratista>
+                            <veeduria:conValorDeContratosDeInterventoriaExterna
+                            >$0.00</veeduria:conValorDeContratosDeInterventoriaExterna>
+                            <veeduria:identificacionRepresentanteLegalContratista
+                            >Cédula de Ciudadanía No. 10062134</veeduria:identificacionRepresentanteLegalContratista>
+                            <veeduria:representanteDelContratista
+                            >ROBERTO RAMIREZ ZULUAGA</veeduria:representanteDelContratista>
+                            <veeduria:ejecutadoEnDepartamento
+                            >Caldas</veeduria:ejecutadoEnDepartamento>
+                            <veeduria:iniciaEjecucion>10 de febrero de 2017</veeduria:iniciaEjecucion>
+                            <veeduria:departamentoDelContratista
+                            >Caldas</veeduria:departamentoDelContratista>
+                            <veeduria:tieneBPID>2016-17000-0054</veeduria:tieneBPID>
+                            <veeduria:paisDelContratista>Colombia</veeduria:paisDelContratista>
+                            <veeduria:valorCuantiaDefinitiva>63300000</veeduria:valorCuantiaDefinitiva>
+                            <veeduria:plazoDeEjecucion>12 Meses</veeduria:plazoDeEjecucion>
+                            <veeduria:tieneGrupo>[F] Servicios</veeduria:tieneGrupo>
+                            <veeduria:NitDelcontratista>Nit de Persona Jurídica No. 890802209</veeduria:NitDelcontratista>
+                            <veeduria:tieneDestinacionGasto>Inversión</veeduria:tieneDestinacionGasto>
+                            <veeduria:tieneRegimenContratacion
+                            >Estatuto General de Contratación</veeduria:tieneRegimenContratacion>
+                            <veeduria:correoContacto>parroquiasalamina@hotmail.com</veeduria:correoContacto>
+                            <veeduria:conObjeto>ARRENDAMIENTO DE UN BIEN INMUEBLE UBICADO EN LA CALLE 7 NO 7 - 58; TRILLADORA SAN ANTONIO DEL MUNICIPIO DE SALAMINA PARA EL FUNCIONAMIENTO DE LA INSTITUCION EDUCATIVA PIO XII EN ELMUNICIPIO DE SALAMINA.</veeduria:conObjeto>
+                            <veeduria:estadoDelContrato>Celebrado</veeduria:estadoDelContrato>
+                            <veeduria:tieneFamilia>[8013] Servicios inmobiliarios</veeduria:tieneFamilia>
+                            <veeduria:tieneCuantiaAContratar>63300000</veeduria:tieneCuantiaAContratar>
+                            <veeduria:ejecutadoEnMunicipio>Aguadas - Salamina</veeduria:ejecutadoEnMunicipio>
+                            <veeduria:tieneTipoContrato>Arrendamiento</veeduria:tieneTipoContrato>
+                            <veeduria:tieneClase>[801315] Alquiler y arrendamiento de propiedades o edificaciones</veeduria:tieneClase>
+                            <veeduria:tieneOrigenRecursos>SGP</veeduria:tieneOrigenRecursos>
+                            <veeduria:firmadoEl>08 de febrero de 2017</veeduria:firmadoEl>
+                            <veeduria:tieneSegmento>[80] Servicios de Gestion; Servicios Profesionales de Empresa y Servicios Administrativos</veeduria:tieneSegmento>
+                            <veeduria:tieneEstadoProceso>Celebrado</veeduria:tieneEstadoProceso>
+                            <veeduria:tieneTipoProceso>Contratación Directa (Ley 1150 de 2007)</veeduria:tieneTipoProceso>
+                            <veeduria:tieneCausal>Arrendamiento o Adquisición de Inmuebles (Literal I)</veeduria:tieneCausal>
+                          </veeduria:contrato>
+                        </veeduria:tieneContrato>
+                        <rdfs:label>Administración de los recursos humanos para la prestación del servicio educativo en el departamento de Caldas</rdfs:label>
+                        <veeduria:tieneContrato>
+                          <veeduria:contrato rdf:about="http://corrupcion.com/presupuesto#contratoExistente_10082017-0517_2016-17000-0054_38">
+                            <veeduria:tieneTipoProceso>Contratación Directa (Ley 1150 de 2007)</veeduria:tieneTipoProceso>
+                            <veeduria:tieneOrigenRecursos>No aparece</veeduria:tieneOrigenRecursos>
+                            <veeduria:nombreContratista>ALIANZA COLOMBO FRANCESA DE MANIZALES</veeduria:nombreContratista>
+                            <veeduria:plazoDeEjecucion>100 Días</veeduria:plazoDeEjecucion>
+                            <veeduria:NitDelcontratista>Nit de Persona Jurídica No. 890801855</veeduria:NitDelcontratista>
+                            <veeduria:tieneNumeroProceso>10082017-0517</veeduria:tieneNumeroProceso>
+                            <veeduria:tieneBPID>2016-17000-0054</veeduria:tieneBPID>
+                            <veeduria:identificacionRepresentanteLegalContratista
+                            >Cédula de Ciudadanía No. 340001831</veeduria:identificacionRepresentanteLegalContratista>
+                            <veeduria:paisDelContratista>Colombia</veeduria:paisDelContratista>
+                            <veeduria:tieneRegimenContratacion
+                            >Estatuto General de Contratación</veeduria:tieneRegimenContratacion>
+                            <veeduria:firmadoEl>10 de agosto de 2017</veeduria:firmadoEl>
+                            <veeduria:tieneCuantiaAContratar>68100000</veeduria:tieneCuantiaAContratar>
+                            <veeduria:tieneEstadoProceso>Celebrado</veeduria:tieneEstadoProceso>
+                            <veeduria:representanteDelContratista
+                            >MARIA MARCELA ECHEVERRI HENAO</veeduria:representanteDelContratista>
+                            <veeduria:correoContacto>manizales@alianzafrancesa.org.co</veeduria:correoContacto>
+                            <veeduria:valorCuantiaDefinitiva>68100000</veeduria:valorCuantiaDefinitiva>
+                            <veeduria:ejecutadoEnDepartamento
+                            >Caldas</veeduria:ejecutadoEnDepartamento>
+                            <veeduria:tieneTipoContrato>Otro Tipo de Contrato</veeduria:tieneTipoContrato>
+                            <veeduria:conValorDeContratosDeInterventoriaExterna
+                            >$0.00</veeduria:conValorDeContratosDeInterventoriaExterna>
+                            <veeduria:departamentoDelContratista
+                            >Caldas</veeduria:departamentoDelContratista>
+                            <veeduria:tieneFamilia>[8610] Formación profesional</veeduria:tieneFamilia>
+                            <veeduria:tieneDestinacionGasto>No Aplica</veeduria:tieneDestinacionGasto>
+                            <veeduria:conObjeto>Aunar esfuerzos técnicos administrativos y financieros para la capacitación mediante tres (3) cursos de frncés de 130 horas cada uno para el fortalecimiento de competencia en lengua extranjera francés a docentes y directivos docentes de instituciones educativas oficiales no certificados del departamento de Caldas.</veeduria:conObjeto>
+                            <veeduria:estadoDelContrato>Celebrado</veeduria:estadoDelContrato>
+                            <veeduria:iniciaEjecucion>22 de agosto de 2017</veeduria:iniciaEjecucion>
+                            <veeduria:tieneClase>[861017] Servicios de capacitación vocacional no - científica</veeduria:tieneClase>
+                            <veeduria:tieneCausal>Contratos Interadministrativos (Literal C)</veeduria:tieneCausal>
+                            <veeduria:tieneGrupo>[F] Servicios</veeduria:tieneGrupo>
+                            <veeduria:ejecutadoEnMunicipio>Salamina - Manizales - La Dorada</veeduria:ejecutadoEnMunicipio>
+                            <veeduria:tieneSegmento>[86] Servicios Educativos y de Formación</veeduria:tieneSegmento>
+                          </veeduria:contrato>
+                        </veeduria:tieneContrato>
+                        <veeduria:seIdentificaCon>2016-17000-0054</veeduria:seIdentificaCon>
+                        <veeduria:tieneTransferencias>225271877662</veeduria:tieneTransferencias>
+                        <veeduria:tieneContrato>
+                          <veeduria:contrato rdf:about="http://corrupcion.com/presupuesto#contratoExistente_26052017-0336_2016-17000-0054_37">
+                            <veeduria:correoContacto>ucaldas@ucaldas.edu.co</veeduria:correoContacto>
+                            <veeduria:NitDelcontratista>Nit de Persona Jurídica No. 890801063</veeduria:NitDelcontratista>
+                            <veeduria:tieneOrigenRecursos>SGP</veeduria:tieneOrigenRecursos>
+                            <veeduria:tieneGrupo>[F] Servicios</veeduria:tieneGrupo>
+                            <veeduria:tieneBPID>2016-17000-0054</veeduria:tieneBPID>
+                            <veeduria:departamentoDelContratista
+                            >Caldas</veeduria:departamentoDelContratista>
+                            <veeduria:tieneClase>[861017] Servicios de capacitación vocacional no - científica</veeduria:tieneClase>
+                            <veeduria:firmadoEl>26 de mayo de 2017</veeduria:firmadoEl>
+                            <veeduria:identificacionRepresentanteLegalContratista
+                            >Cédula de Ciudadanía No. 10249309</veeduria:identificacionRepresentanteLegalContratista>
+                            <veeduria:tieneEstadoProceso>Celebrado</veeduria:tieneEstadoProceso>
+                            <veeduria:ejecutadoEnMunicipio>Aguadas - Manizales - Riosucio - La Dorada - Pensilvania - Norcasia - Viterbo</veeduria:ejecutadoEnMunicipio>
+                            <veeduria:tieneTipoProceso>Contratación Directa (Ley 1150 de 2007)</veeduria:tieneTipoProceso>
+                            <veeduria:plazoDeEjecucion>5 Meses</veeduria:plazoDeEjecucion>
+                            <veeduria:tieneNumeroProceso>26052017-0336</veeduria:tieneNumeroProceso>
+                            <veeduria:tieneDestinacionGasto>Inversión</veeduria:tieneDestinacionGasto>
+                            <veeduria:paisDelContratista>Colombia</veeduria:paisDelContratista>
+                            <veeduria:tieneRegimenContratacion
+                            >Estatuto General de Contratación</veeduria:tieneRegimenContratacion>
+                            <veeduria:estadoDelContrato>Celebrado</veeduria:estadoDelContrato>
+                            <veeduria:valorCuantiaDefinitiva>390050000</veeduria:valorCuantiaDefinitiva>
+                            <veeduria:representanteDelContratista
+                            >FELIPE CESAR LONDOÑO LOPEZ</veeduria:representanteDelContratista>
+                            <veeduria:ejecutadoEnDepartamento
+                            >Caldas</veeduria:ejecutadoEnDepartamento>
+                            <veeduria:tieneSegmento>[86] Servicios Educativos y de Formación</veeduria:tieneSegmento>
+                            <veeduria:tieneCausal>Contratos Interadministrativos (Literal C)</veeduria:tieneCausal>
+                            <veeduria:nombreContratista>UNIVERSIDAD DE CALDAS</veeduria:nombreContratista>
+                            <veeduria:tieneCuantiaAContratar>390050000</veeduria:tieneCuantiaAContratar>
+                            <veeduria:tieneFamilia>[8610] Formación profesional</veeduria:tieneFamilia>
+                            <veeduria:tieneTipoContrato>Otro Tipo de Contrato</veeduria:tieneTipoContrato>
+                            <veeduria:conObjeto>AUNAR ESFUERZOS TECNICOS; ADMINISTRATIVOS; PRESUPUETALES Y FINANCIEROS CON EL PROPOSITO DE CAPACITAR A DOCENTES DE SECUNDARIA Y DIRECTIVOS DOCENTES EN EL ACOMPAÑAMIENTO EN LA CONSTRUCCION DE MALLAS CURRICULARES - CONSTRUYENDO UN CURRICULO DESDE Y PARA EL CONTEXTO- BAJO LA MODALIDAD DE DIPLOMADO; EN 9 MUNICIPIOS DEL DEPARTAMENTO; ASI COMO PREPARAR 440 ESTUDIANTES PARA LA PRESENTACION DE LAS PRUEBAS SABER 11.</veeduria:conObjeto>
+                            <veeduria:iniciaEjecucion>09 de junio de 2017</veeduria:iniciaEjecucion>
+                            <veeduria:conValorDeContratosDeInterventoriaExterna
+                            >$0.00</veeduria:conValorDeContratosDeInterventoriaExterna>
+                          </veeduria:contrato>
+                        </veeduria:tieneContrato>
+                        <veeduria:tieneContrato>
+                          <veeduria:contrato rdf:about="http://corrupcion.com/presupuesto#contratoExistente_LP-SED-001-2017_2016-17000-0054_35">
+                            <veeduria:iniciaEjecucion>02 de junio de 2017</veeduria:iniciaEjecucion>
+                            <veeduria:identificacionRepresentanteLegalContratista
+                            >Cédula de Ciudadanía No. 94427419</veeduria:identificacionRepresentanteLegalContratista>
+                            <veeduria:tieneFamilia>[5310] Ropa</veeduria:tieneFamilia>
+                            <veeduria:tieneGrupo>[E] Productos de Uso Final</veeduria:tieneGrupo>
+                            <veeduria:estadoDelContrato>Celebrado</veeduria:estadoDelContrato>
+                            <veeduria:correoContacto>gceballos@sedcaldas.gov.co</veeduria:correoContacto>
+                            <veeduria:tieneTipoProceso>Licitación Pública</veeduria:tieneTipoProceso>
+                            <veeduria:tieneSegmento>[53] Ropa; Maletas y Productos de Aseo Personal</veeduria:tieneSegmento>
+                            <veeduria:tieneOrigenRecursos>SGP</veeduria:tieneOrigenRecursos>
+                            <veeduria:NitDelcontratista>Nit de Persona Jurídica No. 805022296</veeduria:NitDelcontratista>
+                            <veeduria:firmadoEl>31 de mayo de 2017</veeduria:firmadoEl>
+                            <veeduria:tieneRegimenContratacion
+                            >Estatuto General de Contratación</veeduria:tieneRegimenContratacion>
+                            <veeduria:representanteDelContratista
+                            >ANDRES OROZCO AGUDELO</veeduria:representanteDelContratista>
+                            <veeduria:paisDelContratista>Colombia</veeduria:paisDelContratista>
+                            <veeduria:conObjeto>SUMINISTRO DE LA PRIMERA; SEGUNDA Y TERCERA DOTACIÓN DE CALZADO Y VESTIDO DE LABOR PARA EL PERSONAL ADMINISTRATIVO Y DOCENTE DE LA SECRETARÍA DE EDUCACIÓN DEL DEPARTAMENTO DE CALDAS QUE DE CONFORMIDAD CON LAS NORMAS LEGALES VIGENTES TIENEN DERECHO DURANTE LA VIGENCIA 2017.especificamente el item 1. CONJUNTO PARA HOMBRE COMPUESTO DE PATALON Y CHAQUETA Y 3. PAR ZAPATOS PARA HOMBRE</veeduria:conObjeto>
+                            <veeduria:plazoDeEjecucion>6 Meses</veeduria:plazoDeEjecucion>
+                            <veeduria:valorCuantiaDefinitiva>233069330</veeduria:valorCuantiaDefinitiva>
+                            <veeduria:conValorDeContratosDeInterventoriaExterna
+                            >$0.00</veeduria:conValorDeContratosDeInterventoriaExterna>
+                            <veeduria:tieneCausal>N/A</veeduria:tieneCausal>
+                            <veeduria:tieneDestinacionGasto>Inversión</veeduria:tieneDestinacionGasto>
+                            <veeduria:tieneNumeroProceso>LP-SED-001-2017</veeduria:tieneNumeroProceso>
+                            <veeduria:ejecutadoEnMunicipio>Manzanares - Salamina - Manizales - La Dorada</veeduria:ejecutadoEnMunicipio>
+                            <veeduria:tieneEstadoProceso>Celebrado</veeduria:tieneEstadoProceso>
+                            <veeduria:tieneTipoContrato>Suministro</veeduria:tieneTipoContrato>
+                            <veeduria:tieneClase>[531020] Vestidos; faldas; saris y kimonos</veeduria:tieneClase>
+                            <veeduria:nombreContratista>QUEST S.AS</veeduria:nombreContratista>
+                            <veeduria:departamentoDelContratista
+                            >Caldas</veeduria:departamentoDelContratista>
+                            <veeduria:tieneBPID>2016-17000-0054</veeduria:tieneBPID>
+                            <veeduria:tieneCuantiaAContratar>788963848</veeduria:tieneCuantiaAContratar>
+                            <veeduria:ejecutadoEnDepartamento
+                            >Caldas</veeduria:ejecutadoEnDepartamento>
+                          </veeduria:contrato>
+                        </veeduria:tieneContrato>
+                        <veeduria:tieneContrato>
+                          <veeduria:contrato rdf:about="http://corrupcion.com/presupuesto#contratoExistente_27022017-0062_2016-17000-0054_25">
+                            <veeduria:tieneTipoContrato>Arrendamiento</veeduria:tieneTipoContrato>
+                            <veeduria:conValorDeContratosDeInterventoriaExterna
+                            >$0.00</veeduria:conValorDeContratosDeInterventoriaExterna>
+                            <veeduria:departamentoDelContratista
+                            >Caldas</veeduria:departamentoDelContratista>
+                            <veeduria:identificacionRepresentanteLegalContratista
+                            >Cédula de Ciudadanía No. 24569839</veeduria:identificacionRepresentanteLegalContratista>
+                            <veeduria:conObjeto>ARRENDAMIENTO DE UN BIEN INMUEBLE UBICADO EN LA CARRERA. 7 # 7-50 k PARA EL FUNCIONAMIENTO DE LA INSTITUCION EDUCATIVA LA PRESENTACION EN EL MUNICIPIO DE SALAMINA.</veeduria:conObjeto>
+                            <veeduria:tieneCuantiaAContratar>15386000</veeduria:tieneCuantiaAContratar>
+                            <veeduria:tieneGrupo>[F] Servicios</veeduria:tieneGrupo>
+                            <veeduria:tieneSegmento>[80] Servicios de Gestion; Servicios Profesionales de Empresa y Servicios Administrativos</veeduria:tieneSegmento>
+                            <veeduria:nombreContratista>HERMANAS DE LA CARIDAD DOMINICAS DE LA PRESENTACION DE LA SANTISIMA VIRGEN</veeduria:nombreContratista>
+                            <veeduria:iniciaEjecucion>02 de marzo de 2017</veeduria:iniciaEjecucion>
+                            <veeduria:tieneClase>[801315] Alquiler y arrendamiento de propiedades o edificaciones</veeduria:tieneClase>
+                            <veeduria:tieneBPID>2016-17000-0054</veeduria:tieneBPID>
+                            <veeduria:tieneDestinacionGasto>Inversión</veeduria:tieneDestinacionGasto>
+                            <veeduria:ejecutadoEnMunicipio>Salamina</veeduria:ejecutadoEnMunicipio>
+                            <veeduria:tieneRegimenContratacion
+                            >Estatuto General de Contratación</veeduria:tieneRegimenContratacion>
+                            <veeduria:tieneNumeroProceso>27022017-0062</veeduria:tieneNumeroProceso>
+                            <veeduria:firmadoEl>27 de febrero de 2017</veeduria:firmadoEl>
+                            <veeduria:tieneCausal>Prestación de Servicios Profesionales y de Apoyo a la Gestión (Literal H)</veeduria:tieneCausal>
+                            <veeduria:correoContacto>presentacioncali@gmail.com</veeduria:correoContacto>
+                            <veeduria:ejecutadoEnDepartamento
+                            >Caldas</veeduria:ejecutadoEnDepartamento>
+                            <veeduria:valorCuantiaDefinitiva>15386000</veeduria:valorCuantiaDefinitiva>
+                            <veeduria:tieneTipoProceso>Contratación Directa (Ley 1150 de 2007)</veeduria:tieneTipoProceso>
+                            <veeduria:NitDelcontratista>Nit de Persona Jurídica No. 890801160</veeduria:NitDelcontratista>
+                            <veeduria:plazoDeEjecucion>38 Días</veeduria:plazoDeEjecucion>
+                            <veeduria:estadoDelContrato>Celebrado</veeduria:estadoDelContrato>
+                            <veeduria:tieneEstadoProceso>Celebrado</veeduria:tieneEstadoProceso>
+                            <veeduria:paisDelContratista>Colombia</veeduria:paisDelContratista>
+                            <veeduria:tieneFamilia>[8013] Servicios inmobiliarios</veeduria:tieneFamilia>
+                            <veeduria:representanteDelContratista
+                            >HERMINIA RINCON MARIN</veeduria:representanteDelContratista>
+                            <veeduria:tieneOrigenRecursos>SGP</veeduria:tieneOrigenRecursos>
+                          </veeduria:contrato>
+                        </veeduria:tieneContrato>
+                        <veeduria:tieneContrato>
+                          <veeduria:contrato rdf:about="http://corrupcion.com/presupuesto#contratoExistente_LP-SED-001-2017_2016-17000-0054_36">
+                            <veeduria:firmadoEl>26 de mayo de 2017</veeduria:firmadoEl>
+                            <veeduria:plazoDeEjecucion>6 Meses</veeduria:plazoDeEjecucion>
+                            <veeduria:identificacionRepresentanteLegalContratista
+                            >Cédula de Ciudadanía No. 41642642</veeduria:identificacionRepresentanteLegalContratista>
+                            <veeduria:paisDelContratista>Colombia</veeduria:paisDelContratista>
+                            <veeduria:tieneGrupo>[E] Productos de Uso Final</veeduria:tieneGrupo>
+                            <veeduria:nombreContratista>FLOR MARINA SANCHEZ SANTAMARIA Propietaria del establecimiento de comercio TEJIDOS FAS</veeduria:nombreContratista>
+                            <veeduria:tieneSegmento>[53] Ropa; Maletas y Productos de Aseo Personal</veeduria:tieneSegmento>
+                            <veeduria:NitDelcontratista>Nit de Persona Jurídica No. 41642642</veeduria:NitDelcontratista>
+                            <veeduria:estadoDelContrato>Celebrado</veeduria:estadoDelContrato>
+                            <veeduria:conValorDeContratosDeInterventoriaExterna
+                            >$0.00</veeduria:conValorDeContratosDeInterventoriaExterna>
+                            <veeduria:tieneDestinacionGasto>Inversión</veeduria:tieneDestinacionGasto>
+                            <veeduria:conObjeto>SUMINISTRO DE LA PRIMERA; SEGUNDA Y TERCERA DOTACIÓN DE CALZADO Y VESTIDO DE LABOR PARA EL PERSONAL ADMINISTRATIVO Y DOCENTE DE LA SECRETARÍA DE EDUCACIÓN DEL DEPARTAMENTO DE CALDAS QUE DE CONFORMIDAD CON LAS NORMAS LEGALES VIGENTES TIENEN DERECHO DURANTE LA VIGENCIA 2017; especificamente el item 2. CONJUNTO PARA MUJER COMPUESTO DE CHAQUETA ; BLUSA Y FALDA (O PANTALON).</veeduria:conObjeto>
+                            <veeduria:valorCuantiaDefinitiva>361244425</veeduria:valorCuantiaDefinitiva>
+                            <veeduria:tieneOrigenRecursos>SGP</veeduria:tieneOrigenRecursos>
+                            <veeduria:tieneCuantiaAContratar>788963848</veeduria:tieneCuantiaAContratar>
+                            <veeduria:ejecutadoEnDepartamento
+                            >Caldas</veeduria:ejecutadoEnDepartamento>
+                            <veeduria:tieneEstadoProceso>Celebrado</veeduria:tieneEstadoProceso>
+                            <veeduria:tieneTipoContrato>Suministro</veeduria:tieneTipoContrato>
+                            <veeduria:tieneTipoProceso>Licitación Pública</veeduria:tieneTipoProceso>
+                            <veeduria:correoContacto>gceballos@sedcaldas.gov.co</veeduria:correoContacto>
+                            <veeduria:tieneCausal>N/A</veeduria:tieneCausal>
+                            <veeduria:departamentoDelContratista
+                            >Caldas</veeduria:departamentoDelContratista>
+                            <veeduria:ejecutadoEnMunicipio>Manzanares - Salamina - Manizales - La Dorada</veeduria:ejecutadoEnMunicipio>
+                            <veeduria:tieneClase>[531020] Vestidos; faldas; saris y kimonos</veeduria:tieneClase>
+                            <veeduria:representanteDelContratista
+                            >FLOR MARINA SANCHEZ SANTAMARIA</veeduria:representanteDelContratista>
+                            <veeduria:tieneFamilia>[5310] Ropa</veeduria:tieneFamilia>
+                            <veeduria:tieneNumeroProceso>LP-SED-001-2017</veeduria:tieneNumeroProceso>
+                            <veeduria:tieneRegimenContratacion
+                            >Estatuto General de Contratación</veeduria:tieneRegimenContratacion>
+                            <veeduria:tieneBPID>2016-17000-0054</veeduria:tieneBPID>
+                            <veeduria:iniciaEjecucion>02 de junio de 2017</veeduria:iniciaEjecucion>
+                          </veeduria:contrato>
+                        </veeduria:tieneContrato>
+                        <veeduria:tieneContrato>
+                          <veeduria:contrato rdf:about="http://corrupcion.com/presupuesto#contratoExistente_19042017-0210_2016-17000-0054_32">
+                            <veeduria:ejecutadoEnDepartamento
+                            >Caldas</veeduria:ejecutadoEnDepartamento>
+                            <veeduria:paisDelContratista>Colombia</veeduria:paisDelContratista>
+                            <veeduria:valorCuantiaDefinitiva>700666059</veeduria:valorCuantiaDefinitiva>
+                            <veeduria:correoContacto>amrodriguez@ucm.edu.co</veeduria:correoContacto>
+                            <veeduria:tieneCuantiaAContratar>700666059</veeduria:tieneCuantiaAContratar>
+                            <veeduria:conObjeto>AUNAR ESFUERZOS TECNICOS; ADMINISTRATIVOS Y FINANCIEROS PARA LA CAPACITACION MEDIANTE 18 CURSOS DE INGLES DE 250 HORAS PARA EL FORTALECIMIENTO DE COMPETENCIA DE LENGUA EXTRANJERA INGLES A DOCENTES DE PREESCOLAR Y BASICA PRIMARIA DE INSTITUCIONES EDUCATIVAS OFICIALES DEL DEPARTAMENTO DE CALDAS.</veeduria:conObjeto>
+                            <veeduria:tieneDestinacionGasto>Inversión</veeduria:tieneDestinacionGasto>
+                            <veeduria:estadoDelContrato>Celebrado</veeduria:estadoDelContrato>
+                            <veeduria:tieneEstadoProceso>Celebrado</veeduria:tieneEstadoProceso>
+                            <veeduria:tieneTipoProceso>Contratación Directa (Ley 1150 de 2007)</veeduria:tieneTipoProceso>
+                            <veeduria:tieneSegmento>[86] Servicios Educativos y de Formación</veeduria:tieneSegmento>
+                            <veeduria:tieneRegimenContratacion
+                            >Estatuto General de Contratación</veeduria:tieneRegimenContratacion>
+                            <veeduria:tieneOrigenRecursos>SGP</veeduria:tieneOrigenRecursos>
+                            <veeduria:departamentoDelContratista
+                            >Caldas</veeduria:departamentoDelContratista>
+                            <veeduria:firmadoEl>19 de abril de 2017</veeduria:firmadoEl>
+                            <veeduria:conValorDeContratosDeInterventoriaExterna
+                            >$0.00</veeduria:conValorDeContratosDeInterventoriaExterna>
+                            <veeduria:tieneNumeroProceso>19042017-0210</veeduria:tieneNumeroProceso>
+                            <veeduria:tieneFamilia>[8610] Formación profesional</veeduria:tieneFamilia>
+                            <veeduria:ejecutadoEnMunicipio>Aguadas - Chinchiná - Belalcázar - Manzanares - Salamina - Manizales - Riosucio - La Dorada - Pensilvania - Samaná - Supía</veeduria:ejecutadoEnMunicipio>
+                            <veeduria:plazoDeEjecucion>7 Meses</veeduria:plazoDeEjecucion>
+                            <veeduria:identificacionRepresentanteLegalContratista
+                            >Cédula de Ciudadanía No. 30313984</veeduria:identificacionRepresentanteLegalContratista>
+                            <veeduria:tieneTipoContrato>Otro Tipo de Contrato</veeduria:tieneTipoContrato>
+                            <veeduria:tieneGrupo>[F] Servicios</veeduria:tieneGrupo>
+                            <veeduria:iniciaEjecucion>28 de abril de 2017</veeduria:iniciaEjecucion>
+                            <veeduria:tieneCausal>Contratos Interadministrativos (Literal C)</veeduria:tieneCausal>
+                            <veeduria:tieneClase>[861017] Servicios de capacitación vocacional no - científica</veeduria:tieneClase>
+                            <veeduria:nombreContratista>UNIVERSIDAD CATOLICA DE MANIZALES</veeduria:nombreContratista>
+                            <veeduria:representanteDelContratista
+                            >MARIA ALIZABETH CAICEDO CAICEDO</veeduria:representanteDelContratista>
+                            <veeduria:tieneBPID>2016-17000-0054</veeduria:tieneBPID>
+                            <veeduria:NitDelcontratista>Nit de Persona Jurídica No. 890806477</veeduria:NitDelcontratista>
+                          </veeduria:contrato>
+                        </veeduria:tieneContrato>
+                        <veeduria:tieneRecursos>0</veeduria:tieneRecursos>
+                      </veeduria:proyecto>
+                    </veeduria:seEjecutaAtravesDe>
+                    <veeduria:seEjecutaAtravesDe>
+                      <veeduria:proyecto rdf:about="http://corrupcion.com/presupuesto#FortalecimientoDeLaGestiónParaElAccesoLaEquidadYLaCalidadDelServicioEducativoALaPoblaciónVulnerableDelDepartamentoDeCaldas">
+                        <veeduria:tieneContrato>
+                          <veeduria:contrato rdf:about="http://corrupcion.com/presupuesto#contratoExistente_03032017-0076_2016-17000-0050_23">
+                            <veeduria:nombreContratista>CORPORACION ALBERTO ARANGO RESTREPO - CEDER -</veeduria:nombreContratista>
+                            <veeduria:tieneDestinacionGasto>Inversión</veeduria:tieneDestinacionGasto>
+                            <veeduria:firmadoEl>03 de marzo de 2017</veeduria:firmadoEl>
+                            <veeduria:paisDelContratista>Colombia</veeduria:paisDelContratista>
+                            <veeduria:identificacionRepresentanteLegalContratista
+                            >Cédula de Ciudadanía No. 30323731</veeduria:identificacionRepresentanteLegalContratista>
+                            <veeduria:tieneOrigenRecursos>SGP</veeduria:tieneOrigenRecursos>
+                            <veeduria:plazoDeEjecucion>10 Meses</veeduria:plazoDeEjecucion>
+                            <veeduria:iniciaEjecucion>08 de marzo de 2017</veeduria:iniciaEjecucion>
+                            <veeduria:NitDelcontratista>Nit de Persona Jurídica No. 890802356</veeduria:NitDelcontratista>
+                            <veeduria:tieneCuantiaAContratar>125000000</veeduria:tieneCuantiaAContratar>
+                            <veeduria:tieneTipoProceso>Contratación Directa (Ley 1150 de 2007)</veeduria:tieneTipoProceso>
+                            <veeduria:representanteDelContratista
+                            >ADRIANA ARANGO GOMEZ</veeduria:representanteDelContratista>
+                            <veeduria:tieneNumeroProceso>03032017-0076</veeduria:tieneNumeroProceso>
+                            <veeduria:tieneEstadoProceso>Celebrado</veeduria:tieneEstadoProceso>
+                            <veeduria:valorCuantiaDefinitiva>125000000</veeduria:valorCuantiaDefinitiva>
+                            <veeduria:conValorDeContratosDeInterventoriaExterna
+                            >$0.00</veeduria:conValorDeContratosDeInterventoriaExterna>
+                            <veeduria:correoContacto>corporacion@cedercolombia.org</veeduria:correoContacto>
+                            <veeduria:tieneBPID>2016-17000-0050</veeduria:tieneBPID>
+                            <veeduria:conObjeto>AUNAR ESFUERZOS TECNICOS; ADMINISTRATIVOS; PRESUPUESTALES Y FINANCIEROS PARA EJECUTAR EL PROYECTO DE \FORTALECIMIENTO DE LA GESTION PARA EL ACCESO EQUIDAD Y CALIDAD DEL SERVICIO EDUCATIVO A LA POBLACION VULNERABLE EN EL DEPARTAMENTO DE CALDAS.</veeduria:conObjeto>
+                            <veeduria:tieneCausal>Contratos Interadministrativos (Literal C)</veeduria:tieneCausal>
+                            <veeduria:tieneSegmento>[86] Servicios Educativos y de Formación</veeduria:tieneSegmento>
+                            <veeduria:ejecutadoEnMunicipio>Manzanares - Salamina - Villamaría - Aranzazu - Marquetalia - Neira</veeduria:ejecutadoEnMunicipio>
+                            <veeduria:estadoDelContrato>Celebrado</veeduria:estadoDelContrato>
+                            <veeduria:ejecutadoEnDepartamento
+                            >Caldas</veeduria:ejecutadoEnDepartamento>
+                            <veeduria:tieneTipoContrato>Otro Tipo de Contrato</veeduria:tieneTipoContrato>
+                            <veeduria:departamentoDelContratista
+                            >Caldas</veeduria:departamentoDelContratista>
+                            <veeduria:tieneGrupo>[F] Servicios</veeduria:tieneGrupo>
+                            <veeduria:tieneFamilia>[8613] Servicios educativos especializados</veeduria:tieneFamilia>
+                            <veeduria:tieneClase>[861319] Escuelas para gente con discapacidades</veeduria:tieneClase>
+                            <veeduria:tieneRegimenContratacion
+                            >Estatuto General de Contratación</veeduria:tieneRegimenContratacion>
+                          </veeduria:contrato>
+                        </veeduria:tieneContrato>
+                        <veeduria:tieneTransferencias>1051938000</veeduria:tieneTransferencias>
+                        <veeduria:tieneRecursos>10000000</veeduria:tieneRecursos>
+                        <veeduria:seIdentificaCon>2016-17000-0050</veeduria:seIdentificaCon>
+                        <rdfs:label>Fortalecimiento de la gestión para el acceso; la equidad y la calidad del servicio educativo a la población vulnerable del departamento de Caldas</rdfs:label>
+                      </veeduria:proyecto>
+                    </veeduria:seEjecutaAtravesDe>
+                    <veeduria:tieneTransferenciasSubprograma>226323815662</veeduria:tieneTransferenciasSubprograma>
+                    <veeduria:tieneRecursosPropiosSubprograma
+                    >0</veeduria:tieneRecursosPropiosSubprograma>
+                    <rdfs:label>Subprograma atención a la población vulnerable</rdfs:label>
+                  </veeduria:subprograma>
+                </veeduria:divideEn>
+                <veeduria:divideEn>
+                  <veeduria:subprograma rdf:about="http://corrupcion.com/presupuesto#SubprogramaFortalecimientoDeLaEducaciónInicial">
+                    <veeduria:seEjecutaAtravesDe>
+                      <veeduria:proyecto rdf:about="http://corrupcion.com/presupuesto#FortalecimientoDeLaFormaciónALosAgentesEducativosResponsablesDeLaEducaciónInicialEnElDepartamentoDeCaldas">
+                        <veeduria:tieneTransferencias>0</veeduria:tieneTransferencias>
+                        <veeduria:tieneRecursos>5000000</veeduria:tieneRecursos>
+                        <veeduria:seIdentificaCon>2016-17000-0056</veeduria:seIdentificaCon>
+                        <rdfs:label>Fortalecimiento de la formación a los agentes educativos responsables de la educación inicial en el departamento de Caldas</rdfs:label>
+                      </veeduria:proyecto>
+                    </veeduria:seEjecutaAtravesDe>
+                    <veeduria:tieneTransferenciasSubprograma>0</veeduria:tieneTransferenciasSubprograma>
+                    <veeduria:tieneRecursosPropiosSubprograma
+                    >15000000</veeduria:tieneRecursosPropiosSubprograma>
+                    <rdfs:label>Subprograma fortalecimiento de la educación inicial</rdfs:label>
+                  </veeduria:subprograma>
+                </veeduria:divideEn>
+                <veeduria:divideEn>
+                  <veeduria:subprograma rdf:about="http://corrupcion.com/presupuesto#SubprogramaAccesoYPermanencia">
+                    <veeduria:seEjecutaAtravesDe>
+                      <veeduria:proyecto rdf:about="http://corrupcion.com/presupuesto#FortalecimientosDeLosModelosFlexiblesParaLaPoblaciónVulnerableDelÁreaRuralDelDepartamentoDeCaldas">
+                        <veeduria:tieneContrato>
+                          <veeduria:contrato rdf:about="http://corrupcion.com/presupuesto#contratoExistente_24032017-0139_2016-17000-0060_22">
+                            <veeduria:tieneNumeroProceso>24032017-0139</veeduria:tieneNumeroProceso>
+                            <veeduria:conObjeto>AUNAR ESFUERZOS TECNICOS; ADMINISTRATIVOS Y FINANCIEROS PARA EJECUTAR EL PROYECTO: \FORTALECIMIENTO DE LOS MODELOS FLEXIBLES PARA LA POBLACION VULNERABLE DEL AREA RURAL DEL DEPARTAMENTO DE CALDAS.</veeduria:conObjeto>
+                            <veeduria:tieneCausal>Contratos Interadministrativos (Literal C)</veeduria:tieneCausal>
+                            <veeduria:nombreContratista>LA FEDERACION NACIONAL DE CAFETEROS DE COLOMBIA-COMITE DEPARTAMENTAL DE CAFETEROS DE CALDAS</veeduria:nombreContratista>
+                            <veeduria:departamentoDelContratista
+                            >Caldas</veeduria:departamentoDelContratista>
+                            <veeduria:correoContacto>Elsai.ramirez@cafedecolombia.com</veeduria:correoContacto>
+                            <veeduria:tieneRegimenContratacion
+                            >Estatuto General de Contratación</veeduria:tieneRegimenContratacion>
+                            <veeduria:tieneBPID>2016-17000-0060</veeduria:tieneBPID>
+                            <veeduria:tieneTipoContrato>Otro Tipo de Contrato</veeduria:tieneTipoContrato>
+                            <veeduria:tieneGrupo>[F] Servicios</veeduria:tieneGrupo>
+                            <veeduria:tieneClase>[861015] Servicios de entrenamiento en Agricultura y silvicultura y otros recursos naturales</veeduria:tieneClase>
+                            <veeduria:tieneDestinacionGasto>Inversión</veeduria:tieneDestinacionGasto>
+                            <veeduria:NitDelcontratista>Nit de Persona Jurídica No. 860007538</veeduria:NitDelcontratista>
+                            <veeduria:paisDelContratista>Colombia</veeduria:paisDelContratista>
+                            <veeduria:firmadoEl>24 de marzo de 2017</veeduria:firmadoEl>
+                            <veeduria:conValorDeContratosDeInterventoriaExterna
+                            >$0.00</veeduria:conValorDeContratosDeInterventoriaExterna>
+                            <veeduria:tieneTipoProceso>Contratación Directa (Ley 1150 de 2007)</veeduria:tieneTipoProceso>
+                            <veeduria:tieneFamilia>[8610] Formación profesional</veeduria:tieneFamilia>
+                            <veeduria:tieneSegmento>[86] Servicios Educativos y de Formación</veeduria:tieneSegmento>
+                            <veeduria:tieneEstadoProceso>Celebrado</veeduria:tieneEstadoProceso>
+                            <veeduria:plazoDeEjecucion>7 Meses</veeduria:plazoDeEjecucion>
+                            <veeduria:estadoDelContrato>Celebrado</veeduria:estadoDelContrato>
+                            <veeduria:iniciaEjecucion>29 de marzo de 2017</veeduria:iniciaEjecucion>
+                            <veeduria:tieneCuantiaAContratar>800000000</veeduria:tieneCuantiaAContratar>
+                            <veeduria:ejecutadoEnMunicipio>Aguadas - Chinchiná - Marulanda - Belalcázar - Manzanares - Salamina - Victoria - Riosucio - Villamaría - Aranzazu - Pácora - Marmato - Marquetalia - Risaralda - San José - Anserma - La Dorada - Neira - Palestina - Pensilvania - Norcasia - Viterbo - Filadelfia - La Merced - Samaná - Supía</veeduria:ejecutadoEnMunicipio>
+                            <veeduria:representanteDelContratista
+                            >JORGE HERNAN LOPEZ JARAMILLO</veeduria:representanteDelContratista>
+                            <veeduria:valorCuantiaDefinitiva>800000000</veeduria:valorCuantiaDefinitiva>
+                            <veeduria:tieneOrigenRecursos>Recursos propios</veeduria:tieneOrigenRecursos>
+                            <veeduria:ejecutadoEnDepartamento
+                            >Caldas</veeduria:ejecutadoEnDepartamento>
+                            <veeduria:identificacionRepresentanteLegalContratista
+                            >Cédula de Ciudadanía No. 75085708</veeduria:identificacionRepresentanteLegalContratista>
+                          </veeduria:contrato>
+                        </veeduria:tieneContrato>
+                        <veeduria:tieneTransferencias>0</veeduria:tieneTransferencias>
+                        <veeduria:tieneRecursos>700000000</veeduria:tieneRecursos>
+                        <veeduria:seIdentificaCon>2016-17000-0060</veeduria:seIdentificaCon>
+                        <rdfs:label>Fortalecimientos de los modelos flexibles para la población vulnerable del área rural del departamento de Caldas</rdfs:label>
+                      </veeduria:proyecto>
+                    </veeduria:seEjecutaAtravesDe>
+                    <veeduria:seEjecutaAtravesDe>
+                      <veeduria:proyecto rdf:about="http://corrupcion.com/presupuesto#ImplementaciónDeEstrategiasDeAccesoYPermanenciaAlSistemaEducativoDelDepartamento">
+                        <veeduria:tieneContrato>
+                          <veeduria:contrato rdf:about="http://corrupcion.com/presupuesto#contratoExistente_28022017-0066_2016-17000-0057_15">
+                            <veeduria:tieneEstadoProceso>Celebrado</veeduria:tieneEstadoProceso>
+                            <veeduria:plazoDeEjecucion>8 Meses</veeduria:plazoDeEjecucion>
+                            <veeduria:tieneNumeroProceso>28022017-0066</veeduria:tieneNumeroProceso>
+                            <veeduria:nombreContratista>CRISTIAN CAMILO HURTADO GIRALDO</veeduria:nombreContratista>
+                            <veeduria:tieneGrupo>[F] Servicios</veeduria:tieneGrupo>
+                            <veeduria:iniciaEjecucion>02 de marzo de 2017</veeduria:iniciaEjecucion>
+                            <veeduria:tieneCuantiaAContratar>28480000</veeduria:tieneCuantiaAContratar>
+                            <veeduria:tieneTipoContrato>Prestación de Servicios</veeduria:tieneTipoContrato>
+                            <veeduria:conValorDeContratosDeInterventoriaExterna
+                            >$0.00</veeduria:conValorDeContratosDeInterventoriaExterna>
+                            <veeduria:firmadoEl>28 de febrero de 2017</veeduria:firmadoEl>
+                            <veeduria:departamentoDelContratista
+                            >Caldas</veeduria:departamentoDelContratista>
+                            <veeduria:tieneBPID>2016-17000-0057</veeduria:tieneBPID>
+                            <veeduria:conObjeto>PRESTACION DE SERVICIOS PROFESIONALES DE APOYO A LA GESTION COMO INGENIERO (A) DE ALIMENTOS PARA REALIZAR MONITOREO; SEGUIMIENTO Y CONTROL DE LA EJECUCION DEL PROGRAMA DE ALIMENTACION ESCOLAR PARA LA VIGENCIA 2017; MEDIANTE LOS PROCESOS DE SUPERVISION EN LAS INSTITUCIONES EDUCATIVAS OFICIALES ASIGNADAS DE LOS 26 MUNICIPIOS DEL DEPARTAMENTO DE CALDAS</veeduria:conObjeto>
+                            <veeduria:tieneSegmento>[80] Servicios de Gestion; Servicios Profesionales de Empresa y Servicios Administrativos</veeduria:tieneSegmento>
+                            <veeduria:identificacionRepresentanteLegalContratista
+                            >Cédula de Ciudadanía No. 1053799616</veeduria:identificacionRepresentanteLegalContratista>
+                            <veeduria:tieneTipoProceso>Contratación Directa (Ley 1150 de 2007)</veeduria:tieneTipoProceso>
+                            <veeduria:ejecutadoEnDepartamento
+                            >Caldas</veeduria:ejecutadoEnDepartamento>
+                            <veeduria:representanteDelContratista
+                            >CRISTIAN CAMILO HURTADO GIRALDO</veeduria:representanteDelContratista>
+                            <veeduria:tieneDestinacionGasto>Inversión</veeduria:tieneDestinacionGasto>
+                            <veeduria:tieneOrigenRecursos>Recursos propios</veeduria:tieneOrigenRecursos>
+                            <veeduria:ejecutadoEnMunicipio>Manizales</veeduria:ejecutadoEnMunicipio>
+                            <veeduria:tieneCausal>Prestación de Servicios Profesionales y de Apoyo a la Gestión (Literal H)</veeduria:tieneCausal>
+                            <veeduria:valorCuantiaDefinitiva>28480000</veeduria:valorCuantiaDefinitiva>
+                            <veeduria:tieneFamilia>[8011] Servicios de recursos humanos</veeduria:tieneFamilia>
+                            <veeduria:correoContacto>Cristian.hurtado89@gmail.com</veeduria:correoContacto>
+                            <veeduria:tieneClase>[801117] Reclutamiento de personal</veeduria:tieneClase>
+                            <veeduria:NitDelcontratista>Cédula de Ciudadanía No. 1053799616</veeduria:NitDelcontratista>
+                            <veeduria:tieneRegimenContratacion
+                            >Estatuto General de Contratación</veeduria:tieneRegimenContratacion>
+                            <veeduria:estadoDelContrato>Celebrado</veeduria:estadoDelContrato>
+                            <veeduria:paisDelContratista>Colombia</veeduria:paisDelContratista>
+                          </veeduria:contrato>
+                        </veeduria:tieneContrato>
+                        <veeduria:tieneContrato>
+                          <veeduria:contrato rdf:about="http://corrupcion.com/presupuesto#contratoExistente_02022017-0015_2016-17000-0057_11">
+                            <veeduria:tieneCuantiaAContratar>10116259780</veeduria:tieneCuantiaAContratar>
+                            <veeduria:departamentoDelContratista
+                            >Caldas</veeduria:departamentoDelContratista>
+                            <veeduria:tieneOrigenRecursos>Presupuesto Nacional/Territorial</veeduria:tieneOrigenRecursos>
+                            <veeduria:conValorDeContratosDeInterventoriaExterna
+                            >$0.00</veeduria:conValorDeContratosDeInterventoriaExterna>
+                            <veeduria:estadoDelContrato>Celebrado</veeduria:estadoDelContrato>
+                            <veeduria:tieneRegimenContratacion
+                            >Estatuto General de Contratación</veeduria:tieneRegimenContratacion>
+                            <veeduria:tieneSegmento>[93] Servicios Políticos y de Asuntos Cívicos</veeduria:tieneSegmento>
+                            <veeduria:identificacionRepresentanteLegalContratista
+                            >Cédula de Ciudadanía No. 22433458</veeduria:identificacionRepresentanteLegalContratista>
+                            <veeduria:tieneDestinacionGasto>Inversión</veeduria:tieneDestinacionGasto>
+                            <veeduria:representanteDelContratista
+                            >JUDITH SALAZAR LOSADA</veeduria:representanteDelContratista>
+                            <veeduria:tieneTipoProceso>Contratación Directa (Ley 1150 de 2007)</veeduria:tieneTipoProceso>
+                            <veeduria:nombreContratista>ASOCIACION GOTA DE LECHE</veeduria:nombreContratista>
+                            <veeduria:tieneGrupo>[F] Servicios</veeduria:tieneGrupo>
+                            <veeduria:tieneEstadoProceso>Celebrado</veeduria:tieneEstadoProceso>
+                            <veeduria:ejecutadoEnMunicipio>Aguadas - Chinchiná - Marulanda - Manzanares - Salamina - Victoria - Villamaría - Aranzazu - Pácora - Marquetalia - La Dorada - Neira - Palestina - Pensilvania - Norcasia - Filadelfia - La Merced - Samaná - Supía</veeduria:ejecutadoEnMunicipio>
+                            <veeduria:tieneBPID>2016-17000-0057</veeduria:tieneBPID>
+                            <veeduria:tieneNumeroProceso>02022017-0015</veeduria:tieneNumeroProceso>
+                            <veeduria:valorCuantiaDefinitiva>10116259780</veeduria:valorCuantiaDefinitiva>
+                            <veeduria:tieneCausal>Contratos Interadministrativos (Literal C)</veeduria:tieneCausal>
+                            <veeduria:firmadoEl>02 de febrero de 2017</veeduria:firmadoEl>
+                            <veeduria:correoContacto>direccion@gotadelechemanizales.org</veeduria:correoContacto>
+                            <veeduria:ejecutadoEnDepartamento
+                            >Caldas</veeduria:ejecutadoEnDepartamento>
+                            <veeduria:iniciaEjecucion>03 de febrero de 2017</veeduria:iniciaEjecucion>
+                            <veeduria:NitDelcontratista>Nit de Persona Jurídica No. 890807898</veeduria:NitDelcontratista>
+                            <veeduria:plazoDeEjecucion>90 Días</veeduria:plazoDeEjecucion>
+                            <veeduria:tieneClase>[931316] Planeación y programas de políticas de alimentación y nutrición</veeduria:tieneClase>
+                            <veeduria:paisDelContratista>Colombia</veeduria:paisDelContratista>
+                            <veeduria:tieneFamilia>[9313] Ayuda y asistencia humanitaria</veeduria:tieneFamilia>
+                            <veeduria:tieneTipoContrato>Otro Tipo de Contrato</veeduria:tieneTipoContrato>
+                            <veeduria:conObjeto>¿AUNAR ESFUERZOS TÉCNICOS; ADMINISTRATIVOS Y FINANCIEROS PARA DESARROLLAR EL PROGRAMA DE ALIMENTACIÓN ESCOLAR DE ACUERDO CON LOS LINEAMIENTOS TÉCNICO ADMINISTRATIVOS DEL MINISTERIO DE EDUCACIÓN NACIONAL; EN EL DEPARTAMENTO DE CALDAS; EN LAS MODALIDADES DE RACIÓN INDUSTRIALIZADA Y RACIÓN PREPARADA EN SITIO; PARA LOS NIÑOS; NIÑAS Y ADOLESCENTES REGISTRADOS EN LA MATRÍCULA DEL DEPARTAMENTO DE CALDAS¿.</veeduria:conObjeto>
+                          </veeduria:contrato>
+                        </veeduria:tieneContrato>
+                        <veeduria:tieneContrato>
+                          <veeduria:contrato rdf:about="http://corrupcion.com/presupuesto#contratoExistente_28022017-0064_2016-17000-0057_13">
+                            <veeduria:tieneGrupo>[F] Servicios</veeduria:tieneGrupo>
+                            <veeduria:conValorDeContratosDeInterventoriaExterna
+                            >$0.00</veeduria:conValorDeContratosDeInterventoriaExterna>
+                            <veeduria:ejecutadoEnMunicipio>Manizales</veeduria:ejecutadoEnMunicipio>
+                            <veeduria:estadoDelContrato>Celebrado</veeduria:estadoDelContrato>
+                            <veeduria:ejecutadoEnDepartamento
+                            >Caldas</veeduria:ejecutadoEnDepartamento>
+                            <veeduria:identificacionRepresentanteLegalContratista
+                            >Cédula de Ciudadanía No. 24333546</veeduria:identificacionRepresentanteLegalContratista>
+                            <veeduria:tieneCausal>Prestación de Servicios Profesionales y de Apoyo a la Gestión (Literal H)</veeduria:tieneCausal>
+                            <veeduria:firmadoEl>28 de febrero de 2017</veeduria:firmadoEl>
+                            <veeduria:tieneTipoContrato>Prestación de Servicios</veeduria:tieneTipoContrato>
+                            <veeduria:tieneFamilia>[8011] Servicios de recursos humanos</veeduria:tieneFamilia>
+                            <veeduria:tieneDestinacionGasto>Funcionamiento</veeduria:tieneDestinacionGasto>
+                            <veeduria:tieneSegmento>[80] Servicios de Gestion; Servicios Profesionales de Empresa y Servicios Administrativos</veeduria:tieneSegmento>
+                            <veeduria:paisDelContratista>Colombia</veeduria:paisDelContratista>
+                            <veeduria:tieneEstadoProceso>Celebrado</veeduria:tieneEstadoProceso>
+                            <veeduria:tieneTipoProceso>Contratación Directa (Ley 1150 de 2007)</veeduria:tieneTipoProceso>
+                            <veeduria:nombreContratista>MONICA MARIA DIAZ DIAZGRANADOS</veeduria:nombreContratista>
+                            <veeduria:tieneClase>[801117] Reclutamiento de personal</veeduria:tieneClase>
+                            <veeduria:plazoDeEjecucion>10 Meses</veeduria:plazoDeEjecucion>
+                            <veeduria:departamentoDelContratista
+                            >Caldas</veeduria:departamentoDelContratista>
+                            <veeduria:NitDelcontratista>Cédula de Ciudadanía No. 24333546</veeduria:NitDelcontratista>
+                            <veeduria:tieneRegimenContratacion
+                            >Estatuto General de Contratación</veeduria:tieneRegimenContratacion>
+                            <veeduria:tieneBPID>2016-17000-0057</veeduria:tieneBPID>
+                            <veeduria:tieneCuantiaAContratar>35600000</veeduria:tieneCuantiaAContratar>
+                            <veeduria:conObjeto>PRESTACION DE SERVICIOS PROFESIONALES DE APOYO A LA GESTION COMO INGENIERA DE ALIMENTOS PARA COORDINAR EL MONITOREO; SEGUIMIENTO Y CONTROL DE LA EJECUCION DEL PROGRAMA DE ALIMENTACION ESCOLAR PARA LA VIGENCIA 2017; MEDIANTE LOS PROCESOS DE SUPERVISION EN LOS PROCESOS ADMINISTRATIVOS Y TECNICOS A LOS OPERADORES DEL PROGRAMA DE ALIMENTACION ESCOLAR.</veeduria:conObjeto>
+                            <veeduria:iniciaEjecucion>01 de marzo de 2017</veeduria:iniciaEjecucion>
+                            <veeduria:representanteDelContratista
+                            >MONICA MARIA DIAZ DIAZGRANADOS</veeduria:representanteDelContratista>
+                            <veeduria:valorCuantiaDefinitiva>35600000</veeduria:valorCuantiaDefinitiva>
+                            <veeduria:correoContacto>monikdiazd@hotmail.com</veeduria:correoContacto>
+                            <veeduria:tieneNumeroProceso>28022017-0064</veeduria:tieneNumeroProceso>
+                            <veeduria:tieneOrigenRecursos>Recursos propios</veeduria:tieneOrigenRecursos>
+                          </veeduria:contrato>
+                        </veeduria:tieneContrato>
+                        <veeduria:tieneContrato>
+                          <veeduria:contrato rdf:about="http://corrupcion.com/presupuesto#contratoExistente_LP-SED-003-2017_2016-17000-0057_20">
+                            <veeduria:tieneCuantiaAContratar>7592816000</veeduria:tieneCuantiaAContratar>
+                            <veeduria:iniciaEjecucion>23 de agosto de 2017</veeduria:iniciaEjecucion>
+                            <veeduria:tieneGrupo>[F] Servicios</veeduria:tieneGrupo>
+                            <veeduria:tieneFamilia>[8515] Servicios alimenticios y de nutrición</veeduria:tieneFamilia>
+                            <veeduria:NitDelcontratista>Nit de Persona Jurídica No. 901104182</veeduria:NitDelcontratista>
+                            <veeduria:tieneDestinacionGasto>No Aplica</veeduria:tieneDestinacionGasto>
+                            <veeduria:firmadoEl>16 de agosto de 2017</veeduria:firmadoEl>
+                            <veeduria:estadoDelContrato>Celebrado</veeduria:estadoDelContrato>
+                            <veeduria:tieneClase>[851516] Asuntos nutricionales</veeduria:tieneClase>
+                            <veeduria:tieneRegimenContratacion
+                            >Estatuto General de Contratación</veeduria:tieneRegimenContratacion>
+                            <veeduria:ejecutadoEnMunicipio>Aguadas - Chinchiná - Marulanda - Belalcázar - Manzanares - Salamina - Victoria - Riosucio - Villamaría - Aranzazu - Pácora - Marmato - Marquetalia - Risaralda - San José - Anserma - La Dorada - Neira - Palestina - Pensilvania - Norcasia - Viterbo - Filadelfia - La Merced - Samaná - Supía</veeduria:ejecutadoEnMunicipio>
+                            <veeduria:nombreContratista>UNION TEMPORAL CALDAS SALUDABLE</veeduria:nombreContratista>
+                            <veeduria:identificacionRepresentanteLegalContratista
+                            >Cédula de Ciudadanía No. 30300214</veeduria:identificacionRepresentanteLegalContratista>
+                            <veeduria:tieneNumeroProceso>LP-SED-003-2017</veeduria:tieneNumeroProceso>
+                            <veeduria:paisDelContratista>Colombia</veeduria:paisDelContratista>
+                            <veeduria:tieneSegmento>[85] Servicios de Salud</veeduria:tieneSegmento>
+                            <veeduria:tieneTipoProceso>Licitación Pública</veeduria:tieneTipoProceso>
+                            <veeduria:representanteDelContratista
+                            >IRMA LUCIA GARZON RIVERA</veeduria:representanteDelContratista>
+                            <veeduria:ejecutadoEnDepartamento
+                            >Caldas</veeduria:ejecutadoEnDepartamento>
+                            <veeduria:tieneCausal>N/A</veeduria:tieneCausal>
+                            <veeduria:valorCuantiaDefinitiva>6389323500</veeduria:valorCuantiaDefinitiva>
+                            <veeduria:tieneOrigenRecursos>No aparece</veeduria:tieneOrigenRecursos>
+                            <veeduria:tieneEstadoProceso>Celebrado</veeduria:tieneEstadoProceso>
+                            <veeduria:plazoDeEjecucion>50 Días</veeduria:plazoDeEjecucion>
+                            <veeduria:tieneTipoContrato>Prestación de Servicios</veeduria:tieneTipoContrato>
+                            <veeduria:correoContacto>dmcardona@sedcaldas.gov.co</veeduria:correoContacto>
+                            <veeduria:departamentoDelContratista
+                            >Caldas</veeduria:departamentoDelContratista>
+                            <veeduria:tieneBPID>2016-17000-0057</veeduria:tieneBPID>
+                            <veeduria:conValorDeContratosDeInterventoriaExterna
+                            >$0.00</veeduria:conValorDeContratosDeInterventoriaExterna>
+                            <veeduria:conObjeto>\BRINDAR COMPLEMENTACION ALIMENTARIA EN LAS MODALIDADES DE RACION INDUSTRIALIZADA Y COMPLEMENTO DE ALMUERZO PREPARADO EN SITIO DEL PROGRAMA DE ALIMENTACION ESCOLAR (PAE) PARA LOS NIÑOS; NIÑAS Y ADOLESCENTES MATRICULADOS E INSCRITOS EN EL SIMAT DEPARTAMENTO DE CALDAS\.</veeduria:conObjeto>
+                          </veeduria:contrato>
+                        </veeduria:tieneContrato>
+                        <veeduria:tieneTransferencias>13164850650</veeduria:tieneTransferencias>
+                        <rdfs:label>Implementación de estrategias de acceso y permanencia al sistema educativo del departamento</rdfs:label>
+                        <veeduria:tieneContrato>
+                          <veeduria:contrato rdf:about="http://corrupcion.com/presupuesto#contratoExistente_LP-SED-003-2017_2016-17000-0057_21">
+                            <veeduria:plazoDeEjecucion>50 Días</veeduria:plazoDeEjecucion>
+                            <veeduria:tieneBPID>2016-17000-0057</veeduria:tieneBPID>
+                            <veeduria:tieneRegimenContratacion
+                            >Estatuto General de Contratación</veeduria:tieneRegimenContratacion>
+                            <veeduria:representanteDelContratista
+                            >LUIS JAVIER PALACIO LOPERA</veeduria:representanteDelContratista>
+                            <veeduria:tieneTipoContrato>Prestación de Servicios</veeduria:tieneTipoContrato>
+                            <veeduria:tieneClase>[851516] Asuntos nutricionales</veeduria:tieneClase>
+                            <veeduria:correoContacto>dmcardona@sedcaldas.gov.co</veeduria:correoContacto>
+                            <veeduria:nombreContratista>COMERCIALIZADORA PALACIO G S.A.S - COLPAG S.A.S</veeduria:nombreContratista>
+                            <veeduria:iniciaEjecucion>23 de agosto de 2017</veeduria:iniciaEjecucion>
+                            <veeduria:conValorDeContratosDeInterventoriaExterna
+                            >$0.00</veeduria:conValorDeContratosDeInterventoriaExterna>
+                            <veeduria:tieneGrupo>[F] Servicios</veeduria:tieneGrupo>
+                            <veeduria:tieneFamilia>[8515] Servicios alimenticios y de nutrición</veeduria:tieneFamilia>
+                            <veeduria:tieneDestinacionGasto>No Aplica</veeduria:tieneDestinacionGasto>
+                            <veeduria:valorCuantiaDefinitiva>1118917000</veeduria:valorCuantiaDefinitiva>
+                            <veeduria:tieneSegmento>[85] Servicios de Salud</veeduria:tieneSegmento>
+                            <veeduria:firmadoEl>16 de agosto de 2017</veeduria:firmadoEl>
+                            <veeduria:identificacionRepresentanteLegalContratista
+                            >Cédula de Ciudadanía No. 3598088</veeduria:identificacionRepresentanteLegalContratista>
+                            <veeduria:estadoDelContrato>Celebrado</veeduria:estadoDelContrato>
+                            <veeduria:ejecutadoEnDepartamento
+                            >Caldas</veeduria:ejecutadoEnDepartamento>
+                            <veeduria:tieneCausal>N/A</veeduria:tieneCausal>
+                            <veeduria:tieneEstadoProceso>Celebrado</veeduria:tieneEstadoProceso>
+                            <veeduria:NitDelcontratista>Nit de Persona Jurídica No. 900199056</veeduria:NitDelcontratista>
+                            <veeduria:ejecutadoEnMunicipio>Aguadas - Chinchiná - Marulanda - Belalcázar - Manzanares - Salamina - Victoria - Riosucio - Villamaría - Aranzazu - Pácora - Marmato - Marquetalia - Risaralda - San José - Anserma - La Dorada - Neira - Palestina - Pensilvania - Norcasia - Viterbo - Filadelfia - La Merced - Samaná - Supía</veeduria:ejecutadoEnMunicipio>
+                            <veeduria:tieneOrigenRecursos>No aparece</veeduria:tieneOrigenRecursos>
+                            <veeduria:tieneNumeroProceso>LP-SED-003-2017</veeduria:tieneNumeroProceso>
+                            <veeduria:paisDelContratista>Colombia</veeduria:paisDelContratista>
+                            <veeduria:conObjeto>\BRINDAR COMPLEMENTACION ALIMENTARIA EN LAS MODALIDADES DE RACION INDUSTRIALIZADA Y COMPLEMENTO DE ALMUERZO PREPARADO EN SITIO DEL PROGRAMA DE ALIMENTACION ESCOLAR (PAE) PARA LOS NIÑOS; NIÑAS Y ADOLESCENTES MATRICULADOS E INSCRITOS EN EL SIMAT DEPARTAMENTO DE CALDAS\.</veeduria:conObjeto>
+                            <veeduria:tieneCuantiaAContratar>7592816000</veeduria:tieneCuantiaAContratar>
+                            <veeduria:tieneTipoProceso>Licitación Pública</veeduria:tieneTipoProceso>
+                            <veeduria:departamentoDelContratista
+                            >Antioquia</veeduria:departamentoDelContratista>
+                          </veeduria:contrato>
+                        </veeduria:tieneContrato>
+                        <veeduria:tieneContrato>
+                          <veeduria:contrato rdf:about="http://corrupcion.com/presupuesto#contratoExistente_01032017-0071_2016-17000-0057_19">
+                            <veeduria:tieneDestinacionGasto>Inversión</veeduria:tieneDestinacionGasto>
+                            <veeduria:tieneGrupo>[F] Servicios</veeduria:tieneGrupo>
+                            <veeduria:tieneRegimenContratacion
+                            >Estatuto General de Contratación</veeduria:tieneRegimenContratacion>
+                            <veeduria:tieneNumeroProceso>01032017-0071</veeduria:tieneNumeroProceso>
+                            <veeduria:representanteDelContratista
+                            >JULIAN ANDRES CIFUENTES ARIAS</veeduria:representanteDelContratista>
+                            <veeduria:correoContacto>Juliancifuentes85@hotmail.com</veeduria:correoContacto>
+                            <veeduria:paisDelContratista>Colombia</veeduria:paisDelContratista>
+                            <veeduria:tieneCuantiaAContratar>28480000</veeduria:tieneCuantiaAContratar>
+                            <veeduria:tieneTipoContrato>Prestación de Servicios</veeduria:tieneTipoContrato>
+                            <veeduria:tieneEstadoProceso>Celebrado</veeduria:tieneEstadoProceso>
+                            <veeduria:identificacionRepresentanteLegalContratista
+                            >Cédula de Ciudadanía No. 75103956</veeduria:identificacionRepresentanteLegalContratista>
+                            <veeduria:valorCuantiaDefinitiva>28480000</veeduria:valorCuantiaDefinitiva>
+                            <veeduria:tieneOrigenRecursos>Recursos propios</veeduria:tieneOrigenRecursos>
+                            <veeduria:tieneClase>[801117] Reclutamiento de personal</veeduria:tieneClase>
+                            <veeduria:ejecutadoEnDepartamento
+                            >Caldas</veeduria:ejecutadoEnDepartamento>
+                            <veeduria:iniciaEjecucion>01 de marzo de 2017</veeduria:iniciaEjecucion>
+                            <veeduria:tieneFamilia>[8011] Servicios de recursos humanos</veeduria:tieneFamilia>
+                            <veeduria:firmadoEl>01 de marzo de 2017</veeduria:firmadoEl>
+                            <veeduria:conObjeto>PRESTACION DE SERVICIOS PROFESIONALES DE APOYO A LA GESTION COMO INGENIERO (A) DE ALIMENTOS PARA REALIZAR MONITOREO; SEGUIMIENTO Y CONTROL DE LA EJECUCION DEL PROGRAMA DE ALIMENTACION ESCOLAR PARA LA VIGENCIA 2017; MEDIANTE LOS PROCESOS DE SUPERVISION EN LAS INSTITUCIONES EDUCATIVAS OFICIALES ASIGNADAS DE LOS 26 MUNICIPIOS DEL DEPARTAMENTO DE CALDAS</veeduria:conObjeto>
+                            <veeduria:plazoDeEjecucion>8 Meses</veeduria:plazoDeEjecucion>
+                            <veeduria:NitDelcontratista>Cédula de Ciudadanía No. 75103956</veeduria:NitDelcontratista>
+                            <veeduria:conValorDeContratosDeInterventoriaExterna
+                            >$0.00</veeduria:conValorDeContratosDeInterventoriaExterna>
+                            <veeduria:tieneSegmento>[80] Servicios de Gestion; Servicios Profesionales de Empresa y Servicios Administrativos</veeduria:tieneSegmento>
+                            <veeduria:tieneCausal>Prestación de Servicios Profesionales y de Apoyo a la Gestión (Literal H)</veeduria:tieneCausal>
+                            <veeduria:estadoDelContrato>Celebrado</veeduria:estadoDelContrato>
+                            <veeduria:departamentoDelContratista
+                            >Caldas</veeduria:departamentoDelContratista>
+                            <veeduria:tieneTipoProceso>Contratación Directa (Ley 1150 de 2007)</veeduria:tieneTipoProceso>
+                            <veeduria:tieneBPID>2016-17000-0057</veeduria:tieneBPID>
+                            <veeduria:nombreContratista>JULIAN ANDRES CIFUENTES ARIAS</veeduria:nombreContratista>
+                            <veeduria:ejecutadoEnMunicipio>Manizales</veeduria:ejecutadoEnMunicipio>
+                          </veeduria:contrato>
+                        </veeduria:tieneContrato>
+                        <veeduria:tieneContrato>
+                          <veeduria:contrato rdf:about="http://corrupcion.com/presupuesto#contratoExistente_01032017-0068_2016-17000-0057_16">
+                            <veeduria:NitDelcontratista>Cédula de Ciudadanía No. 75102123</veeduria:NitDelcontratista>
+                            <veeduria:tieneTipoContrato>Prestación de Servicios</veeduria:tieneTipoContrato>
+                            <veeduria:identificacionRepresentanteLegalContratista
+                            >Cédula de Ciudadanía No. 75102123</veeduria:identificacionRepresentanteLegalContratista>
+                            <veeduria:departamentoDelContratista
+                            >Caldas</veeduria:departamentoDelContratista>
+                            <veeduria:estadoDelContrato>Celebrado</veeduria:estadoDelContrato>
+                            <veeduria:tieneTipoProceso>Contratación Directa (Ley 1150 de 2007)</veeduria:tieneTipoProceso>
+                            <veeduria:tieneCausal>Prestación de Servicios Profesionales y de Apoyo a la Gestión (Literal H) </veeduria:tieneCausal>
+                            <veeduria:tieneClase>[801117] Reclutamiento de personal</veeduria:tieneClase>
+                            <veeduria:tieneOrigenRecursos>Recursos propios</veeduria:tieneOrigenRecursos>
+                            <veeduria:iniciaEjecucion>01 de marzo de 2017</veeduria:iniciaEjecucion>
+                            <veeduria:tieneBPID>2016-17000-0057</veeduria:tieneBPID>
+                            <veeduria:firmadoEl>01 de marzo de 2017</veeduria:firmadoEl>
+                            <veeduria:conValorDeContratosDeInterventoriaExterna
+                            >$0.00</veeduria:conValorDeContratosDeInterventoriaExterna>
+                            <veeduria:paisDelContratista>Colombia</veeduria:paisDelContratista>
+                            <veeduria:correoContacto>edicsonlopez01@gmail.com</veeduria:correoContacto>
+                            <veeduria:tieneCuantiaAContratar>28480000</veeduria:tieneCuantiaAContratar>
+                            <veeduria:tieneDestinacionGasto>Inversión</veeduria:tieneDestinacionGasto>
+                            <veeduria:tieneSegmento>[80] Servicios de Gestion; Servicios Profesionales de Empresa y Servicios Administrativos</veeduria:tieneSegmento>
+                            <veeduria:ejecutadoEnDepartamento
+                            >Caldas</veeduria:ejecutadoEnDepartamento>
+                            <veeduria:valorCuantiaDefinitiva>28480000</veeduria:valorCuantiaDefinitiva>
+                            <veeduria:ejecutadoEnMunicipio>Manizales</veeduria:ejecutadoEnMunicipio>
+                            <veeduria:tieneGrupo>[F] Servicios</veeduria:tieneGrupo>
+                            <veeduria:tieneNumeroProceso>01032017-0068</veeduria:tieneNumeroProceso>
+                            <veeduria:plazoDeEjecucion>8 Meses</veeduria:plazoDeEjecucion>
+                            <veeduria:conObjeto>PRESTACION DE SERVICIOS PROFESIONALES DE APOYO A LA GESTION COMO INGENIERO (A) DE ALIMENTOS PARA REALIZAR MONITOREO; SEGUIMIENTO Y CONTROL DE LA EJECUCION DEL PROGRAMA DE ALIMENTACION ESCOLAR PARA LA VIGENCIA 2017; MEDIANTE LOS PROCESOS DE SUPERVISION EN LAS INSTITUCIONES EDUCATIVAS OFICIALES ASIGNADAS DE LOS 26 MUNICIPIOS DEL DEPARTAMENTO DE CALDAS </veeduria:conObjeto>
+                            <veeduria:tieneRegimenContratacion
+                            >Estatuto General de Contratación</veeduria:tieneRegimenContratacion>
+                            <veeduria:representanteDelContratista
+                            >EDICSON LOPEZ BENJUMEA</veeduria:representanteDelContratista>
+                            <veeduria:tieneEstadoProceso>Celebrado</veeduria:tieneEstadoProceso>
+                            <veeduria:tieneFamilia>[8011] Servicios de recursos humanos</veeduria:tieneFamilia>
+                            <veeduria:nombreContratista>EDICSON LOPEZ BENJUMEA</veeduria:nombreContratista>
+                          </veeduria:contrato>
+                        </veeduria:tieneContrato>
+                        <veeduria:tieneContrato>
+                          <veeduria:contrato rdf:about="http://corrupcion.com/presupuesto#contratoExistente_01032017-0070_2016-17000-0057_18">
+                            <veeduria:identificacionRepresentanteLegalContratista
+                            >Cédula de Ciudadanía No. 75107483</veeduria:identificacionRepresentanteLegalContratista>
+                            <veeduria:nombreContratista>JAIRO ALBERTO ROJAS BEDOYA</veeduria:nombreContratista>
+                            <veeduria:conValorDeContratosDeInterventoriaExterna
+                            >$0.00</veeduria:conValorDeContratosDeInterventoriaExterna>
+                            <veeduria:correoContacto>jairijo@hotmail.com</veeduria:correoContacto>
+                            <veeduria:ejecutadoEnMunicipio>Manizales</veeduria:ejecutadoEnMunicipio>
+                            <veeduria:tieneNumeroProceso>01032017-0070</veeduria:tieneNumeroProceso>
+                            <veeduria:tieneDestinacionGasto>Inversión</veeduria:tieneDestinacionGasto>
+                            <veeduria:tieneTipoProceso>Contratación Directa (Ley 1150 de 2007)</veeduria:tieneTipoProceso>
+                            <veeduria:ejecutadoEnDepartamento
+                            >Caldas</veeduria:ejecutadoEnDepartamento>
+                            <veeduria:NitDelcontratista>Cédula de Ciudadanía No. 75107483</veeduria:NitDelcontratista>
+                            <veeduria:tieneCuantiaAContratar>28480000</veeduria:tieneCuantiaAContratar>
+                            <veeduria:tieneClase>[801117] Reclutamiento de personal</veeduria:tieneClase>
+                            <veeduria:tieneTipoContrato>Prestación de Servicios</veeduria:tieneTipoContrato>
+                            <veeduria:tieneGrupo>[F] Servicios</veeduria:tieneGrupo>
+                            <veeduria:departamentoDelContratista
+                            >Caldas</veeduria:departamentoDelContratista>
+                            <veeduria:tieneOrigenRecursos>Recursos propios</veeduria:tieneOrigenRecursos>
+                            <veeduria:tieneRegimenContratacion
+                            >Estatuto General de Contratación</veeduria:tieneRegimenContratacion>
+                            <veeduria:tieneCausal>Prestación de Servicios Profesionales y de Apoyo a la Gestión (Literal H)</veeduria:tieneCausal>
+                            <veeduria:tieneSegmento>[80] Servicios de Gestion; Servicios Profesionales de Empresa y Servicios Administrativos</veeduria:tieneSegmento>
+                            <veeduria:estadoDelContrato>Celebrado</veeduria:estadoDelContrato>
+                            <veeduria:plazoDeEjecucion>8 Meses</veeduria:plazoDeEjecucion>
+                            <veeduria:representanteDelContratista
+                            >JAIRO ALBERTO ROJAS BEDOYA</veeduria:representanteDelContratista>
+                            <veeduria:iniciaEjecucion>01 de marzo de 2017</veeduria:iniciaEjecucion>
+                            <veeduria:tieneFamilia>[8011] Servicios de recursos humanos</veeduria:tieneFamilia>
+                            <veeduria:firmadoEl>01 de marzo de 2017</veeduria:firmadoEl>
+                            <veeduria:conObjeto>PRESTACION DE SERVICIOS PROFESIONALES DE APOYO A LA GESTION COMO INGENIERO (A) DE ALIMENTOS PARA REALIZAR MONITOREO; SEGUIMIENTO Y CONTROL DE LA EJECUCION DEL PROGRAMA DE ALIMENTACION ESCOLAR PARA LA VIGENCIA 2017; MEDIANTE LOS PROCESOS DE SUPERVISION EN LAS INSTITUCIONES EDUCATIVAS OFICIALES ASIGNADAS DE LOS 26 MUNICIPIOS DEL DEPARTAMENTO DE CALDAS</veeduria:conObjeto>
+                            <veeduria:tieneEstadoProceso>Celebrado</veeduria:tieneEstadoProceso>
+                            <veeduria:valorCuantiaDefinitiva>28480000</veeduria:valorCuantiaDefinitiva>
+                            <veeduria:tieneBPID>2016-17000-0057</veeduria:tieneBPID>
+                            <veeduria:paisDelContratista>Colombia</veeduria:paisDelContratista>
+                          </veeduria:contrato>
+                        </veeduria:tieneContrato>
+                        <veeduria:tieneContrato>
+                          <veeduria:contrato rdf:about="http://corrupcion.com/presupuesto#contratoExistente_01032017-0069_2016-17000-0057_17">
+                            <veeduria:representanteDelContratista
+                            >DIANA PAOLA URIBE GARCIA</veeduria:representanteDelContratista>
+                            <veeduria:ejecutadoEnMunicipio>Manizales</veeduria:ejecutadoEnMunicipio>
+                            <veeduria:departamentoDelContratista
+                            >Caldas</veeduria:departamentoDelContratista>
+                            <veeduria:tieneSegmento>[80] Servicios de Gestion; Servicios Profesionales de Empresa y Servicios Administrativos</veeduria:tieneSegmento>
+                            <veeduria:tieneEstadoProceso>Celebrado</veeduria:tieneEstadoProceso>
+                            <veeduria:correoContacto>paouribeg@hotmail.com</veeduria:correoContacto>
+                            <veeduria:plazoDeEjecucion>8 Meses</veeduria:plazoDeEjecucion>
+                            <veeduria:tieneNumeroProceso>01032017-0069</veeduria:tieneNumeroProceso>
+                            <veeduria:tieneRegimenContratacion
+                            >Estatuto General de Contratación</veeduria:tieneRegimenContratacion>
+                            <veeduria:firmadoEl>01 de marzo de 2017</veeduria:firmadoEl>
+                            <veeduria:tieneClase>[801117] Reclutamiento de personal</veeduria:tieneClase>
+                            <veeduria:tieneCuantiaAContratar>28480000</veeduria:tieneCuantiaAContratar>
+                            <veeduria:iniciaEjecucion>01 de marzo de 2017</veeduria:iniciaEjecucion>
+                            <veeduria:identificacionRepresentanteLegalContratista
+                            >Cédula de Ciudadanía No. 24332151</veeduria:identificacionRepresentanteLegalContratista>
+                            <veeduria:tieneBPID>2016-17000-0057</veeduria:tieneBPID>
+                            <veeduria:tieneTipoContrato>Prestación de Servicios</veeduria:tieneTipoContrato>
+                            <veeduria:tieneDestinacionGasto>Inversión</veeduria:tieneDestinacionGasto>
+                            <veeduria:paisDelContratista>Colombia</veeduria:paisDelContratista>
+                            <veeduria:tieneGrupo>[F] Servicios</veeduria:tieneGrupo>
+                            <veeduria:estadoDelContrato>Celebrado</veeduria:estadoDelContrato>
+                            <veeduria:ejecutadoEnDepartamento
+                            >Caldas</veeduria:ejecutadoEnDepartamento>
+                            <veeduria:tieneFamilia>[8011] Servicios de recursos humanos</veeduria:tieneFamilia>
+                            <veeduria:NitDelcontratista>Cédula de Ciudadanía No. 24332151</veeduria:NitDelcontratista>
+                            <veeduria:nombreContratista>DIANA PAOLA URIBE GARCIA</veeduria:nombreContratista>
+                            <veeduria:conValorDeContratosDeInterventoriaExterna
+                            >$0.00</veeduria:conValorDeContratosDeInterventoriaExterna>
+                            <veeduria:valorCuantiaDefinitiva>28480000</veeduria:valorCuantiaDefinitiva>
+                            <veeduria:tieneTipoProceso>Contratación Directa (Ley 1150 de 2007)</veeduria:tieneTipoProceso>
+                            <veeduria:tieneCausal>Prestación de Servicios Profesionales y de Apoyo a la Gestión (Literal H)</veeduria:tieneCausal>
+                            <veeduria:conObjeto>PRESTACION DE SERVICIOS PROFESIONALES DE APOYO A LA GESTION COMO INGENIERO (A) DE ALIMENTOS PARA REALIZAR MONITOREO; SEGUIMIENTO Y CONTROL DE LA EJECUCION DEL PROGRAMA DE ALIMENTACION ESCOLAR PARA LA VIGENCIA 2017; MEDIANTE LOS PROCESOS DE SUPERVISION EN LAS INSTITUCIONES EDUCATIVAS OFICIALES ASIGNADAS DE LOS 26 MUNICIPIOS DEL DEPARTAMENTO DE CALDAS</veeduria:conObjeto>
+                            <veeduria:tieneOrigenRecursos>Recursos propios</veeduria:tieneOrigenRecursos>
+                          </veeduria:contrato>
+                        </veeduria:tieneContrato>
+                        <veeduria:tieneContrato>
+                          <veeduria:contrato rdf:about="http://corrupcion.com/presupuesto#contratoExistente_01032017-0067_2016-17000-0057_14">
+                            <veeduria:identificacionRepresentanteLegalContratista
+                            >Cédula de Ciudadanía No. 1060649325</veeduria:identificacionRepresentanteLegalContratista>
+                            <veeduria:tieneTipoContrato>Prestación de Servicios</veeduria:tieneTipoContrato>
+                            <veeduria:estadoDelContrato>Celebrado</veeduria:estadoDelContrato>
+                            <veeduria:tieneTipoProceso>Contratación Directa (Ley 1150 de 2007)</veeduria:tieneTipoProceso>
+                            <veeduria:correoContacto>johana.herrera.lopez@gmail.com</veeduria:correoContacto>
+                            <veeduria:iniciaEjecucion>01 de marzo de 2017</veeduria:iniciaEjecucion>
+                            <veeduria:nombreContratista>LEYDY JOHANA HERRERA LOPEZ</veeduria:nombreContratista>
+                            <veeduria:tieneFamilia>[8011] Servicios de recursos humanos</veeduria:tieneFamilia>
+                            <veeduria:tieneCausal>Prestación de Servicios Profesionales y de Apoyo a la Gestión (Literal H)</veeduria:tieneCausal>
+                            <veeduria:tieneEstadoProceso>Celebrado</veeduria:tieneEstadoProceso>
+                            <veeduria:conValorDeContratosDeInterventoriaExterna
+                            >$0.00</veeduria:conValorDeContratosDeInterventoriaExterna>
+                            <veeduria:tieneOrigenRecursos>Recursos propios</veeduria:tieneOrigenRecursos>
+                            <veeduria:tieneSegmento>[80] Servicios de Gestion; Servicios Profesionales de Empresa y Servicios Administrativos</veeduria:tieneSegmento>
+                            <veeduria:departamentoDelContratista
+                            >Caldas</veeduria:departamentoDelContratista>
+                            <veeduria:valorCuantiaDefinitiva>28480000</veeduria:valorCuantiaDefinitiva>
+                            <veeduria:ejecutadoEnMunicipio>Manizales</veeduria:ejecutadoEnMunicipio>
+                            <veeduria:firmadoEl>01 de marzo de 2017</veeduria:firmadoEl>
+                            <veeduria:representanteDelContratista
+                            >LEYDY JOHANA HERRERA LOPEZ</veeduria:representanteDelContratista>
+                            <veeduria:conObjeto>PRESTACION DE SERVICIOS PROFESIONALES DE APOYO A LA GESTION COMO INGENIERO (A) DE ALIMENTOS PARA REALIZAR MONITOREO; SEGUIMIENTO Y CONTROL DE LA EJECUCION DEL PROGRAMA DE ALIMENTACION ESCOLAR PARA LA VIGENCIA 2017; MEDIANTE LOS PROCESOS DE SUPERVISION EN LAS INSTITUCIONES EDUCATIVAS OFICIALES ASIGNADAS DE LOS 26 MUNICIPIOS DEL DEPARTAMENTO DE CALDAS</veeduria:conObjeto>
+                            <veeduria:tieneGrupo>[F] Servicios</veeduria:tieneGrupo>
+                            <veeduria:tieneClase>[801117] Reclutamiento de personal</veeduria:tieneClase>
+                            <veeduria:tieneDestinacionGasto>Inversión</veeduria:tieneDestinacionGasto>
+                            <veeduria:tieneRegimenContratacion
+                            >Estatuto General de Contratación</veeduria:tieneRegimenContratacion>
+                            <veeduria:plazoDeEjecucion>8 Meses</veeduria:plazoDeEjecucion>
+                            <veeduria:tieneCuantiaAContratar>28480000</veeduria:tieneCuantiaAContratar>
+                            <veeduria:tieneBPID>2016-17000-0057</veeduria:tieneBPID>
+                            <veeduria:NitDelcontratista>Cédula de Ciudadanía No. 1060649325</veeduria:NitDelcontratista>
+                            <veeduria:tieneNumeroProceso>01032017-0067</veeduria:tieneNumeroProceso>
+                            <veeduria:paisDelContratista>Colombia</veeduria:paisDelContratista>
+                            <veeduria:ejecutadoEnDepartamento
+                            >Caldas</veeduria:ejecutadoEnDepartamento>
+                          </veeduria:contrato>
+                        </veeduria:tieneContrato>
+                        <veeduria:tieneContrato>
+                          <veeduria:contrato rdf:about="http://corrupcion.com/presupuesto#contratoExistente_26012017-0008_2016-17000-0057_10">
+                            <veeduria:firmadoEl>26 de enero de 2017</veeduria:firmadoEl>
+                            <veeduria:ejecutadoEnMunicipio>Riosucio - Marmato</veeduria:ejecutadoEnMunicipio>
+                            <veeduria:tieneGrupo>[F] Servicios</veeduria:tieneGrupo>
+                            <veeduria:tieneFamilia>[9313] Ayuda y asistencia humanitaria</veeduria:tieneFamilia>
+                            <veeduria:tieneSegmento>[93] Servicios Políticos y de Asuntos Cívicos</veeduria:tieneSegmento>
+                            <veeduria:plazoDeEjecucion>90 Días</veeduria:plazoDeEjecucion>
+                            <veeduria:tieneTipoContrato>Otro Tipo de Contrato</veeduria:tieneTipoContrato>
+                            <veeduria:tieneNumeroProceso>26012017-0008</veeduria:tieneNumeroProceso>
+                            <veeduria:paisDelContratista>Colombia</veeduria:paisDelContratista>
+                            <veeduria:NitDelcontratista>Nit de Persona Jurídica No. 810000523</veeduria:NitDelcontratista>
+                            <veeduria:tieneCuantiaAContratar>1918338390</veeduria:tieneCuantiaAContratar>
+                            <veeduria:conObjeto>AUNAR ESFUERZOS TECNICOS; ADMINISTRATIVOS Y FINANCIEROS PARA EL DESARROLLAR EL PROGRAMA DE ALIMENTACION ESCOLAR DE ACUERDO CON LOS LINEAMIENTOS TECNICO ADMINISTRATIVOS DEL MINISTERIO DE EDUCACION NACIONAL; EN EL DEPARTAMENTO DE CALDAS; EN LAS MODALIDADES DE RACION INDUSTRIALIZADA Y RACION PREPARADA EN SITIO; PARA LOS NIÑOS; NIÑAS Y ADOLECENTES REGISTRADOS EN LA MATRICULA DEL DEPARTAMENTO DE CALDAS.</veeduria:conObjeto>
+                            <veeduria:tieneOrigenRecursos>Presupuesto Nacional/Territorial</veeduria:tieneOrigenRecursos>
+                            <veeduria:tieneDestinacionGasto>Inversión</veeduria:tieneDestinacionGasto>
+                            <veeduria:nombreContratista>COOPERATIVA DE BIENESTAR SOCIAL - COBIENESTAR</veeduria:nombreContratista>
+                            <veeduria:conValorDeContratosDeInterventoriaExterna
+                            >$0.00</veeduria:conValorDeContratosDeInterventoriaExterna>
+                            <veeduria:tieneCausal>Contratos Interadministrativos (Literal C)</veeduria:tieneCausal>
+                            <veeduria:tieneRegimenContratacion
+                            >Estatuto General de Contratación</veeduria:tieneRegimenContratacion>
+                            <veeduria:representanteDelContratista
+                            >DEISY BIBIANA VARGAS RENDON</veeduria:representanteDelContratista>
+                            <veeduria:tieneBPID>2016-17000-0057</veeduria:tieneBPID>
+                            <veeduria:estadoDelContrato>Celebrado</veeduria:estadoDelContrato>
+                            <veeduria:tieneEstadoProceso>Celebrado</veeduria:tieneEstadoProceso>
+                            <veeduria:tieneClase>[931316] Planeación y programas de políticas de alimentación y nutrición</veeduria:tieneClase>
+                            <veeduria:ejecutadoEnDepartamento
+                            >Caldas</veeduria:ejecutadoEnDepartamento>
+                            <veeduria:departamentoDelContratista
+                            >Caldas</veeduria:departamentoDelContratista>
+                            <veeduria:iniciaEjecucion>03 de febrero de 2017</veeduria:iniciaEjecucion>
+                            <veeduria:identificacionRepresentanteLegalContratista
+                            >Cédula de Ciudadanía No. 30333507</veeduria:identificacionRepresentanteLegalContratista>
+                            <veeduria:tieneTipoProceso>Contratación Directa (Ley 1150 de 2007)</veeduria:tieneTipoProceso>
+                            <veeduria:correoContacto>cobienestar@gmail.com</veeduria:correoContacto>
+                            <veeduria:valorCuantiaDefinitiva>1926932480</veeduria:valorCuantiaDefinitiva>
+                          </veeduria:contrato>
+                        </veeduria:tieneContrato>
+                        <veeduria:tieneContrato>
+                          <veeduria:contrato rdf:about="http://corrupcion.com/presupuesto#contratoExistente_02022017-0016_2016-17000-0057_12">
+                            <veeduria:tieneCausal>Contratación de Bienes y Servicios en el Sector Defensa y en el DAS (Literal D)</veeduria:tieneCausal>
+                            <veeduria:iniciaEjecucion>03 de febrero de 2017</veeduria:iniciaEjecucion>
+                            <veeduria:tieneFamilia>[9313] Ayuda y asistencia humanitaria</veeduria:tieneFamilia>
+                            <veeduria:paisDelContratista>Colombia</veeduria:paisDelContratista>
+                            <veeduria:identificacionRepresentanteLegalContratista
+                            >Cédula de Ciudadanía No. 24319093</veeduria:identificacionRepresentanteLegalContratista>
+                            <veeduria:conObjeto>¿AUNAR ESFUERZOS TÉCNICOS; ADMINISTRATIVOS Y FINANCIEROS PARA DESARROLLAR EL PROGRAMA DE ALIMENTACIÓN ESCOLAR DE ACUERDO CON LOS LINEAMIENTOS TÉCNICO ADMINISTRATIVOS DEL MINISTERIO DE EDUCACIÓN NACIONAL; EN EL DEPARTAMENTO DE CALDAS; EN LAS MODALIDADES DE RACIÓN INDUSTRIALIZADA Y RACIÓN PREPARADA EN SITIO; PARA LOS NIÑOS; NIÑAS Y ADOLESCENTES REGISTRADOS EN LA MATRÍCULA DEL DEPARTAMENTO DE CALDAS¿.</veeduria:conObjeto>
+                            <veeduria:ejecutadoEnDepartamento
+                            >Caldas</veeduria:ejecutadoEnDepartamento>
+                            <veeduria:tieneGrupo>[F] Servicios</veeduria:tieneGrupo>
+                            <veeduria:nombreContratista>FUNDACION CRUZADA SOCIAL</veeduria:nombreContratista>
+                            <veeduria:correoContacto>info@cruzadasocia.org</veeduria:correoContacto>
+                            <veeduria:conValorDeContratosDeInterventoriaExterna
+                            >$0.00</veeduria:conValorDeContratosDeInterventoriaExterna>
+                            <veeduria:ejecutadoEnMunicipio>Belalcázar - Risaralda - San José - Anserma - Viterbo</veeduria:ejecutadoEnMunicipio>
+                            <veeduria:estadoDelContrato>Celebrado</veeduria:estadoDelContrato>
+                            <veeduria:tieneSegmento>[93] Servicios Políticos y de Asuntos Cívicos</veeduria:tieneSegmento>
+                            <veeduria:tieneTipoContrato>Otro Tipo de Contrato</veeduria:tieneTipoContrato>
+                            <veeduria:plazoDeEjecucion>90 Días</veeduria:plazoDeEjecucion>
+                            <veeduria:tieneTipoProceso>Contratación Directa (Ley 1150 de 2007)</veeduria:tieneTipoProceso>
+                            <veeduria:tieneOrigenRecursos>Presupuesto Nacional/Territorial</veeduria:tieneOrigenRecursos>
+                            <veeduria:tieneBPID>2016-17000-0057</veeduria:tieneBPID>
+                            <veeduria:tieneCuantiaAContratar>2024146960</veeduria:tieneCuantiaAContratar>
+                            <veeduria:valorCuantiaDefinitiva>2024146960</veeduria:valorCuantiaDefinitiva>
+                            <veeduria:departamentoDelContratista
+                            >Caldas</veeduria:departamentoDelContratista>
+                            <veeduria:tieneEstadoProceso>Celebrado</veeduria:tieneEstadoProceso>
+                            <veeduria:tieneDestinacionGasto>Inversión</veeduria:tieneDestinacionGasto>
+                            <veeduria:representanteDelContratista
+                            >DORA LUZ VELEZ MEDINA</veeduria:representanteDelContratista>
+                            <veeduria:tieneClase>[931316] Planeación y programas de políticas de alimentación y nutrición</veeduria:tieneClase>
+                            <veeduria:firmadoEl>02 de febrero de 2017</veeduria:firmadoEl>
+                            <veeduria:tieneNumeroProceso>02022017-0016</veeduria:tieneNumeroProceso>
+                            <veeduria:NitDelcontratista>Nit de Persona Jurídica No. 890800971</veeduria:NitDelcontratista>
+                            <veeduria:tieneRegimenContratacion
+                            >Estatuto General de Contratación</veeduria:tieneRegimenContratacion>
+                          </veeduria:contrato>
+                        </veeduria:tieneContrato>
+                        <veeduria:tieneRecursos>8548576536</veeduria:tieneRecursos>
+                        <veeduria:seIdentificaCon>2016-17000-0057</veeduria:seIdentificaCon>
+                      </veeduria:proyecto>
+                    </veeduria:seEjecutaAtravesDe>
+                    <veeduria:tieneTransferenciasSubprograma>13164850650</veeduria:tieneTransferenciasSubprograma>
+                    <veeduria:tieneRecursosPropiosSubprograma
+                    >9248576536</veeduria:tieneRecursosPropiosSubprograma>
+                    <rdfs:label>Subprograma acceso y permanencia</rdfs:label>
+                  </veeduria:subprograma>
+                </veeduria:divideEn>
+                <veeduria:tieneTransferenciasPrograma>239488666312</veeduria:tieneTransferenciasPrograma>
+                <veeduria:tieneRecursosPropiosPrograma>9263576326</veeduria:tieneRecursosPropiosPrograma>
+                <rdfs:label>Programa cobertura y permanencia con enfoque en cierre de brechas</rdfs:label>
+              </veeduria:programa>
+            </veeduria:define>
+            <veeduria:define>
+              <veeduria:programa rdf:about="http://corrupcion.com/presupuesto#ProgramaArticulaciónDeLaEducaciónMediaConLaEducaciónTerciariaEnCondicionesDeAccesoCalidadYPertinencia">
+                <veeduria:divideEn>
+                  <veeduria:subprograma rdf:about="http://corrupcion.com/presupuesto#SubprogramaArticulaciónDeLaEducaciónMediaConLaEducaciónTerciaria">
+                    <veeduria:seEjecutaAtravesDe>
+                      <veeduria:proyecto rdf:about="http://corrupcion.com/presupuesto#ImplementaciónDeEstrategiasDeArticulaciónDeLaEducaciónMediaConLaEducaciónTerciariaDelDepartamentoDeCaldas">
+                        <veeduria:tieneContrato>
+                          <veeduria:contrato rdf:about="http://corrupcion.com/presupuesto#contratoExistente_10032017-0103_2016-17000-0049_9">
+                            <veeduria:tieneNumeroProceso>10032017-0103</veeduria:tieneNumeroProceso>
+                            <veeduria:tieneSegmento>[86] Servicios Educativos y de Formación</veeduria:tieneSegmento>
+                            <veeduria:nombreContratista>UNIVERSIDAD DE MANIZALES</veeduria:nombreContratista>
+                            <veeduria:tieneFamilia>[8610] Formación profesional</veeduria:tieneFamilia>
+                            <veeduria:ejecutadoEnDepartamento
+                            >Caldas</veeduria:ejecutadoEnDepartamento>
+                            <veeduria:firmadoEl>10 de marzo de 2017</veeduria:firmadoEl>
+                            <veeduria:departamentoDelContratista
+                            >Caldas</veeduria:departamentoDelContratista>
+                            <veeduria:tieneGrupo>[F] Servicios</veeduria:tieneGrupo>
+                            <veeduria:paisDelContratista>Colombia</veeduria:paisDelContratista>
+                            <veeduria:tieneClase>[861017] Servicios de capacitación vocacional no - científica</veeduria:tieneClase>
+                            <veeduria:tieneTipoContrato>Otro Tipo de Contrato</veeduria:tieneTipoContrato>
+                            <veeduria:tieneRegimenContratacion
+                            >Estatuto General de Contratación</veeduria:tieneRegimenContratacion>
+                            <veeduria:tieneEstadoProceso>Celebrado</veeduria:tieneEstadoProceso>
+                            <veeduria:identificacionRepresentanteLegalContratista
+                            >Cédula de Ciudadanía No. 10266962</veeduria:identificacionRepresentanteLegalContratista>
+                            <veeduria:conObjeto>AUNAR ESFUERZOS TECNICOS; ADMINISTRATIVOS Y FINANCIEROS PARA FORMAR EN EL PROGRAMA DE LICENCIATURA EN EDUCACION BASICA CON ENFASIS EN INGLES A DOCENTES NORMALISTAS SUPERIORES DEL DEPARTAMENTO CON FINES DE MEJORAMIENTO DE LA CALIDAD EDUCATIVA.</veeduria:conObjeto>
+                            <veeduria:representanteDelContratista
+                            >GUILLERMO ORLANDO SIERRA SIERRA</veeduria:representanteDelContratista>
+                            <veeduria:tieneDestinacionGasto>Inversión</veeduria:tieneDestinacionGasto>
+                            <veeduria:tieneOrigenRecursos>SGP</veeduria:tieneOrigenRecursos>
+                            <veeduria:valorCuantiaDefinitiva>1389848600</veeduria:valorCuantiaDefinitiva>
+                            <veeduria:correoContacto>rectoria@umanizales.edu.co</veeduria:correoContacto>
+                            <veeduria:tieneTipoProceso>Contratación Directa (Ley 1150 de 2007)</veeduria:tieneTipoProceso>
+                            <veeduria:tieneCuantiaAContratar>1389848600</veeduria:tieneCuantiaAContratar>
+                            <veeduria:tieneCausal>Contratos Interadministrativos (Literal C)</veeduria:tieneCausal>
+                            <veeduria:estadoDelContrato>Celebrado</veeduria:estadoDelContrato>
+                            <veeduria:ejecutadoEnMunicipio>Manizales</veeduria:ejecutadoEnMunicipio>
+                            <veeduria:iniciaEjecucion>23 de marzo de 2017</veeduria:iniciaEjecucion>
+                            <veeduria:NitDelcontratista>Nit de Persona Jurídica No. 890806001</veeduria:NitDelcontratista>
+                            <veeduria:conValorDeContratosDeInterventoriaExterna
+                            >$0.00</veeduria:conValorDeContratosDeInterventoriaExterna>
+                            <veeduria:plazoDeEjecucion>9 Meses</veeduria:plazoDeEjecucion>
+                            <veeduria:tieneBPID>2016-17000-0049</veeduria:tieneBPID>
+                          </veeduria:contrato>
+                        </veeduria:tieneContrato>
+                        <veeduria:tieneContrato>
+                          <veeduria:contrato rdf:about="http://corrupcion.com/presupuesto#contratoExistente_07032017-0083_2016-17000-0049_8">
+                            <veeduria:tieneDestinacionGasto>Inversión</veeduria:tieneDestinacionGasto>
+                            <veeduria:plazoDeEjecucion>10 Meses</veeduria:plazoDeEjecucion>
+                            <veeduria:representanteDelContratista
+                            >JORGE HERNAN LOPEZ JARAMILLO</veeduria:representanteDelContratista>
+                            <veeduria:identificacionRepresentanteLegalContratista
+                            >Cédula de Ciudadanía No. 75085708</veeduria:identificacionRepresentanteLegalContratista>
+                            <veeduria:conObjeto>AUNAR ESFUERZOS TECNICOS; ADMINISTRATIVOS; PRESUPUESTALES Y FINANCIEROS PARA EJECUTAR EL PROYECTO \LA UNIVERSIDAD EN EL CAMPO\ EN EL MARCO DEL PROGRAMA EDUCACION PARA LA COMPETITIVIDAD PARA LA POBLACIÓN VULNERABLE DEL AREA RURAL DE CALDAS; ACTIVIDADES RELACIONADAS CON LA ETAPA V DEL PROYECTO.</veeduria:conObjeto>
+                            <veeduria:tieneSegmento>[86] Servicios Educativos y de Formación</veeduria:tieneSegmento>
+                            <veeduria:conValorDeContratosDeInterventoriaExterna
+                            >$0.00</veeduria:conValorDeContratosDeInterventoriaExterna>
+                            <veeduria:departamentoDelContratista
+                            >Caldas</veeduria:departamentoDelContratista>
+                            <veeduria:tieneCuantiaAContratar>619000000</veeduria:tieneCuantiaAContratar>
+                            <veeduria:ejecutadoEnMunicipio>Aguadas - Villamaría - Marquetalia - Neira - Palestina - Pensilvania - Samaná</veeduria:ejecutadoEnMunicipio>
+                            <veeduria:tieneBPID>2016-17000-0049</veeduria:tieneBPID>
+                            <veeduria:ejecutadoEnDepartamento
+                            >Caldas</veeduria:ejecutadoEnDepartamento>
+                            <veeduria:nombreContratista>LA FEDERACION NACIONAL DE CAFETEROS DE COLOMBIA-COMITE DEPARTAMENTAL DE CAFETEROS DE CALDAS</veeduria:nombreContratista>
+                            <veeduria:valorCuantiaDefinitiva>619000000</veeduria:valorCuantiaDefinitiva>
+                            <veeduria:tieneFamilia>[8610] Formación profesional</veeduria:tieneFamilia>
+                            <veeduria:tieneRegimenContratacion
+                            >Estatuto General de Contratación</veeduria:tieneRegimenContratacion>
+                            <veeduria:correoContacto>Elsai.ramirez@cafedecolombia.com</veeduria:correoContacto>
+                            <veeduria:estadoDelContrato>Celebrado</veeduria:estadoDelContrato>
+                            <veeduria:tieneNumeroProceso>07032017-0083</veeduria:tieneNumeroProceso>
+                            <veeduria:paisDelContratista>Colombia</veeduria:paisDelContratista>
+                            <veeduria:tieneClase>[861015] Servicios de entrenamiento en Agricultura y silvicultura y otros recursos naturales</veeduria:tieneClase>
+                            <veeduria:iniciaEjecucion>13 de marzo de 2017</veeduria:iniciaEjecucion>
+                            <veeduria:tieneEstadoProceso>Celebrado</veeduria:tieneEstadoProceso>
+                            <veeduria:tieneGrupo>[F] Servicios</veeduria:tieneGrupo>
+                            <veeduria:tieneTipoContrato>Otro Tipo de Contrato</veeduria:tieneTipoContrato>
+                            <veeduria:tieneTipoProceso>Contratación Directa (Ley 1150 de 2007)</veeduria:tieneTipoProceso>
+                            <veeduria:firmadoEl>07 de marzo de 2017</veeduria:firmadoEl>
+                            <veeduria:tieneCausal>Contratos Interadministrativos (Literal C)</veeduria:tieneCausal>
+                            <veeduria:tieneOrigenRecursos>Recursos propios</veeduria:tieneOrigenRecursos>
+                            <veeduria:NitDelcontratista>Nit de Persona Jurídica No. 860007538</veeduria:NitDelcontratista>
+                          </veeduria:contrato>
+                        </veeduria:tieneContrato>
+                        <veeduria:tieneTransferencias>2244984657</veeduria:tieneTransferencias>
+                        <veeduria:tieneRecursos>1111000000</veeduria:tieneRecursos>
+                        <veeduria:seIdentificaCon>2016-17000-0049</veeduria:seIdentificaCon>
+                        <rdfs:label>Implementación de estrategias de articulación de la educación media con la educación terciaria del departamento de Caldas</rdfs:label>
+                      </veeduria:proyecto>
+                    </veeduria:seEjecutaAtravesDe>
+                    <veeduria:tieneTransferenciasSubprograma>2244984657</veeduria:tieneTransferenciasSubprograma>
+                    <veeduria:tieneRecursosPropiosSubprograma
+                    >1111000000</veeduria:tieneRecursosPropiosSubprograma>
+                    <rdfs:label>Subprograma articulación de la educación media con la educación terciaria</rdfs:label>
+                  </veeduria:subprograma>
+                </veeduria:divideEn>
+                <veeduria:tieneTransferenciasPrograma>2244984657</veeduria:tieneTransferenciasPrograma>
+                <veeduria:tieneRecursosPropiosPrograma>1111000000</veeduria:tieneRecursosPropiosPrograma>
+                <rdfs:label>Programa articulación de la educación media con la educación terciaria en condiciones de acceso; calidad y pertinencia</rdfs:label>
+              </veeduria:programa>
+            </veeduria:define>
+            <veeduria:define>
+              <veeduria:programa rdf:about="http://corrupcion.com/presupuesto#ProgramaInnovaciónEducativaApoyadaEnInvestigaciónYUsoDeLasTecnologíasDeLaInformaciónYComunicación-TIC">
+                <veeduria:divideEn>
+                  <veeduria:subprograma rdf:about="http://corrupcion.com/presupuesto#ConectividadDeEstablecimientosEducativos">
+                    <veeduria:seEjecutaAtravesDe>
+                      <veeduria:proyecto rdf:about="http://corrupcion.com/presupuesto#SuministrosDeConectividadAInternetDeEstablecimientosEducativosOficialesDelDepartamento">
+                        <veeduria:tieneContrato>
+                          <veeduria:contrato rdf:about="http://corrupcion.com/presupuesto#contratoExistente_LP-SED-002-2017_2016-17000-0053_7">
+                            <veeduria:tieneClase>[811121] Servicios de internet</veeduria:tieneClase>
+                            <veeduria:valorCuantiaDefinitiva>775358894</veeduria:valorCuantiaDefinitiva>
+                            <veeduria:nombreContratista>WIRELESS COMUNICACIONES S.A.S</veeduria:nombreContratista>
+                            <veeduria:correoContacto>ncardona@sedcaldas.gov.co</veeduria:correoContacto>
+                            <veeduria:NitDelcontratista>Nit de Persona Jurídica No. 900394588</veeduria:NitDelcontratista>
+                            <veeduria:tieneNumeroProceso>LP-SED-002-2017</veeduria:tieneNumeroProceso>
+                            <veeduria:paisDelContratista>Colombia</veeduria:paisDelContratista>
+                            <veeduria:identificacionRepresentanteLegalContratista
+                            >Cédula de Ciudadanía No. 16379615</veeduria:identificacionRepresentanteLegalContratista>
+                            <veeduria:tieneFamilia>[8111] Servicios informáticos</veeduria:tieneFamilia>
+                            <veeduria:tieneCuantiaAContratar>849837674</veeduria:tieneCuantiaAContratar>
+                            <veeduria:tieneCausal>N/A</veeduria:tieneCausal>
+                            <veeduria:tieneGrupo>[F] Servicios</veeduria:tieneGrupo>
+                            <veeduria:tieneBPID>2016-17000-0053</veeduria:tieneBPID>
+                            <veeduria:tieneRegimenContratacion
+                            >Estatuto General de Contratación</veeduria:tieneRegimenContratacion>
+                            <veeduria:firmadoEl>12 de junio de 2017</veeduria:firmadoEl>
+                            <veeduria:tieneTipoProceso>Licitación Pública</veeduria:tieneTipoProceso>
+                            <veeduria:tieneSegmento>[81] Servicios Basados en Ingeniería; Investigación y Tecnología</veeduria:tieneSegmento>
+                            <veeduria:tieneDestinacionGasto>Inversión</veeduria:tieneDestinacionGasto>
+                            <veeduria:conObjeto>PRESTAR EL SERVICIO DE CONECTIVIDAD PARA EL ACCESO A INTERNET DE LOS ESTABLECIMIENTOS EDUCATIVOS OFICIALES DE LOS MUNICIPIOS NO CERTIFICADOS DEL DEPARTAMENTO DE CALDAS.</veeduria:conObjeto>
+                            <veeduria:ejecutadoEnDepartamento
+                            >Caldas</veeduria:ejecutadoEnDepartamento>
+                            <veeduria:tieneTipoContrato>Prestación de Servicios</veeduria:tieneTipoContrato>
+                            <veeduria:departamentoDelContratista
+                            >Valle del Cauca</veeduria:departamentoDelContratista>
+                            <veeduria:ejecutadoEnMunicipio>Aguadas - Chinchiná - Marulanda - Belalcázar - Manzanares - Salamina - Victoria - Riosucio - Villamaría - Aranzazu - Pácora - Marmato - Marquetalia - Risaralda - San José - Anserma - La Dorada - Neira - Palestina - Pensilvania - Norcasia - Viterbo - Filadelfia - La Merced - Samaná - Supía</veeduria:ejecutadoEnMunicipio>
+                            <veeduria:tieneEstadoProceso>Celebrado</veeduria:tieneEstadoProceso>
+                            <veeduria:tieneOrigenRecursos>SGP</veeduria:tieneOrigenRecursos>
+                            <veeduria:estadoDelContrato>Celebrado</veeduria:estadoDelContrato>
+                            <veeduria:iniciaEjecucion>21 de junio de 2017</veeduria:iniciaEjecucion>
+                            <veeduria:conValorDeContratosDeInterventoriaExterna
+                            >$0.00</veeduria:conValorDeContratosDeInterventoriaExterna>
+                            <veeduria:representanteDelContratista
+                            >JUAN MANUEL CONTRERAS VIVAS</veeduria:representanteDelContratista>
+                            <veeduria:plazoDeEjecucion>6 Meses</veeduria:plazoDeEjecucion>
+                          </veeduria:contrato>
+                        </veeduria:tieneContrato>
+                        <veeduria:tieneTransferencias>1702000000</veeduria:tieneTransferencias>
+                        <veeduria:tieneRecursos>0</veeduria:tieneRecursos>
+                        <veeduria:seIdentificaCon>2016-17000-0053</veeduria:seIdentificaCon>
+                        <rdfs:label>Suministros de conectividad a internet de establecimientos educativos oficiales del departamento</rdfs:label>
+                      </veeduria:proyecto>
+                    </veeduria:seEjecutaAtravesDe>
+                    <veeduria:tieneTransferenciasSubprograma>1702000000</veeduria:tieneTransferenciasSubprograma>
+                    <veeduria:tieneRecursosPropiosSubprograma
+                    >0</veeduria:tieneRecursosPropiosSubprograma>
+                    <rdfs:label>Conectividad de establecimientos educativos</rdfs:label>
+                  </veeduria:subprograma>
+                </veeduria:divideEn>
+                <veeduria:divideEn>
+                  <veeduria:subprograma rdf:about="http://corrupcion.com/presupuesto#SubprogramaIncorporaciónDeLasTICYLaInvestigaciónEnLasPrácticasPedagógicas">
+                    <veeduria:seEjecutaAtravesDe>
+                      <veeduria:proyecto rdf:about="http://corrupcion.com/presupuesto#ImplementaciónDeEstrategiasDeUsoDeTecnologíaDeLaInformaciónYComunicaciónEnElAulaDeClaseEnElDepartamentoDeCaldas">
+                        <veeduria:tieneTransferencias>0</veeduria:tieneTransferencias>
+                        <veeduria:tieneRecursos>62200000</veeduria:tieneRecursos>
+                        <veeduria:seIdentificaCon>2016-17000-0098</veeduria:seIdentificaCon>
+                        <rdfs:label>Implementación de estrategias de uso de tecnología de la información y comunicación en el aula de clase en el departamento de Caldas</rdfs:label>
+                      </veeduria:proyecto>
+                    </veeduria:seEjecutaAtravesDe>
+                    <veeduria:tieneTransferenciasSubprograma>0</veeduria:tieneTransferenciasSubprograma>
+                    <veeduria:tieneRecursosPropiosSubprograma
+                    >62200000</veeduria:tieneRecursosPropiosSubprograma>
+                    <rdfs:label>Subprograma incorporación de las TIC y la investigación en las prácticas pedagógicas</rdfs:label>
+                  </veeduria:subprograma>
+                </veeduria:divideEn>
+                <veeduria:tieneTransferenciasPrograma>1702000000</veeduria:tieneTransferenciasPrograma>
+                <veeduria:tieneRecursosPropiosPrograma>62200000</veeduria:tieneRecursosPropiosPrograma>
+                <rdfs:label>Programa innovación educativa apoyada en investigación y uso de las tecnologías de la información y comunicación - TIC</rdfs:label>
+              </veeduria:programa>
+            </veeduria:define>
+            <veeduria:define>
+              <veeduria:programa rdf:about="http://corrupcion.com/presupuesto#ProgramaEducaciónDeCalidadPertienenteEIncluyenteEnEducaciónInicialBásicaYMedia">
+                <veeduria:divideEn>
+                  <veeduria:subprograma rdf:about="http://corrupcion.com/presupuesto#HaciaUnCaldasBilingüe">
+                    <veeduria:seEjecutaAtravesDe>
+                      <veeduria:proyecto rdf:about="http://corrupcion.com/presupuesto#FortalecimientoDeCompetenciasComunicativasEnInglésComoSegundaLenguaEnElDepartamentoDeCaldas">
+                        <veeduria:tieneTransferencias>35000000</veeduria:tieneTransferencias>
+                        <veeduria:tieneRecursos>0</veeduria:tieneRecursos>
+                        <veeduria:seIdentificaCon>2016-17000-0059</veeduria:seIdentificaCon>
+                        <rdfs:label>Fortalecimiento de competencias comunicativas en inglés como segunda lengua en el departamento de Caldas</rdfs:label>
+                      </veeduria:proyecto>
+                    </veeduria:seEjecutaAtravesDe>
+                    <veeduria:tieneTransferenciasSubprograma>35000000</veeduria:tieneTransferenciasSubprograma>
+                    <veeduria:tieneRecursosPropiosSubprograma
+                    >0</veeduria:tieneRecursosPropiosSubprograma>
+                    <rdfs:label>Hacia un Caldas bilingüe</rdfs:label>
+                  </veeduria:subprograma>
+                </veeduria:divideEn>
+                <rdfs:label>Programa educación de calidad pertienente e incluyente en educación inicial; básica y media</rdfs:label>
+                <veeduria:divideEn>
+                  <veeduria:subprograma rdf:about="http://corrupcion.com/presupuesto#SubprogramaApoyoALaGestiónEscolar">
+                    <veeduria:seEjecutaAtravesDe>
+                      <veeduria:proyecto rdf:about="http://corrupcion.com/presupuesto#FortalecimientoDeLaGestiónEscolarEnLosEstablecimientosEducativosOficialesDelDepartamentoDeCaldas">
+                        <veeduria:tieneTransferencias>35100000</veeduria:tieneTransferencias>
+                        <veeduria:tieneRecursos>75000000</veeduria:tieneRecursos>
+                        <veeduria:seIdentificaCon>2016-17000-0061</veeduria:seIdentificaCon>
+                        <rdfs:label>Fortalecimiento de la gestión escolar en los establecimientos educativos oficiales del departamento de Caldas</rdfs:label>
+                      </veeduria:proyecto>
+                    </veeduria:seEjecutaAtravesDe>
+                    <veeduria:seEjecutaAtravesDe>
+                      <veeduria:proyecto rdf:about="http://corrupcion.com/presupuesto#FortalecimientoDelProgramaBandasEstudiantilesDeMúsicaEnElDepartamentoDeCaldas">
+                        <veeduria:tieneContrato>
+                          <veeduria:contrato rdf:about="http://corrupcion.com/presupuesto#contratoExistente_18052017-0309_2016-17000-0055_2">
+                            <veeduria:departamentoDelContratista
+                            >Caldas</veeduria:departamentoDelContratista>
+                            <veeduria:paisDelContratista>Colombia</veeduria:paisDelContratista>
+                            <veeduria:NitDelcontratista>Nit de Persona Jurídica No. 810000661</veeduria:NitDelcontratista>
+                            <veeduria:estadoDelContrato>Celebrado</veeduria:estadoDelContrato>
+                            <veeduria:representanteDelContratista
+                            >ELVIRA ESCOBAR DE RESTREPO</veeduria:representanteDelContratista>
+                            <veeduria:correoContacto>fomusicalocc@une.net.co</veeduria:correoContacto>
+                            <veeduria:tieneOrigenRecursos>Recursos propios</veeduria:tieneOrigenRecursos>
+                            <veeduria:tieneGrupo>[F] Servicios</veeduria:tieneGrupo>
+                            <veeduria:tieneTipoProceso>Contratación Directa (Ley 1150 de 2007)</veeduria:tieneTipoProceso>
+                            <veeduria:valorCuantiaDefinitiva>451500000</veeduria:valorCuantiaDefinitiva>
+                            <veeduria:tieneCuantiaAContratar>451500000</veeduria:tieneCuantiaAContratar>
+                            <veeduria:tieneSegmento>[86] Servicios Educativos y de Formación</veeduria:tieneSegmento>
+                            <veeduria:iniciaEjecucion>22 de mayo de 2017</veeduria:iniciaEjecucion>
+                            <veeduria:tieneClase>[861316] Música y drama</veeduria:tieneClase>
+                            <veeduria:tieneBPID>2016-17000-0055</veeduria:tieneBPID>
+                            <veeduria:tieneEstadoProceso>Celebrado</veeduria:tieneEstadoProceso>
+                            <veeduria:tieneRegimenContratacion
+                            >Estatuto General de Contratación</veeduria:tieneRegimenContratacion>
+                            <veeduria:conObjeto>AUNAR ESFUERZOS TECNICOS; ADMINISTRATIVOS; PRESUPUESTALES Y FINANCIEROS PARA LA EJECUCION DEL PROYECTO \ FORTALECIMIENTO DE LAS BANDAS ESTUDIANTILES DE MUSICA DEL DEPARTAMENTO DE CALDAS \.</veeduria:conObjeto>
+                            <veeduria:plazoDeEjecucion>7 Meses</veeduria:plazoDeEjecucion>
+                            <veeduria:ejecutadoEnMunicipio>Aguadas - Chinchiná - Marulanda - Belalcázar - Manzanares - Salamina - Victoria - Riosucio - Villamaría - Aranzazu - Pácora - Marmato - Marquetalia - Risaralda - San José - Anserma - La Dorada - Neira - Palestina - Pensilvania - Norcasia - Viterbo - Filadelfia - La Merced - Samaná - Supía</veeduria:ejecutadoEnMunicipio>
+                            <veeduria:conValorDeContratosDeInterventoriaExterna
+                            >$0.00</veeduria:conValorDeContratosDeInterventoriaExterna>
+                            <veeduria:firmadoEl>18 de mayo de 2017</veeduria:firmadoEl>
+                            <veeduria:tieneCausal>Contratos Interadministrativos (Literal C)</veeduria:tieneCausal>
+                            <veeduria:ejecutadoEnDepartamento
+                            >Caldas</veeduria:ejecutadoEnDepartamento>
+                            <veeduria:tieneNumeroProceso>18052017-0309</veeduria:tieneNumeroProceso>
+                            <veeduria:tieneDestinacionGasto>Inversión</veeduria:tieneDestinacionGasto>
+                            <veeduria:identificacionRepresentanteLegalContratista
+                            >Cédula de Ciudadanía No. 24294105</veeduria:identificacionRepresentanteLegalContratista>
+                            <veeduria:nombreContratista>LA FUNDACION PARA LA FORMACION MUSICAL.</veeduria:nombreContratista>
+                            <veeduria:tieneTipoContrato>Otro Tipo de Contrato</veeduria:tieneTipoContrato>
+                            <veeduria:tieneFamilia>[8613] Servicios educativos especializados</veeduria:tieneFamilia>
+                          </veeduria:contrato>
+                        </veeduria:tieneContrato>
+                        <veeduria:tieneTransferencias>0</veeduria:tieneTransferencias>
+                        <veeduria:tieneRecursos>450000000</veeduria:tieneRecursos>
+                        <veeduria:seIdentificaCon>2016-17000-0055</veeduria:seIdentificaCon>
+                        <rdfs:label>Fortalecimiento del programa bandas estudiantiles de música en el departamento de Caldas</rdfs:label>
+                      </veeduria:proyecto>
+                    </veeduria:seEjecutaAtravesDe>
+                    <veeduria:tieneTransferenciasSubprograma>35100000</veeduria:tieneTransferenciasSubprograma>
+                    <veeduria:tieneRecursosPropiosSubprograma
+                    >525000000</veeduria:tieneRecursosPropiosSubprograma>
+                    <rdfs:label>Subprograma apoyo a la gestión escolar</rdfs:label>
+                  </veeduria:subprograma>
+                </veeduria:divideEn>
+                <veeduria:tieneTransferenciasPrograma>175100000</veeduria:tieneTransferenciasPrograma>
+                <veeduria:divideEn>
+                  <veeduria:subprograma rdf:about="http://corrupcion.com/presupuesto#ExcelenciaDocente">
+                    <veeduria:seEjecutaAtravesDe>
+                      <veeduria:proyecto rdf:about="http://corrupcion.com/presupuesto#CapacitaciónCualificaciónYFormaciónADocentesYDirectivosDocentesDelDepartamentoDeCaldas">
+                        <veeduria:tieneContrato>
+                          <veeduria:contrato rdf:about="http://corrupcion.com/presupuesto#contratoExistente_26052017-0336_2016-17000-0052_0">
+                            <veeduria:tieneRegimenContratacion
+                            >Estatuto General de Contratación</veeduria:tieneRegimenContratacion>
+                            <veeduria:tieneGrupo>[F] Servicios</veeduria:tieneGrupo>
+                            <veeduria:firmadoEl>26 de mayo de 2017</veeduria:firmadoEl>
+                            <veeduria:tieneClase>[861017] Servicios de capacitación vocacional no - científica</veeduria:tieneClase>
+                            <veeduria:tieneCausal>Contratos Interadministrativos (Literal C)</veeduria:tieneCausal>
+                            <veeduria:ejecutadoEnMunicipio>Aguadas - Manizales - Riosucio - La Dorada - Pensilvania - Norcasia - Viterbo</veeduria:ejecutadoEnMunicipio>
+                            <veeduria:ejecutadoEnDepartamento
+                            >Caldas</veeduria:ejecutadoEnDepartamento>
+                            <veeduria:identificacionRepresentanteLegalContratista
+                            >Cédula de Ciudadanía No. 10249309</veeduria:identificacionRepresentanteLegalContratista>
+                            <veeduria:tieneDestinacionGasto>Inversión</veeduria:tieneDestinacionGasto>
+                            <veeduria:valorCuantiaDefinitiva>390050000</veeduria:valorCuantiaDefinitiva>
+                            <veeduria:tieneEstadoProceso>Celebrado</veeduria:tieneEstadoProceso>
+                            <veeduria:conObjeto>AUNAR ESFUERZOS TECNICOS; ADMINISTRATIVOS; PRESUPUETALES Y FINANCIEROS CON EL PROPOSITO DE CAPACITAR A DOCENTES DE SECUNDARIA Y DIRECTIVOS DOCENTES EN EL ACOMPAÑAMIENTO EN LA CONSTRUCCION DE MALLAS CURRICULARES - CONSTRUYENDO UN CURRICULO DESDE Y PARA EL CONTEXTO- BAJO LA MODALIDAD DE DIPLOMADO; EN 9 MUNICIPIOS DEL DEPARTAMENTO; ASI COMO PREPARAR 440 ESTUDIANTES PARA LA PRESENTACION DE LAS PRUEBAS SABER 11.</veeduria:conObjeto>
+                            <veeduria:tieneBPID>2016-17000-0052</veeduria:tieneBPID>
+                            <veeduria:tieneFamilia>[8610] Formación profesional</veeduria:tieneFamilia>
+                            <veeduria:tieneTipoProceso>Contratación Directa (Ley 1150 de 2007)</veeduria:tieneTipoProceso>
+                            <veeduria:representanteDelContratista
+                            >FELIPE CESAR LONDOÑO LOPEZ</veeduria:representanteDelContratista>
+                            <veeduria:tieneOrigenRecursos>SGP</veeduria:tieneOrigenRecursos>
+                            <veeduria:iniciaEjecucion>09 de junio de 2017</veeduria:iniciaEjecucion>
+                            <veeduria:tieneCuantiaAContratar>390050000</veeduria:tieneCuantiaAContratar>
+                            <veeduria:paisDelContratista>Colombia</veeduria:paisDelContratista>
+                            <veeduria:NitDelcontratista>Nit de Persona Jurídica No. 890801063</veeduria:NitDelcontratista>
+                            <veeduria:tieneSegmento>[86] Servicios Educativos y de Formación</veeduria:tieneSegmento>
+                            <veeduria:plazoDeEjecucion>5 Meses</veeduria:plazoDeEjecucion>
+                            <veeduria:correoContacto>ucaldas@ucaldas.edu.co</veeduria:correoContacto>
+                            <veeduria:conValorDeContratosDeInterventoriaExterna
+                            >$0.00</veeduria:conValorDeContratosDeInterventoriaExterna>
+                            <veeduria:departamentoDelContratista
+                            >Caldas</veeduria:departamentoDelContratista>
+                            <veeduria:nombreContratista>UNIVERSIDAD DE CALDAS</veeduria:nombreContratista>
+                            <veeduria:tieneNumeroProceso>26052017-0336</veeduria:tieneNumeroProceso>
+                            <veeduria:tieneTipoContrato>Otro Tipo de Contrato</veeduria:tieneTipoContrato>
+                            <veeduria:estadoDelContrato>Celebrado</veeduria:estadoDelContrato>
+                          </veeduria:contrato>
+                        </veeduria:tieneContrato>
+                        <veeduria:tieneTransferencias>35000000</veeduria:tieneTransferencias>
+                        <veeduria:tieneRecursos>0</veeduria:tieneRecursos>
+                        <veeduria:seIdentificaCon>2016-17000-0052</veeduria:seIdentificaCon>
+                        <rdfs:label>Capacitación; cualificación y formación a docentes y directivos docentes del departamento de Caldas</rdfs:label>
+                      </veeduria:proyecto>
+                    </veeduria:seEjecutaAtravesDe>
+                    <veeduria:tieneTransferenciasSubprograma>35000000</veeduria:tieneTransferenciasSubprograma>
+                    <veeduria:tieneRecursosPropiosSubprograma
+                    >0</veeduria:tieneRecursosPropiosSubprograma>
+                    <rdfs:label>Excelencia docente</rdfs:label>
+                  </veeduria:subprograma>
+                </veeduria:divideEn>
+                <veeduria:divideEn>
+                  <veeduria:subprograma rdf:about="http://corrupcion.com/presupuesto#SubprogramaMejoramientoDeAmbientesEscolares">
+                    <veeduria:seEjecutaAtravesDe>
+                      <veeduria:proyecto rdf:about="http://corrupcion.com/presupuesto#MejoramientoDeLosEspaciosFísicosDeLosEstablecimientosEducativosDelDepartamentoDeCaldas">
+                        <veeduria:tieneContrato>
+                          <veeduria:contrato rdf:about="http://corrupcion.com/presupuesto#contratoExistente_IP-SED-008-2017_2016-17000-0058_6">
+                            <veeduria:tieneTipoContrato>Prestación de Servicios</veeduria:tieneTipoContrato>
+                            <veeduria:tieneCuantiaAContratar>18711000</veeduria:tieneCuantiaAContratar>
+                            <veeduria:NitDelcontratista>Nit de Persona Natural No. 75147446</veeduria:NitDelcontratista>
+                            <veeduria:tieneRegimenContratacion
+                            >Estatuto General de Contratación</veeduria:tieneRegimenContratacion>
+                            <veeduria:firmadoEl>10 de agosto de 2017</veeduria:firmadoEl>
+                            <veeduria:tieneSegmento>[81] Servicios Basados en Ingeniería; Investigación y Tecnología</veeduria:tieneSegmento>
+                            <veeduria:tieneCausal>N/A</veeduria:tieneCausal>
+                            <veeduria:tieneEstadoProceso>Celebrado</veeduria:tieneEstadoProceso>
+                            <veeduria:tieneFamilia>[8110] Servicios profesionales de ingeniería</veeduria:tieneFamilia>
+                            <veeduria:estadoDelContrato>Celebrado</veeduria:estadoDelContrato>
+                            <veeduria:tieneOrigenRecursos>Recursos propios</veeduria:tieneOrigenRecursos>
+                            <veeduria:tieneDestinacionGasto>Inversión</veeduria:tieneDestinacionGasto>
+                            <veeduria:nombreContratista>LUIS ALEJANDRO PLATA MARIN</veeduria:nombreContratista>
+                            <veeduria:tieneGrupo>[F] Servicios</veeduria:tieneGrupo>
+                            <veeduria:paisDelContratista>Colombia</veeduria:paisDelContratista>
+                            <veeduria:ejecutadoEnMunicipio>Samaná</veeduria:ejecutadoEnMunicipio>
+                            <veeduria:identificacionRepresentanteLegalContratista
+                            >Nit de Persona Natural No. 75147446</veeduria:identificacionRepresentanteLegalContratista>
+                            <veeduria:representanteDelContratista
+                            >LUIS ALEJANDRO PLATA MARIN</veeduria:representanteDelContratista>
+                            <veeduria:tieneBPID>2016-17000-0058</veeduria:tieneBPID>
+                            <veeduria:plazoDeEjecucion>45 Días</veeduria:plazoDeEjecucion>
+                            <veeduria:conValorDeContratosDeInterventoriaExterna
+                            >$0.00</veeduria:conValorDeContratosDeInterventoriaExterna>
+                            <veeduria:departamentoDelContratista
+                            >Caldas</veeduria:departamentoDelContratista>
+                            <veeduria:conObjeto>REALIZAR LOS ESTUDIOS Y DISEÑOS COMPLEMENTARIOS PARA LA CONSTRUCCION DE LA SEDE POSPRIMARIA EL CONGAL DE LA INSTITUCION EDUCATIVA EL BOSQUE; UBICADA EN EL CORREGIMIENTO DE FLORENCIA VEREDA EL CONGAL MUNICIPIO DE SAMANÁ.</veeduria:conObjeto>
+                            <veeduria:correoContacto>falopez@sedcaldas.gov.co</veeduria:correoContacto>
+                            <veeduria:tieneClase>[811015] Ingeniería civil</veeduria:tieneClase>
+                            <veeduria:iniciaEjecucion>17 de agosto de 2017</veeduria:iniciaEjecucion>
+                            <veeduria:tieneNumeroProceso>IP-SED-008-2017</veeduria:tieneNumeroProceso>
+                            <veeduria:valorCuantiaDefinitiva>11305000</veeduria:valorCuantiaDefinitiva>
+                            <veeduria:ejecutadoEnDepartamento
+                            >Caldas</veeduria:ejecutadoEnDepartamento>
+                            <veeduria:tieneTipoProceso>Contratación Mínima Cuantía</veeduria:tieneTipoProceso>
+                          </veeduria:contrato>
+                        </veeduria:tieneContrato>
+                        <veeduria:tieneContrato>
+                          <veeduria:contrato rdf:about="http://corrupcion.com/presupuesto#contratoExistente_04072017-0443_2016-17000-0058_5">
+                            <veeduria:tieneRegimenContratacion
+                            >Estatuto General de Contratación</veeduria:tieneRegimenContratacion>
+                            <veeduria:conObjeto>Aunar esfuerzos técnicos ; administrativos; presupuestales y financieros para ejecutar el proyecto: de Demolición estructura antigua (incluido el transporte de escombros as distancia menor de 6km) Rocería limpieza y nivelacion del lote en la Institución Educativa Crisanto Luque sede Juan XXIII; del Municipio de Filadelfia y dotación de material Didáctico para la Institución Educativa Filadelfia; Sede principal; sede Maria inmaculada y Sede General santander</veeduria:conObjeto>
+                            <veeduria:tieneDestinacionGasto>Inversión</veeduria:tieneDestinacionGasto>
+                            <veeduria:firmadoEl>04 de julio de 2017</veeduria:firmadoEl>
+                            <veeduria:paisDelContratista>Colombia</veeduria:paisDelContratista>
+                            <veeduria:valorCuantiaDefinitiva>45000000</veeduria:valorCuantiaDefinitiva>
+                            <veeduria:ejecutadoEnDepartamento
+                            >Caldas</veeduria:ejecutadoEnDepartamento>
+                            <veeduria:tieneCausal>Contratos Interadministrativos (Literal C)</veeduria:tieneCausal>
+                            <veeduria:NitDelcontratista>Nit de Persona Jurídica No. 890801144</veeduria:NitDelcontratista>
+                            <veeduria:tieneSegmento>[72] Servicios de Edificación; Construcción de Instalaciones y Mantenimiento</veeduria:tieneSegmento>
+                            <veeduria:estadoDelContrato>Celebrado</veeduria:estadoDelContrato>
+                            <veeduria:departamentoDelContratista
+                            >Caldas</veeduria:departamentoDelContratista>
+                            <veeduria:nombreContratista>MUNICIPIO DE FILADELFIA</veeduria:nombreContratista>
+                            <veeduria:plazoDeEjecucion>4 Meses</veeduria:plazoDeEjecucion>
+                            <veeduria:tieneCuantiaAContratar>45000000</veeduria:tieneCuantiaAContratar>
+                            <veeduria:tieneTipoContrato>Otro Tipo de Contrato</veeduria:tieneTipoContrato>
+                            <veeduria:tieneClase>[721214] Servicios de construcción de edificios públicos especializados</veeduria:tieneClase>
+                            <veeduria:tieneOrigenRecursos>Recursos propios</veeduria:tieneOrigenRecursos>
+                            <veeduria:identificacionRepresentanteLegalContratista
+                            >Cédula de Ciudadanía No. 75055478</veeduria:identificacionRepresentanteLegalContratista>
+                            <veeduria:iniciaEjecucion>21 de julio de 2017</veeduria:iniciaEjecucion>
+                            <veeduria:conValorDeContratosDeInterventoriaExterna
+                            >$0.00</veeduria:conValorDeContratosDeInterventoriaExterna>
+                            <veeduria:tieneNumeroProceso>04072017-0443</veeduria:tieneNumeroProceso>
+                            <veeduria:tieneTipoProceso>Contratación Directa (Ley 1150 de 2007)</veeduria:tieneTipoProceso>
+                            <veeduria:tieneGrupo>[F] Servicios</veeduria:tieneGrupo>
+                            <veeduria:ejecutadoEnMunicipio>Filadelfia</veeduria:ejecutadoEnMunicipio>
+                            <veeduria:correoContacto>alcaldia@filadelfia-caldas.gov.co</veeduria:correoContacto>
+                            <veeduria:tieneFamilia>[7212] Servicios de construcción de edificaciones no residenciales</veeduria:tieneFamilia>
+                            <veeduria:representanteDelContratista
+                            >GERMAN ZULUAGA DUQUE</veeduria:representanteDelContratista>
+                            <veeduria:tieneBPID>2016-17000-0058</veeduria:tieneBPID>
+                            <veeduria:tieneEstadoProceso>Celebrado</veeduria:tieneEstadoProceso>
+                          </veeduria:contrato>
+                        </veeduria:tieneContrato>
+                        <veeduria:tieneContrato>
+                          <veeduria:contrato rdf:about="http://corrupcion.com/presupuesto#contratoExistente_27032017-0143_2016-17000-0058_4">
+                            <veeduria:tieneCausal>Contratos Interadministrativos (Literal C)</veeduria:tieneCausal>
+                            <veeduria:tieneGrupo>[F] Servicios</veeduria:tieneGrupo>
+                            <veeduria:tieneCuantiaAContratar>150000000</veeduria:tieneCuantiaAContratar>
+                            <veeduria:NitDelcontratista>Nit de Persona Jurídica No. 890801149</veeduria:NitDelcontratista>
+                            <veeduria:tieneTipoProceso>Contratación Directa (Ley 1150 de 2007)</veeduria:tieneTipoProceso>
+                            <veeduria:departamentoDelContratista
+                            >Caldas</veeduria:departamentoDelContratista>
+                            <veeduria:ejecutadoEnMunicipio>Samaná</veeduria:ejecutadoEnMunicipio>
+                            <veeduria:tieneClase>[721214] Servicios de construcción de edificios públicos especializados</veeduria:tieneClase>
+                            <veeduria:firmadoEl>27 de marzo de 2017</veeduria:firmadoEl>
+                            <veeduria:plazoDeEjecucion>4 Meses</veeduria:plazoDeEjecucion>
+                            <veeduria:valorCuantiaDefinitiva>150000000</veeduria:valorCuantiaDefinitiva>
+                            <veeduria:conObjeto>AUNAR ESFUERZOS TECNICOS; ADMINISTRATIVOS; PRESUPUESTALES Y FINANCIEROS PARA EJECUTAR EL PROYECTO: DE MEJORAMIENTO DE INFRAEXTRUCTURA EDUCATIVA EN LA INSTITUCION EDUCATIVA SAN AGUSTIN DEL MUNICIPIO DE SAMANA.</veeduria:conObjeto>
+                            <veeduria:tieneBPID>2016-17000-0058</veeduria:tieneBPID>
+                            <veeduria:ejecutadoEnDepartamento
+                            >Caldas</veeduria:ejecutadoEnDepartamento>
+                            <veeduria:tieneOrigenRecursos>Recursos propios</veeduria:tieneOrigenRecursos>
+                            <veeduria:estadoDelContrato>Liquidado</veeduria:estadoDelContrato>
+                            <veeduria:tieneDestinacionGasto>Inversión</veeduria:tieneDestinacionGasto>
+                            <veeduria:tieneRegimenContratacion
+                            >Estatuto General de Contratación</veeduria:tieneRegimenContratacion>
+                            <veeduria:correoContacto>alcaldia@samana-caldas.gov.co</veeduria:correoContacto>
+                            <veeduria:conValorDeContratosDeInterventoriaExterna
+                            >$0.00</veeduria:conValorDeContratosDeInterventoriaExterna>
+                            <veeduria:nombreContratista>MUNICIPIO DE SAMANA</veeduria:nombreContratista>
+                            <veeduria:identificacionRepresentanteLegalContratista
+                            >Cédula de Ciudadanía No. 24718162</veeduria:identificacionRepresentanteLegalContratista>
+                            <veeduria:tieneTipoContrato>Otro Tipo de Contrato</veeduria:tieneTipoContrato>
+                            <veeduria:tieneFamilia>[7212] Servicios de construcción de edificaciones no residenciales</veeduria:tieneFamilia>
+                            <veeduria:paisDelContratista>Colombia</veeduria:paisDelContratista>
+                            <veeduria:tieneSegmento>[72] Servicios de Edificación; Construcción de Instalaciones y Mantenimiento</veeduria:tieneSegmento>
+                            <veeduria:tieneNumeroProceso>27032017-0143</veeduria:tieneNumeroProceso>
+                            <veeduria:iniciaEjecucion>08 de mayo de 2017</veeduria:iniciaEjecucion>
+                            <veeduria:tieneEstadoProceso>Liquidado</veeduria:tieneEstadoProceso>
+                            <veeduria:representanteDelContratista
+                            >GLORIA INES ORTIZ CARDONA</veeduria:representanteDelContratista>
+                          </veeduria:contrato>
+                        </veeduria:tieneContrato>
+                        <veeduria:tieneTransferencias>0</veeduria:tieneTransferencias>
+                        <veeduria:tieneRecursos>10302361600</veeduria:tieneRecursos>
+                        <veeduria:seIdentificaCon>2016-17000-0058</veeduria:seIdentificaCon>
+                        <rdfs:label>Mejoramiento de los espacios físicos de los establecimientos educativos del departamento de Caldas</rdfs:label>
+                      </veeduria:proyecto>
+                    </veeduria:seEjecutaAtravesDe>
+                    <veeduria:tieneTransferenciasSubprograma>0</veeduria:tieneTransferenciasSubprograma>
+                    <veeduria:tieneRecursosPropiosSubprograma
+                    >10302361600</veeduria:tieneRecursosPropiosSubprograma>
+                    <rdfs:label>Subprograma mejoramiento de ambientes escolares</rdfs:label>
+                  </veeduria:subprograma>
+                </veeduria:divideEn>
+                <veeduria:divideEn>
+                  <veeduria:subprograma rdf:about="http://corrupcion.com/presupuesto#ImplementaciónDeLaJornadaÚnica">
+                    <veeduria:seEjecutaAtravesDe>
+                      <veeduria:proyecto rdf:about="http://corrupcion.com/presupuesto#FortalecimientoParaLaImplementaciónDelProgramaDeJornadaÚnicaEnElDepartamentoDeCaldas">
+                        <veeduria:tieneContrato>
+                          <veeduria:contrato rdf:about="http://corrupcion.com/presupuesto#contratoExistente_12062017-0378_2016-17000-0048_1">
+                            <veeduria:conValorDeContratosDeInterventoriaExterna
+                            >$0.00</veeduria:conValorDeContratosDeInterventoriaExterna>
+                            <veeduria:ejecutadoEnMunicipio>Salamina - Manizales - La Dorada</veeduria:ejecutadoEnMunicipio>
+                            <veeduria:iniciaEjecucion>20 de junio de 2017</veeduria:iniciaEjecucion>
+                            <veeduria:tieneClase>[861017] Servicios de capacitación vocacional no - científica</veeduria:tieneClase>
+                            <veeduria:NitDelcontratista>Nit de Persona Jurídica No. 890801063</veeduria:NitDelcontratista>
+                            <veeduria:tieneCuantiaAContratar>38500000</veeduria:tieneCuantiaAContratar>
+                            <veeduria:departamentoDelContratista
+                            >Caldas</veeduria:departamentoDelContratista>
+                            <veeduria:correoContacto>ucaldas@ucaldas.edu.co</veeduria:correoContacto>
+                            <veeduria:tieneTipoContrato>Otro Tipo de Contrato</veeduria:tieneTipoContrato>
+                            <veeduria:plazoDeEjecucion>6 Meses</veeduria:plazoDeEjecucion>
+                            <veeduria:tieneRegimenContratacion
+                            >Estatuto General de Contratación</veeduria:tieneRegimenContratacion>
+                            <veeduria:paisDelContratista>Colombia</veeduria:paisDelContratista>
+                            <veeduria:tieneFamilia>[8610] Formación profesional</veeduria:tieneFamilia>
+                            <veeduria:tieneDestinacionGasto>Inversión</veeduria:tieneDestinacionGasto>
+                            <veeduria:tieneTipoProceso>Contratación Directa (Ley 1150 de 2007)</veeduria:tieneTipoProceso>
+                            <veeduria:tieneNumeroProceso>12062017-0378</veeduria:tieneNumeroProceso>
+                            <veeduria:tieneSegmento>[86] Servicios Educativos y de Formación</veeduria:tieneSegmento>
+                            <veeduria:representanteDelContratista
+                            >FELIPE CESAR LONDOÑO LOPEZ</veeduria:representanteDelContratista>
+                            <veeduria:ejecutadoEnDepartamento
+                            >Caldas</veeduria:ejecutadoEnDepartamento>
+                            <veeduria:tieneCausal>Contratos Interadministrativos (Literal C)</veeduria:tieneCausal>
+                            <veeduria:tieneGrupo>[F] Servicios</veeduria:tieneGrupo>
+                            <veeduria:tieneBPID>2016-17000-0048</veeduria:tieneBPID>
+                            <veeduria:firmadoEl>12 de junio de 2017</veeduria:firmadoEl>
+                            <veeduria:estadoDelContrato>Celebrado</veeduria:estadoDelContrato>
+                            <veeduria:conObjeto>AUNAR ESFUERZOS TECNICOS ADMINISTRATIVOS Y FINANCIEROS PARA LA CAPACITACION MEDIANTE 3 CURSOS SOBRE RESIGNIFICACION DE LOS PLANES DE AREA EN MATEMATICAS DE 100 HORAS PARA 75 DOCENTES DE LAS INSTITUCIONES EDUCATIVAS QUE IMPLEMENTAN JORNADA UNICA.</veeduria:conObjeto>
+                            <veeduria:tieneEstadoProceso>Celebrado</veeduria:tieneEstadoProceso>
+                            <veeduria:nombreContratista>UNIVERSIDAD DE CALDAS</veeduria:nombreContratista>
+                            <veeduria:valorCuantiaDefinitiva>38500000</veeduria:valorCuantiaDefinitiva>
+                            <veeduria:tieneOrigenRecursos>SGP</veeduria:tieneOrigenRecursos>
+                            <veeduria:identificacionRepresentanteLegalContratista
+                            >Cédula de Ciudadanía No. 10249309</veeduria:identificacionRepresentanteLegalContratista>
+                          </veeduria:contrato>
+                        </veeduria:tieneContrato>
+                        <veeduria:tieneTransferencias>35000000</veeduria:tieneTransferencias>
+                        <veeduria:tieneRecursos>0</veeduria:tieneRecursos>
+                        <veeduria:seIdentificaCon>2016-17000-0048</veeduria:seIdentificaCon>
+                        <rdfs:label>Fortalecimiento para la implementación del programa de jornada única en el departamento de Caldas</rdfs:label>
+                      </veeduria:proyecto>
+                    </veeduria:seEjecutaAtravesDe>
+                    <veeduria:tieneTransferenciasSubprograma>35000000</veeduria:tieneTransferenciasSubprograma>
+                    <veeduria:tieneRecursosPropiosSubprograma
+                    >0</veeduria:tieneRecursosPropiosSubprograma>
+                    <rdfs:label>Implementación de la jornada única</rdfs:label>
+                  </veeduria:subprograma>
+                </veeduria:divideEn>
+                <veeduria:tieneRecursosPropiosPrograma>10947361600</veeduria:tieneRecursosPropiosPrograma>
+                <veeduria:divideEn>
+                  <veeduria:subprograma rdf:about="http://corrupcion.com/presupuesto#SubprogramaEtnoeducación">
+                    <veeduria:seEjecutaAtravesDe>
+                      <veeduria:proyecto rdf:about="http://corrupcion.com/presupuesto#FortalecimientoDeLosProcesosEtnoeducativosEnElDepartamentoDeCaldas">
+                        <veeduria:tieneContrato>
+                          <veeduria:contrato rdf:about="http://corrupcion.com/presupuesto#contratoExistente_01082017-0501_2016-17000-0001_3">
+                            <veeduria:tieneSegmento>[93] Servicios Políticos y de Asuntos Cívicos</veeduria:tieneSegmento>
+                            <veeduria:tieneNumeroProceso>01082017-0501</veeduria:tieneNumeroProceso>
+                            <veeduria:tieneBPID>2016-17000-0001</veeduria:tieneBPID>
+                            <veeduria:tieneCuantiaAContratar>85000000</veeduria:tieneCuantiaAContratar>
+                            <veeduria:tieneClase>[931417] Cultura</veeduria:tieneClase>
+                            <veeduria:ejecutadoEnMunicipio>Belalcázar - Riosucio - Marmato - San José - Anserma - Neira - Palestina - Filadelfia - Supía</veeduria:ejecutadoEnMunicipio>
+                            <veeduria:conValorDeContratosDeInterventoriaExterna
+                            >$0.00</veeduria:conValorDeContratosDeInterventoriaExterna>
+                            <veeduria:tieneRegimenContratacion
+                            >Estatuto General de Contratación</veeduria:tieneRegimenContratacion>
+                            <veeduria:NitDelcontratista>Nit de Persona Jurídica No. 810004361</veeduria:NitDelcontratista>
+                            <veeduria:identificacionRepresentanteLegalContratista
+                            >Cédula de Ciudadanía No. 15929128</veeduria:identificacionRepresentanteLegalContratista>
+                            <veeduria:valorCuantiaDefinitiva>85000000</veeduria:valorCuantiaDefinitiva>
+                            <veeduria:tieneOrigenRecursos>No aparece</veeduria:tieneOrigenRecursos>
+                            <veeduria:departamentoDelContratista
+                            >Caldas</veeduria:departamentoDelContratista>
+                            <veeduria:conObjeto>Fortalecer los proyectos educativos comunitarios (PEC); a través de los avances en la implementación del proyecto Ednoeducativo del pueblo Embera de Caldas; con la formación en lengua nativa Embera Bedea a 200 ednoeducadores al servicio de la Instituciones Educativas del Departamento de Caldas.</veeduria:conObjeto>
+                            <veeduria:tieneEstadoProceso>Celebrado</veeduria:tieneEstadoProceso>
+                            <veeduria:representanteDelContratista
+                            >15929128</veeduria:representanteDelContratista>
+                            <veeduria:correoContacto>acical12@gmail.com</veeduria:correoContacto>
+                            <veeduria:nombreContratista>ASOCIACION DE CABILDOS INDIGENAS DE CALDAS ACICAL</veeduria:nombreContratista>
+                            <veeduria:tieneFamilia>[9314] Servicios comunitarios y sociales</veeduria:tieneFamilia>
+                            <veeduria:tieneTipoContrato>Otro Tipo de Contrato</veeduria:tieneTipoContrato>
+                            <veeduria:ejecutadoEnDepartamento
+                            >Caldas</veeduria:ejecutadoEnDepartamento>
+                            <veeduria:estadoDelContrato>Celebrado</veeduria:estadoDelContrato>
+                            <veeduria:tieneCausal>Contratos Interadministrativos (Literal C)</veeduria:tieneCausal>
+                            <veeduria:paisDelContratista>Colombia</veeduria:paisDelContratista>
+                            <veeduria:tieneDestinacionGasto>No Aplica</veeduria:tieneDestinacionGasto>
+                            <veeduria:tieneTipoProceso>Contratación Directa (Ley 1150 de 2007)</veeduria:tieneTipoProceso>
+                            <veeduria:plazoDeEjecucion>4 Meses</veeduria:plazoDeEjecucion>
+                            <veeduria:iniciaEjecucion>14 de agosto de 2017</veeduria:iniciaEjecucion>
+                            <veeduria:tieneGrupo>[F] Servicios</veeduria:tieneGrupo>
+                            <veeduria:firmadoEl>01 de agosto de 2017</veeduria:firmadoEl>
+                          </veeduria:contrato>
+                        </veeduria:tieneContrato>
+                        <veeduria:tieneTransferencias>35000000</veeduria:tieneTransferencias>
+                        <veeduria:tieneRecursos>50000000</veeduria:tieneRecursos>
+                        <veeduria:seIdentificaCon>2016-17000-0001</veeduria:seIdentificaCon>
+                        <rdfs:label>Fortalecimiento de los procesos etnoeducativos en el departamento de Caldas</rdfs:label>
+                      </veeduria:proyecto>
+                    </veeduria:seEjecutaAtravesDe>
+                    <veeduria:tieneTransferenciasSubprograma>35000000</veeduria:tieneTransferenciasSubprograma>
+                    <veeduria:tieneRecursosPropiosSubprograma
+                    >50000000</veeduria:tieneRecursosPropiosSubprograma>
+                    <rdfs:label>Subprograma etnoeducación</rdfs:label>
+                  </veeduria:subprograma>
+                </veeduria:divideEn>
+              </veeduria:programa>
+            </veeduria:define>
+            <rdfs:label>Sector educacion</rdfs:label>
+          </veeduria:sector>
+        </veeduria:tieneSector>
+        <rdfs:label>Gobernacion de Caldas</rdfs:label>
+        <veeduria:tieneSector>
+          <veeduria:sector rdf:about="http://corrupcion.com/presupuesto#sectorAguaPotableYSaneamientoBasico">
+            <rdfs:label>Sector agua potable y saneamiento basico</rdfs:label>
+          </veeduria:sector>
+        </veeduria:tieneSector>
+        <veeduria:tieneSector>
+          <veeduria:sector rdf:about="http://corrupcion.com/presupuesto#sectorSeguridadYConvivencia">
+            <rdfs:label>Sector de seguridad y convivencia</rdfs:label>
+          </veeduria:sector>
+        </veeduria:tieneSector>
+        <veeduria:tieneSector>
+          <veeduria:sector rdf:about="http://corrupcion.com/presupuesto#sectorVivienda">
+            <rdfs:label>Sector vivienda</rdfs:label>
+          </veeduria:sector>
+        </veeduria:tieneSector>
+        <veeduria:tieneSector>
+          <veeduria:sector rdf:about="http://corrupcion.com/presupuesto#sectorSocial">
+            <rdfs:label>Sector promoción social</rdfs:label>
+          </veeduria:sector>
+        </veeduria:tieneSector>
+        <veeduria:tieneSector>
+          <veeduria:sector rdf:about="http://corrupcion.com/presupuesto#sectorCultura">
+            <rdfs:label>sector cultura</rdfs:label>
+          </veeduria:sector>
+        </veeduria:tieneSector>
+        <veeduria:tieneSector>
+          <veeduria:sector rdf:about="http://corrupcion.com/presupuesto#sectorFortalecimientoInstitucional">
+            <rdfs:label>Sector de fortalecimiento institucional</rdfs:label>
+          </veeduria:sector>
+        </veeduria:tieneSector>
+        <veeduria:tieneSector>
+          <veeduria:sector rdf:about="http://corrupcion.com/presupuesto#sectorAgropecuario">
+            <rdfs:label>Sector agropecuario</rdfs:label>
+          </veeduria:sector>
+        </veeduria:tieneSector>
+        <veeduria:tieneSector>
+          <veeduria:sector rdf:about="http://corrupcion.com/presupuesto#sectorRecreacionYDeportes">
+            <rdfs:label>Sector recreación y deportes</rdfs:label>
+          </veeduria:sector>
+        </veeduria:tieneSector>
+        <veeduria:tieneSector>
+          <veeduria:sector rdf:about="http://corrupcion.com/presupuesto#sectorCiencaTecnologia">
+            <rdfs:label>Sector ciencia, tecnologíaa, innovación para la contrucción de una paz duradera</rdfs:label>
+          </veeduria:sector>
+        </veeduria:tieneSector>
+        <veeduria:tieneSector>
+          <veeduria:sector rdf:about="http://corrupcion.com/presupuesto#sectorInfraestructuraEnTransporte">
+            <rdfs:label>Sector de infraestructura en transporte</rdfs:label>
+          </veeduria:sector>
+        </veeduria:tieneSector>
+      </veeduria:entidadTerritorial>
+    </veeduria:tieneEntidadTerritorial>
+    <rdfs:label>Caldas</rdfs:label>
+  </veeduria:departamento>
+  <rdf:Description rdf:about="http://corrupcion.com/presupuesto#municipio">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:label>Municipio</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

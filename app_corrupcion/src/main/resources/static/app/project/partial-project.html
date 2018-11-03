@@ -1,0 +1,37 @@
+<div ng-controller="breadcrumpCtrl as bCtrl">
+    <breadcrump label1 = "atrás" label2="Contratos" explanation="Selecciona un contrato" ng-click="bCtrl.previousView(1)"></breadcrump>
+</div>
+<div class="content-view">
+    <div id="button-container">
+        <div class="button-block">
+            <h4>Ordenar por</h4>
+            <ul id="sorter">
+                <li><a href="" data-sorter="name">Nombre</a></li>
+                <li><a href="" data-sorter="start_date">Fecha de inicio</a></li>
+                <li><a href="" data-sorter="end_date">Fecha de fin</a></li>
+                <li><a href="" data-sorter="amount">Cuantía</a></li>
+            </ul>
+        </div>
+        <div class="button-block">
+            <h4>Filtrar por</h4>
+            <ul id="filter">
+                <li><a href="" data-filter="">Todos</a></li>
+                <li><a href="" data-filter=".nacional">Origen: recursos nacionales</a></li>
+                <li><a href="" data-filter=".no_aparece">Origen: no aparece</a></li>
+                <li><a href="" data-filter=".SGP">Origen: SGP</a></li>
+                <li><a href="" data-filter=".propios">Origen: recursos propios</a></li>
+            </ul>
+        </div>
+        <div class="button-block">
+            <h4>Color</h4>
+            <ul id="color">
+                <li><a href="" data-color="">Ninguno</a></li>
+                <li><a href="" data-color="amount">Por cuantía</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="chart-canvas" style="width:100%;position:relative;float:left;">
+        <div id="svg-canvas" style="position:absolute;top:0;bottom:0;left:0;right:0;"></div>
+        <div id="gantt-bar-container" style="position:absolute;top:0;bottom:0;left:0;right:0;padding-top:30px;"></div>
+    </div>
+</div>

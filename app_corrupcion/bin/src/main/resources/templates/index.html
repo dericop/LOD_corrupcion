@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Anti-Corrupción</title>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>  
+    <link rel="stylesheet" href="assets/bower_components/bootstrap/dist/css/bootstrap.min.css"></link>
+    <link rel="stylesheet" href="assets/bower_components/onepage-scroll/onepage-scroll.css"></link>
+    <link rel="stylesheet" href="assets/bower_components/sweetalert2.min.css"></link>
+    <link rel="stylesheet" href="assets/css/index.css"></link>  
+</head>
+<body ng-app="corruptionApp" ng-controller="GeneralCtrl as gralCtrl">
+	
+	<div class="gen-container">
+		<!-- Vista de renderización de secciones del tour -->
+		<section ui-view="start" ng-if="gralCtrl.gralFactory.homeIsEnabled"></section>
+		<section ui-view="explanation" ng-if="gralCtrl.gralFactory.explanationIsEnabled"></section>
+		<section ui-view="department" ng-if="gralCtrl.gralFactory.departmentIsEnabled"></section>
+		<section ui-view="territorial_entity" ng-if="gralCtrl.gralFactory.entityIsEnabled"></section>
+		<section ui-view="sector" ng-if="gralCtrl.gralFactory.sectorIsEnabled"></section>
+		<section ui-view="program" ng-if="gralCtrl.gralFactory.programIsEnabled"></section>
+		<section ui-view="subprogram" ng-if="gralCtrl.gralFactory.subprogramIsEnabled"></section>
+		<section ui-view="project" ng-if="gralCtrl.gralFactory.projectIsEnabled"></section>
+		<section ui-view="contracts" ng-if="gralCtrl.gralFactory.contractsIsEnabled"></section>
+		<section ui-view="resources" ng-if="gralCtrl.gralFactory.resourcesIsEnabled"></section>
+	</div>
+	
+	<script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+	
+	<!-- Librerias -->
+	<script	src="assets/bower_components/jquery/jquery.min.js"></script>
+	<script src="assets/bower_components/angular/angular.min.js"></script>
+	<script src="assets/bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+	<script src="assets/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="assets/bower_components/velocity/velocity.min.js"></script>
+	<script src="assets/bower_components/velocity/velocity.ui.min.js"></script>
+	<script src="assets/bower_components/d3/d3.min.js"></script>
+	<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+	<script src="assets/bower_components/onepage-scroll/jquery.onepage-scroll.min.js"></script>
+	<script	src="assets/bower_components/sweetalert2/dist/sweetalert2.all.min.js"></script>
+	<script	src="assets/bower_components/isotope/dist/isotope.pkgd.js"></script>
+	
+	
+	
+	<!-- App -->
+	<script src="app/app.js"></script>
+	<script src="app/general/factories/TourFactory.js"></script>
+	<script src="app/general/factories/GralFactory.js"></script>
+	<script src="app/home/controllers/homeCtrl.js"></script>
+	<script src="app/department/controllers/departmentCtrl.js"></script>
+	<script src="app/territorial_entity/controllers/terEntCtrl.js"></script>
+	<script src="app/explanation/controllers/explanationCtrl.js"></script>
+	<script src="app/general/directives/BreadcrumpDirective.js"></script>
+	<script src="app/general/controllers/GeneralCtrl.js"></script>
+	<script src="app/sector/controllers/sectorCtrl.js"></script>
+	<script src="app/program/controllers/programCtrl.js"></script>
+	<script src="app/subprogram/controllers/subprogramCtrl.js"></script>
+	<script src="app/project/controllers/projectCtrl.js"></script>
+	
+	<script>
+		var onePage = $(".gen-container").onepage_scroll({direction: "vertical", pagination: false, loop: false,
+			afterMove:function(index){
+				if(index == 2){
+					animateExplanation();
+				}
+
+				disableViews(index);
+			}});
+	</script>
+	
+	<script>if (window.module) module = window.module;</script>
+	
+</body>
+
+</html>
